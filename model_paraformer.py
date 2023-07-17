@@ -29,7 +29,7 @@ class Model_Paraformer(nn.Module):
         article_vector = article_vector.permute(1, 0, 2)
 
         attention, _ = self.attention(query_vector, article_vector)
-
+        attention = self.dropout(attention)
         output = self.classifier(attention)
 
         '''>>> torch.Size([1, 1, 2]) -> torch.Size([1, 2])'''
@@ -78,4 +78,4 @@ class Model_Paraformer(nn.Module):
             output = self.classifier(attention)
 
             output = torch.squeeze(output, 1)
-            return output.detach().numpy()[0][1]
+            return output.cpu().detach().numpy()[0][1]
