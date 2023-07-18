@@ -78,14 +78,12 @@ def _data_training_generator(path_json_question: str, path_json_law: str, top_bm
                         for ans in item['choices']:
                             list_question.append("{}\n{}".format(
                                 question, item['choices'][ans]))
-            else:
-                for ans in item['choices']:
+                else:
                     list_question.append("{}\n{}".format(
-                        question, item['choices'][ans]))
-
-        if len(list_question) < 1:
+                        question,  item['choices'][item["answer"]]))
+        else:
             list_question.append(question)
-            
+
         relevant_articles = item['relevant_articles']
         for question in list_question:
             neg_list = bm25.get_top_n(
