@@ -1,4 +1,5 @@
 import json
+import re
 import pandas as pd
 import torch
 from tqdm import tqdm
@@ -61,31 +62,54 @@ def _data_training_generator(path_json_question: str, path_json_law: str, top_bm
 
     for item in data_question:
         question = item['text']
+        list_question = []
         if "choices" in item:
-            question += '\n'.join(item['choices'].values())
+            if "answer" in item:
+                pattern = r'^Cả'
+                if re.search(pattern, item['choices'][item["answer"]], re.IGNORECASE):
+                    true_answer = re.findall(
+                        r"[A-D]", item['choices'][item["answer"]].replace("Cả", ""))
+                    if true_answer:
+                        for ans in true_answer:
+                            list_question.append("{}\n{}".format(
+                                question, item['choices'][ans]))
+                    else:
+                        del item['choices'][item["answer"]]
+                        for ans in item['choices']:
+                            list_question.append("{}\n{}".format(
+                                question, item['choices'][ans]))
+            else:
+                for ans in item['choices']:
+                    list_question.append("{}\n{}".format(
+                        question, item['choices'][ans]))
+
+        if len(list_question) < 1:
+            list_question.append(question)
+            
         relevant_articles = item['relevant_articles']
-        neg_list = bm25.get_top_n(
-            question.split(" "), corpus, n=top_bm25)
+        for question in list_question:
+            neg_list = bm25.get_top_n(
+                question.split(" "), corpus, n=top_bm25)
 
-        for relevant_article in relevant_articles:
-            corpus_id = relevant_article['law_id'] + \
-                "@" + relevant_article['article_id']
-            if corpus_id in data_corpus.keys():
-                for _ in range(top_bm25 // 2):
-                    yield {
-                        "question": question,
-                        "article": [sentence.strip() for sentence in data_corpus[corpus_id].split("\n") if sentence.strip() != ""],
-                        "relevant": 1
-                    }
-                neg_list = [neg for neg in neg_list
-                            if neg != data_corpus[corpus_id]]
+            for relevant_article in relevant_articles:
+                corpus_id = relevant_article['law_id'] + \
+                    "@" + relevant_article['article_id']
+                if corpus_id in data_corpus.keys():
+                    for _ in range(top_bm25 // 2):
+                        yield {
+                            "question": question,
+                            "article": [sentence.strip() for sentence in data_corpus[corpus_id].split("\n") if sentence.strip() != ""],
+                            "relevant": 1
+                        }
+                    neg_list = [neg for neg in neg_list
+                                if neg != data_corpus[corpus_id]]
 
-        for neg in neg_list:
-            yield {
-                "question": question,
-                "article": [sentence.strip() for sentence in neg.split("\n") if sentence.strip() != ""],
-                "relevant": 0
-            }
+            for neg in neg_list:
+                yield {
+                    "question": question,
+                    "article": [sentence.strip() for sentence in neg.split("\n") if sentence.strip() != ""],
+                    "relevant": 0
+                }
 
 
 def df_create_data_training(path_json_question: str, path_json_law: str, top_bm25: int = 10) -> pd.DataFrame:

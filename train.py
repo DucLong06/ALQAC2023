@@ -80,7 +80,7 @@ def train():
     try:
         asyncio.run(send_telegram_message(
             model_name="[TRAIN] Paraformer",
-            model_parameter=model.parameters,
+            model_parameter="",
             data_name="train.json",
             alpha="none",
             top_k_bm25="20",
@@ -88,7 +88,7 @@ def train():
             precision=test_precision,
             recall=test_recall,
             f2=test_f2_score,
-            note="question + all options"
+            note="question + True options"
         ))
     except Exception as e:
         print(str(e))
