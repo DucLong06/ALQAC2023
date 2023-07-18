@@ -8,20 +8,19 @@ async def send_telegram_message(model_name="", model_parameter="", data_name="",
     current_time = datetime.datetime.now().strftime('%d/%m/%Y %H:%M')
 
     # Format the message as key-value pairs
-    message = f"<b>Training Results:</b>\n\n"
-    message += f"<b>Date:</b> {current_time}\n"
-    message += f"<b>Model:</b> {model_name}\n"
-    message += f"<b>Model Parameter:</b> {model_parameter}\n"
-    message += f"<b>Data:</b> {data_name}\n"
-    message += f"<b>Alpha:</b> {alpha}\n"
-    message += f"<b>Top K BM25:</b> {top_k_bm25}\n"
-    message += f"<b>Accuracy:</b> {accuracy}\n"
-    message += f"<b>Precision:</b> {precision}\n"
-    message += f"<b>Recall:</b> {recall}\n"
-    message += f"<b>F2:</b> {f2}\n"
-    message += f"<b>Note:</b> {note}"
+    message = f"Results:\n\n"
+    message += f"Date: {current_time}\n"
+    message += f"Model: {model_name}\n"
+    message += f"Model Parameter: {model_parameter}\n"
+    message += f"Data: {data_name}\n"
+    message += f"Alpha: {alpha}\n"
+    message += f"Top K BM25: {top_k_bm25}\n"
+    message += f"Accuracy: {accuracy}\n"
+    message += f"Precision: {precision}\n"
+    message += f"Recall: {recall}\n"
+    message += f"F2: {f2}\n"
+    message += f"Note: {note}"
 
-    await bot.send_message(chat_id=my_env.ID_TELEGRAM,
-                           text=message, parse_mode='HTML')
+    await bot.send_message(chat_id=my_env.ID_TELEGRAM,text=message)
 
     print("Sent Telegram message successfully.")
