@@ -25,4 +25,3 @@ async def send_telegram_message(model_name="", model_parameter="", data_name="",
                            text=message, parse_mode='HTML')
 
     print("Sent Telegram message successfully.")
-
