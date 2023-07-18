@@ -10,7 +10,7 @@ from model_paraformer import Model_Paraformer
 from post_data import convert_ID
 import pickle
 from processing_data import word_segment
-from rank_bm25 import BM25Plus
+from rank_bm25 import BM25Okapi, BM25Plus
 
 
 def get_top_n_articles(query: str, data_corpus, top_n: int = 5):
@@ -18,7 +18,7 @@ def get_top_n_articles(query: str, data_corpus, top_n: int = 5):
     tokenized_corpus = [word_segment(doc) for doc in corpus]
     tokenized_corpus = [doc.split(" ") for doc in tokenized_corpus]
 
-    bm25 = BM25Plus(tokenized_corpus)
+    bm25 = BM25Okapi(tokenized_corpus)
 
     tokenized_query = word_segment(query)
     tokenized_query = tokenized_query.split(" ")
@@ -38,7 +38,7 @@ def gen_submit(model: Model_Paraformer, data_question, data_corpus, alpha=0.1):
         question = item["text"]
 
         top_n_articles = get_top_n_articles(
-            question, data_corpus, top_n=2)
+            question, data_corpus, top_n=20)
         list_keys, list_articles, bm25_scores = zip(*top_n_articles)
 
         for i, article in enumerate(list_articles):
@@ -46,10 +46,10 @@ def gen_submit(model: Model_Paraformer, data_question, data_corpus, alpha=0.1):
                 "\n") if sentence.strip() != ""]
             deep_score = model.get_score(question, article)
 
-            final_scores.append(alpha*deep_score+(1-alpha)*bm25_scores[i])
+            # final_scores.append(alpha*deep_score+(1-alpha)*bm25_scores[i])
 
-        max_similarity_index = np.argmax(final_scores)
-        # max_similarity_index = np.argmax(deep_score)
+        # max_similarity_index = np.argmax(final_scores)
+        max_similarity_index = np.argmax(deep_score)
         item.setdefault("relevant_articles", []).append(
             convert_ID(list_keys[max_similarity_index]))
 
@@ -107,12 +107,12 @@ def main(path_to_model: str, path_to_query: str, path_to_law: str, compare: bool
     output_data = gen_submit(model, data_question, data_corpus)
 
     output_file = "output_train.json"
-    if compare:
-        compare_json(output_data)
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False)
-
     print("Processing complete. Output saved to", output_file)
+
+    if compare:
+        compare_json(output_data)
 
 
 if __name__ == '__main__':
@@ -120,11 +120,10 @@ if __name__ == '__main__':
     parser.add_argument('--model',
                         default=my_env.PATH_TO_MODEL_PARAFORMER)
     parser.add_argument('--input_questions',
-                        default=my_env.PATH_TO_PUBLIC_TEST)
+                        default=my_env.PATH_TO_PUBLIC_TRAIN)
     parser.add_argument('--input_articles',
-                        default=my_env.PATH_TO_CORPUS_ALL)
+                        default=my_env.PATH_TO_CORPUS_2023)
     parser.add_argument('--compare', default=False)
 
     opts = parser.parse_args()
-    main(opts.model, "/Users/longhoangduc/Library/CloudStorage/GoogleDrive-hoangduclongg@gmail.com/My Drive/Colab Notebooks/Task1/data/raw/V1.1/train.json",
-         "/Users/longhoangduc/Library/CloudStorage/GoogleDrive-hoangduclongg@gmail.com/My Drive/Colab Notebooks/Task1/data/training/all_articles_2023.json", True)
+    main("model_new.pth", opts.input_questions, opts.input_articles, True)
