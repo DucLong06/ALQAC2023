@@ -1,11 +1,13 @@
 import argparse
-from collections import Counter
+import asyncio
+from collections import Counter, defaultdict
 import json
 import numpy as np
 import torch
 from tqdm import tqdm
 from eval_metrics import calculate_accuracy, calculate_f2_score, calculate_precision, calculate_recall
 import my_env
+from bot_telegram import send_telegram_message
 
 from model_paraformer import Model_Paraformer
 from post_data import convert_ID
@@ -32,10 +34,8 @@ def get_top_n_articles(query: str, data_corpus, top_n: int = 5):
 
 def gen_submit(model: Model_Paraformer, data_question, data_corpus, alpha=0.1, top_n=5):
     model.eval()
-    list_keys = list(data_corpus.keys())
     out_put = data_question
-    for i, item in tqdm(enumerate(data_question), desc="Processing Question:"):
-        final_scores = []
+    for i, item in tqdm(enumerate(data_question)):
         question = item["text"]
         list_question = []
         total_choice = []
@@ -46,25 +46,28 @@ def gen_submit(model: Model_Paraformer, data_question, data_corpus, alpha=0.1, t
         else:
             list_question.append(question)
         for question in list_question:
+            final_scores = []
             top_n_articles = get_top_n_articles(
                 question, data_corpus, top_n=top_n)
-            _, list_articles, bm25_scores = zip(*top_n_articles)
+            list_keys, list_articles, bm25_scores = zip(*top_n_articles)
 
             for i, article in enumerate(list_articles):
                 article = [sentence.strip() for sentence in article.split(
                     "\n") if sentence.strip() != ""]
                 deep_score = model.get_score(question, article)
                 final_scores.append(alpha*deep_score+(1-alpha)*bm25_scores[i])
-
             total_choice.append(
-                (np.max(final_scores), np.argmax(final_scores)))
-        max_similarity_indexes = [idx for _, idx in total_choice]
-        counter = Counter(max_similarity_indexes)
+                (np.max(final_scores), list_keys[np.argmax(final_scores)]))
+            
+        id_corpus = [id for _, id in total_choice]
+        counter = Counter(id_corpus)
         most_common = counter.most_common()
-
-        max_similarity_index = most_common[0][0]
+        if len(most_common) in [2, 4]:
+            _, id_corpus = max(total_choice, key=lambda x: x[0])
+        else:
+            id_corpus = most_common[0][0]
         item.setdefault("relevant_articles", []).append(
-            convert_ID(list_keys[max_similarity_index]))
+            convert_ID(id_corpus))
 
     return out_put
 
@@ -96,6 +99,25 @@ def compare_json(data):
     print(f'Precision: {precision}')
     print(f'Recall: {recall}')
     print(f'F2 Score: {f2_score}')
+    
+    count_dict = defaultdict(int)
+    for item in error_data:
+        count_dict[item["question_type"]] += 1
+    try:
+        asyncio.run(send_telegram_message(
+            model_name="[Test] Paraformer",
+            model_parameter="",
+            data_name="train.json",
+            alpha="",
+            top_k_bm25="",
+            accuracy=accuracy,
+            precision=precision,
+            recall=recall,
+            f2=f2_score,
+            note=str(count_dict)
+        ))
+    except Exception as e:
+        print(str(e))
     with open('error_data.json', 'w') as file:
         json.dump(error_data, file, ensure_ascii=False)
 
@@ -139,7 +161,7 @@ if __name__ == '__main__':
                         default=my_env.PATH_TO_CORPUS_2023)
     parser.add_argument('--compare', default=True)
     parser.add_argument('--alpha', default=1)
-    parser.add_argument('--top_articles', default=5)
+    parser.add_argument('--top_articles', default=50)
 
     opts = parser.parse_args()
     main(opts.model, opts.input_questions, opts.input_articles,

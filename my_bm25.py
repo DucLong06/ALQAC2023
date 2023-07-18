@@ -12,7 +12,7 @@ from tqdm import tqdm
 import my_env
 
 
-PATH_TO_CORPUS_ALL = "/Users/longhoangduc/Library/CloudStorage/GoogleDrive-hoangduclongg@gmail.com/My Drive/Colab Notebooks/Task1/data/raw/V1.1/law.json"
+PATH_TO_CORPUS_ALL = "/home/longhd/ALQAC2023/data/raw/V1.1/law.json"
 PATH_TO_PUBLIC_TRAIN = my_env.PATH_TO_PUBLIC_TRAIN
 PATH_TO_PUBLIC_TEST = my_env.PATH_TO_PUBLIC_TEST
 
@@ -73,10 +73,10 @@ def train_bm25():
             max_similarity_indexes = [idx for _, idx in total_choice]
             counter = Counter(max_similarity_indexes)
             most_common = counter.most_common()
-            # if len(most_common) > 1:
-            #     _, max_similarity_index = max(total_choice, key=lambda x: x[0])
-            # else:
-            max_similarity_index = most_common[0][0]
+            if len(most_common) in [2, 4]:
+                _, max_similarity_index = max(total_choice, key=lambda x: x[0])
+            else:
+                max_similarity_index = most_common[0][0]
 
         predicted_id = convert_ID(id_corpus[max_similarity_index])
         label_id = convert_ID(relevant)
@@ -143,5 +143,5 @@ def test_submit(path_question, path_corpus):
         json.dump(out_put, f, ensure_ascii=False)
 
 
-# train_bm25()
+train_bm25()
 test_submit(PATH_TO_PUBLIC_TEST, PATH_TO_CORPUS_ALL)
