@@ -1,4 +1,5 @@
 import argparse
+from collections import Counter
 import json
 import numpy as np
 import torch
@@ -29,27 +30,39 @@ def get_top_n_articles(query: str, data_corpus, top_n: int = 5):
     return top_n_articles
 
 
-def gen_submit(model: Model_Paraformer, data_question, data_corpus, alpha=0.1):
+def gen_submit(model: Model_Paraformer, data_question, data_corpus, alpha=0.1, top_n=5):
     model.eval()
-
+    list_keys = list(data_corpus.keys())
     out_put = data_question
     for i, item in tqdm(enumerate(data_question), desc="Processing Question:"):
         final_scores = []
         question = item["text"]
+        list_question = []
+        total_choice = []
+        if "choices" in item:
+            for ans in item['choices']:
+                list_question.append("{}\n{}".format(
+                    question, item['choices'][ans]))
+        else:
+            list_question.append(question)
+        for question in list_question:
+            top_n_articles = get_top_n_articles(
+                question, data_corpus, top_n=top_n)
+            _, list_articles, bm25_scores = zip(*top_n_articles)
 
-        top_n_articles = get_top_n_articles(
-            question, data_corpus, top_n=20)
-        list_keys, list_articles, bm25_scores = zip(*top_n_articles)
+            for i, article in enumerate(list_articles):
+                article = [sentence.strip() for sentence in article.split(
+                    "\n") if sentence.strip() != ""]
+                deep_score = model.get_score(question, article)
+                final_scores.append(alpha*deep_score+(1-alpha)*bm25_scores[i])
 
-        for i, article in enumerate(list_articles):
-            article = [sentence.strip() for sentence in article.split(
-                "\n") if sentence.strip() != ""]
-            deep_score = model.get_score(question, article)
+            total_choice.append(
+                (np.max(final_scores), np.argmax(final_scores)))
+        max_similarity_indexes = [idx for _, idx in total_choice]
+        counter = Counter(max_similarity_indexes)
+        most_common = counter.most_common()
 
-            # final_scores.append(alpha*deep_score+(1-alpha)*bm25_scores[i])
-
-        # max_similarity_index = np.argmax(final_scores)
-        max_similarity_index = np.argmax(deep_score)
+        max_similarity_index = most_common[0][0]
         item.setdefault("relevant_articles", []).append(
             convert_ID(list_keys[max_similarity_index]))
 
@@ -87,7 +100,7 @@ def compare_json(data):
         json.dump(error_data, file, ensure_ascii=False)
 
 
-def main(path_to_model: str, path_to_query: str, path_to_law: str, compare: bool = False):
+def main(path_to_model: str, path_to_query: str, path_to_law: str, compare: bool = False, alpha: int = 1, top_n: int = 5):
 
     with open(path_to_query, 'r') as file:
         data_question = json.load(file)
@@ -104,7 +117,8 @@ def main(path_to_model: str, path_to_query: str, path_to_law: str, compare: bool
     checkpoint = torch.load(path_to_model, map_location=device)
     model.load_state_dict(checkpoint)
 
-    output_data = gen_submit(model, data_question, data_corpus)
+    output_data = gen_submit(model, data_question,
+                             data_corpus, alpha=alpha, top_n=top_n)
 
     output_file = "output_train.json"
     with open(output_file, "w", encoding="utf-8") as f:
@@ -123,7 +137,10 @@ if __name__ == '__main__':
                         default=my_env.PATH_TO_PUBLIC_TRAIN)
     parser.add_argument('--input_articles',
                         default=my_env.PATH_TO_CORPUS_2023)
-    parser.add_argument('--compare', default=False)
+    parser.add_argument('--compare', default=True)
+    parser.add_argument('--alpha', default=1)
+    parser.add_argument('--top_articles', default=5)
 
     opts = parser.parse_args()
-    main("model_new.pth", opts.input_questions, opts.input_articles, True)
+    main(opts.model, opts.input_questions, opts.input_articles,
+         opts.compare, opts.alpha, opts.top_articles)
