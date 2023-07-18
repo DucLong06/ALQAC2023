@@ -10,9 +10,9 @@ class Model_Paraformer(nn.Module):
         super(Model_Paraformer, self).__init__()
         self.sentenceTransformer = SentenceTransformer(base_model)
         self.attention = Attention(768)
-        self.dropout = nn.Dropout(0.1)
+        self.dropout = nn.Dropout(0.5)
         self.classifier = nn.Linear(768, 2)
-        # self.sigmod = nn.Sigmoid()
+        
         self.criterion = nn.CrossEntropyLoss()
 
     def forward(self, query, article):
@@ -29,7 +29,7 @@ class Model_Paraformer(nn.Module):
         article_vector = article_vector.permute(1, 0, 2)
 
         attention, _ = self.attention(query_vector, article_vector)
-        attention = self.dropout(attention)
+        # attention = self.dropout(attention)
         output = self.classifier(attention)
 
         '''>>> torch.Size([1, 1, 2]) -> torch.Size([1, 2])'''
