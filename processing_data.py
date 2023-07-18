@@ -78,8 +78,8 @@ def word_segment(text: str) -> str:
 
     """
     text = ViTokenizer.tokenize(text)
-    text = _clean_text(text)
-    # text = _normalize_text(text)
+    # text = _clean_text(text)
+    text = _normalize_text(text)
     # text = _remove_stopword(text)
     return text
 

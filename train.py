@@ -2,13 +2,14 @@ import argparse
 import pandas as pd
 import torch
 from torch.utils.data import DataLoader, random_split
+from bot_telegram import send_telegram_message
 from eval_metrics import eval_model
 from law_data import Law_Dataset
 from model_paraformer import Model_Paraformer
 from raw_data import df_create_data_training
 import my_env
+import asyncio
 from tqdm import tqdm
-
 
 
 def preprocessor_batch(batch):
@@ -24,7 +25,7 @@ def preprocessor_batch(batch):
 
 def train():
     df_train = df_create_data_training(
-        my_env.PATH_TO_QUESTION_ALL, my_env.PATH_TO_CORPUS_ALL, top_bm25=10)
+        my_env.PATH_TO_PUBLIC_TRAIN, my_env.PATH_TO_CORPUS_2023, top_bm25=20)
     df_train = Law_Dataset(df_train)
 
     # Split dataset into train and test set
@@ -72,8 +73,26 @@ def train():
     print('Training finished.')
 
     # Evaluate the model on the test set
+
     test_accuracy, test_precision, test_recall, test_f2_score = eval_model(
         test_dataloader, model)
+
+    try:
+        asyncio.run(send_telegram_message(
+            model_name="[TRAIN] Paraformer",
+            model_parameter=model.parameters,
+            data_name="train.json",
+            alpha="none",
+            top_k_bm25="20",
+            accuracy=test_accuracy,
+            precision=test_precision,
+            recall=test_recall,
+            f2=test_f2_score,
+            note="question + all options"
+        ))
+    except Exception as e:
+        print(str(e))
+
     print(f"Test Accuracy: {test_accuracy:.4f}")
     print(f"Test Precision: {test_precision:.4f}")
     print(f"Test Recall: {test_recall:.4f}")

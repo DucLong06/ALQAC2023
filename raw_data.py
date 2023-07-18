@@ -38,7 +38,6 @@ def _question_generator(path_json: str):
             question += ' '.join(item['choices'].values())
         relevant_articles = item['relevant_articles'][:2]
         for relevant_article in relevant_articles:
-
             law_id = relevant_article['law_id']
             article_id = relevant_article['article_id']
             yield {'question': question, 'relevant_id': f"{law_id}@{article_id}"}
@@ -63,7 +62,7 @@ def _data_training_generator(path_json_question: str, path_json_law: str, top_bm
     for item in data_question:
         question = item['text']
         if "choices" in item:
-            question += ' '.join(item['choices'].values())
+            question += '\n'.join(item['choices'].values())
         relevant_articles = item['relevant_articles']
         neg_list = bm25.get_top_n(
             question.split(" "), corpus, n=top_bm25)
