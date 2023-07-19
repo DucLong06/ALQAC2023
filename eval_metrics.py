@@ -29,7 +29,7 @@ def eval_model(test_loader, model: Model_Paraformer):
     false_negative = 0
     with torch.no_grad():
         for query, article, label in tqdm(test_loader):
-            label = label.cpu()
+            label = torch.tensor(label).cpu()
             output = model.predict(query, article)
 
             total += label.size(0)

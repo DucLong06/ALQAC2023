@@ -25,7 +25,7 @@ def preprocessor_batch(batch):
 
 def train():
     df_train = df_create_data_training(
-        my_env.PATH_TO_PUBLIC_TRAIN, my_env.PATH_TO_CORPUS_2023, top_bm25=20)
+        my_env.PATH_TO_QUESTION_ALL, my_env.PATH_TO_CORPUS_ALL, top_bm25=20)
     df_train = Law_Dataset(df_train)
 
     # Split dataset into train and test set
@@ -35,9 +35,9 @@ def train():
         df_train, [train_size, test_size])
 
     train_dataloader = DataLoader(
-        train_dataset, batch_size=1, num_workers=4, shuffle=True)
+        train_dataset, batch_size=128, num_workers=4, shuffle=True, collate_fn=preprocessor_batch)
     test_dataloader = DataLoader(
-        test_dataset, batch_size=1, num_workers=4, shuffle=False)
+        test_dataset, batch_size=128, num_workers=4, shuffle=False,collate_fn=preprocessor_batch)
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -45,7 +45,7 @@ def train():
 
     optimizer = torch.optim.Adam(model.parameters(), lr=3e-5, eps=1e-8)
 
-    max_epochs = 10
+    max_epochs = 20
     # scheduler = lr_scheduler.StepLR(optimizer, step_size=1, gamma=0.1)
 
     for epoch in range(max_epochs):
@@ -57,7 +57,7 @@ def train():
             optimizer.zero_grad()
             questions, articles, relevants = batch
             logits = model.forward(questions, articles)
-            relevants = relevants.to(device)
+            relevants = torch.tensor(relevants).to(device)
 
             loss = model.criterion(logits, relevants)
 
@@ -81,7 +81,7 @@ def train():
         asyncio.run(send_telegram_message(
             model_name="[TRAIN] Paraformer",
             model_parameter="",
-            data_name="train.json",
+            data_name="all_data(2022,2023,zalo)",
             alpha="none",
             top_k_bm25="20",
             accuracy=test_accuracy,

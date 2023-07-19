@@ -19,19 +19,15 @@ class Model_Paraformer(nn.Module):
         query_vector = self.sentenceTransformer.encode(
             query, convert_to_tensor=True)
 
-        '''>>> torch.Size([1, 768]) -> torch.Size([1, 1, 768])'''
         query_vector = torch.unsqueeze(query_vector, 0)
+        query_vector = query_vector.permute(1, 0, 2)
 
         article_vector = torch.stack([self.sentenceTransformer.encode(
             sentence, convert_to_tensor=True) for sentence in article])
 
-        '''>>> torch.Size([number_sentence, 1, 768]) -> torch.Size([1, number_sentence, 768]) '''
-        article_vector = article_vector.permute(1, 0, 2)
-
         attention, _ = self.attention(query_vector, article_vector)
         output = self.classifier(attention)
 
-        '''>>> torch.Size([1, 1, 2]) -> torch.Size([1, 2])'''
         output = torch.squeeze(output, 1)
         # output = self.sigmod(output)
         return output
@@ -41,22 +37,18 @@ class Model_Paraformer(nn.Module):
             query_vector = self.sentenceTransformer.encode(
                 query, convert_to_tensor=True)
 
-            '''>>> torch.Size([1, 768]) -> torch.Size([1, 1, 768])'''
             query_vector = torch.unsqueeze(query_vector, 1)
             article_vector = torch.stack([self.sentenceTransformer.encode(
                 sentence, convert_to_tensor=True) for sentence in article])
 
-            '''>>> torch.Size([number_sentence, 1, 768]) -> torch.Size([1, number_sentence, 768]) '''
-            article_vector = article_vector.permute(1, 0, 2)
+            # article_vector = article_vector.permute(1, 0, 2)
 
             attention, _ = self.attention(query_vector, article_vector)
 
             output = self.classifier(attention)
 
-            '''>>> torch.Size([1, 1, 2]) -> torch.Size([1, 2])'''
             output = torch.squeeze(output, 1)
-            '''>>> torch(1) -> torch([1])'''
-            return torch.unsqueeze(torch.argmax(output).cpu().detach(), 0)
+            return torch.unsqueeze(torch.argmax(output, dim=1).cpu().detach(), 0)
 
     def get_score(self, query, article):
         with torch.no_grad():
