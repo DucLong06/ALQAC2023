@@ -21,7 +21,7 @@ class Model_Paraformer(nn.Module):
 
         query_vector = torch.unsqueeze(query_vector, 0)
         query_vector = query_vector.permute(1, 0, 2)
-
+        query_vector = self.dropout(query_vector)
         article_vector = torch.stack([self.sentenceTransformer.encode(
             sentence, convert_to_tensor=True) for sentence in article])
 
