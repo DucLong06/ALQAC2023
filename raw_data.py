@@ -143,7 +143,7 @@ def merge_json_files(*file_paths):
             data = json.load(file)
             merged_data.extend(data)
 
-    output_file = 'all_articles.json'
+    output_file = 'all_question_train.json'
     with open(output_file, 'w') as file:
         json.dump(merged_data, file, ensure_ascii=False)
 
@@ -151,6 +151,10 @@ def merge_json_files(*file_paths):
 
 
 # _convert_all_law_to_json(
-#     "/Users/longhoangduc/Library/CloudStorage/GoogleDrive-hoangduclongg@gmail.com/My Drive/Colab Notebooks/Task1/data/raw/V1.1/law.json")
-#                "/Users/longhoangduc/Library/CloudStorage/GoogleDrive-hoangduclongg@gmail.com/My Drive/Colab Notebooks/Task1/data/raw/V1.1/additional_data/zalo/zalo_corpus.json",
-#                  "/Users/longhoangduc/Library/CloudStorage/GoogleDrive-hoangduclongg@gmail.com/My Drive/Colab Notebooks/Task1/data/raw/V1.1/additional_data/ALQAC_2022_training_data/law.json")
+#     "/home/longhd/ALQAC2023/data/raw/V1.1/law.json",
+#     "/home/longhd/ALQAC2023/data/raw/V1.1/additional_data/zalo/zalo_corpus.json",
+#  "/home/longhd/ALQAC2023/data/raw/V1.1/additional_data/ALQAC_2022_training_data/law.json")
+
+# merge_json_files("/home/longhd/ALQAC2023/data/raw/V1.1/train.json",
+#                  "/home/longhd/ALQAC2023/data/raw/V1.1/additional_data/zalo/zalo_question.json",
+#                  "/home/longhd/ALQAC2023/data/raw/V1.1/additional_data/ALQAC_2022_training_data/question.json")

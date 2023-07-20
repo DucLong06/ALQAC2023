@@ -1,13 +1,15 @@
 import argparse
 import asyncio
 from collections import Counter, defaultdict
+import glob
 import json
+import os
 import numpy as np
 import torch
 from tqdm import tqdm
 from eval_metrics import calculate_accuracy, calculate_f2_score, calculate_precision, calculate_recall
 import my_env
-from bot_telegram import send_telegram_message
+from bot_telegram import send_message, send_telegram_message
 
 from model_paraformer import Model_Paraformer
 from post_data import convert_ID
@@ -15,8 +17,13 @@ import pickle
 from processing_data import word_segment
 from rank_bm25 import BM25Okapi, BM25Plus
 
+import my_logger
+from train import train
 
-def get_top_n_articles(query: str, data_corpus, top_n: int = 5):
+logger = my_logger.Logger("evaluate", my_env.LOG)
+
+
+def get_top_n_articles(query: str, data_corpus, top_n: int):
     corpus = list(data_corpus.values())
     tokenized_corpus = [word_segment(doc) for doc in corpus]
     tokenized_corpus = [doc.split(" ") for doc in tokenized_corpus]
@@ -32,7 +39,7 @@ def get_top_n_articles(query: str, data_corpus, top_n: int = 5):
     return top_n_articles
 
 
-def gen_submit(model: Model_Paraformer, data_question, data_corpus, alpha=0.1, top_n=5):
+def gen_submit(model: Model_Paraformer, data_question, data_corpus, alpha, top_n):
     model.eval()
     out_put = data_question
     for i, item in tqdm(enumerate(data_question)):
@@ -68,11 +75,11 @@ def gen_submit(model: Model_Paraformer, data_question, data_corpus, alpha=0.1, t
             id_corpus = most_common[0][0]
         item.setdefault("relevant_articles", []).append(
             convert_ID(id_corpus))
-
+        
     return out_put
 
 
-def compare_json(data):
+def compare_json(data,path_to_model):
     correct_count = 0
     total_count = len(data)
     true_positive = 0
@@ -95,10 +102,10 @@ def compare_json(data):
     recall = calculate_recall(true_positive, false_negative)
     f2_score = calculate_f2_score(precision, recall)
 
-    print(f'Accuracy: {accuracy}')
-    print(f'Precision: {precision}')
-    print(f'Recall: {recall}')
-    print(f'F2 Score: {f2_score}')
+    logger.info(f'Accuracy: {accuracy}')
+    logger.info(f'Precision: {precision}')
+    logger.info(f'Recall: {recall}')
+    logger.info(f'F2 Score: {f2_score}')
     
     count_dict = defaultdict(int)
     for item in error_data:
@@ -106,10 +113,10 @@ def compare_json(data):
     try:
         asyncio.run(send_telegram_message(
             model_name="[Test] Paraformer",
-            model_parameter="",
+            model_base=path_to_model,
             data_name="train.json",
-            alpha="",
-            top_k_bm25="",
+            alpha="1",
+            top_k_bm25="50",
             accuracy=accuracy,
             precision=precision,
             recall=recall,
@@ -117,12 +124,12 @@ def compare_json(data):
             note=str(count_dict)
         ))
     except Exception as e:
-        print(str(e))
+        logger.error(str(e))
     with open('error_data.json', 'w') as file:
         json.dump(error_data, file, ensure_ascii=False)
 
 
-def main(path_to_model: str, path_to_query: str, path_to_law: str, compare: bool = False, alpha: int = 1, top_n: int = 5):
+def main(path_to_model: str, path_to_query: str, path_to_law: str, compare: bool , alpha: int , top_n: int ):
 
     with open(path_to_query, 'r') as file:
         data_question = json.load(file)
@@ -145,24 +152,30 @@ def main(path_to_model: str, path_to_query: str, path_to_law: str, compare: bool
     output_file = "output_train.json"
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False)
-    print("Processing complete. Output saved to", output_file)
+    logger.info(f"Processing complete. Output saved to {output_file}")
 
     if compare:
-        compare_json(output_data)
-
+        compare_json(output_data,path_to_model)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model',
-                        default=my_env.PATH_TO_MODEL_PARAFORMER)
-    parser.add_argument('--input_questions',
-                        default=my_env.PATH_TO_PUBLIC_TRAIN)
-    parser.add_argument('--input_articles',
-                        default=my_env.PATH_TO_CORPUS_2023)
-    parser.add_argument('--compare', default=True)
-    parser.add_argument('--alpha', default=1)
-    parser.add_argument('--top_articles', default=50)
+    parser.add_argument('--model', type=str, default=my_env.PATH_TO_MODEL_PARAFORMER)
+    parser.add_argument('--input_questions', type=str, default=my_env.PATH_TO_PUBLIC_TRAIN)
+    parser.add_argument('--input_articles', type=str, default=my_env.PATH_TO_CORPUS_2023)
+    parser.add_argument('--compare', type=bool, default=True)
+    parser.add_argument('--alpha', type=float, default=1)
+    parser.add_argument('--top_articles', type=int, default=50)
 
     opts = parser.parse_args()
-    main(opts.model, opts.input_questions, opts.input_articles,
-         opts.compare, opts.alpha, opts.top_articles)
+    train()
+    main(opts.model, opts.input_questions, opts.input_articles, opts.compare, opts.alpha, opts.top_articles)
+    # models = glob.glob(os.path.join(my_env.PATH_TO_SAVE_MODEL, "*.pth"))
+    # for model in models:
+    #     try:
+    #         logger.info(f"Evaluate: {model}")
+    #         main(model,opts.input_questions, opts.input_articles, opts.compare,1,50)
+    #         logger.info(f"Done: {model}")
+    #     except Exception as e:
+    #         logger.error(f"{model}:{str(e)}")
+    #         asyncio.run(send_message(f"base model error : {model}"))
+      

@@ -18,10 +18,11 @@ class Model_Paraformer(nn.Module):
     def forward(self, query, article):
         query_vector = self.sentenceTransformer.encode(
             query, convert_to_tensor=True)
-
         query_vector = torch.unsqueeze(query_vector, 0)
         query_vector = query_vector.permute(1, 0, 2)
+        
         query_vector = self.dropout(query_vector)
+        
         article_vector = torch.stack([self.sentenceTransformer.encode(
             sentence, convert_to_tensor=True) for sentence in article])
 
@@ -29,21 +30,18 @@ class Model_Paraformer(nn.Module):
         output = self.classifier(attention)
 
         output = torch.squeeze(output, 1)
-        # output = self.sigmod(output)
         return output
 
     def predict(self, query, article):
         with torch.no_grad():
             query_vector = self.sentenceTransformer.encode(
                 query, convert_to_tensor=True)
-
             query_vector = torch.unsqueeze(query_vector, 1)
+            
             article_vector = torch.stack([self.sentenceTransformer.encode(
                 sentence, convert_to_tensor=True) for sentence in article])
-
-            # article_vector = article_vector.permute(1, 0, 2)
-
-            attention, _ = self.attention(query_vector, article_vector)
+            
+            attention, _ = self.attention(query_vector.detach(), article_vector.detach())
 
             output = self.classifier(attention)
 
@@ -54,7 +52,7 @@ class Model_Paraformer(nn.Module):
         with torch.no_grad():
             query_vector = self.sentenceTransformer.encode(
                 query, convert_to_tensor=True)
-
+            
             '''>>> torch.Size([768]) -> torch.Size([1, 1, 768])'''
             query_vector = torch.unsqueeze(query_vector, 0)
             query_vector = torch.unsqueeze(query_vector, 0)
@@ -64,7 +62,7 @@ class Model_Paraformer(nn.Module):
             article_vector = torch.unsqueeze(article_vector, 1)
             article_vector = article_vector.permute(1, 0, 2)
 
-            attention, _ = self.attention(query_vector, article_vector)
+            attention, _ = self.attention(query_vector.detach(), article_vector.detach())
 
             output = self.classifier(attention)
 
