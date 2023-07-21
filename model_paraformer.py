@@ -12,7 +12,7 @@ class Model_Paraformer(nn.Module):
         self.attention = Attention(768)
         self.dropout = nn.Dropout(0.5)
         self.classifier = nn.Linear(768, 2)
-        
+
         self.criterion = nn.CrossEntropyLoss()
 
     def forward(self, query, article):
@@ -20,9 +20,9 @@ class Model_Paraformer(nn.Module):
             query, convert_to_tensor=True)
         query_vector = torch.unsqueeze(query_vector, 0)
         query_vector = query_vector.permute(1, 0, 2)
-        
+
         query_vector = self.dropout(query_vector)
-        
+
         article_vector = torch.stack([self.sentenceTransformer.encode(
             sentence, convert_to_tensor=True) for sentence in article])
 
@@ -37,11 +37,12 @@ class Model_Paraformer(nn.Module):
             query_vector = self.sentenceTransformer.encode(
                 query, convert_to_tensor=True)
             query_vector = torch.unsqueeze(query_vector, 1)
-            
+
             article_vector = torch.stack([self.sentenceTransformer.encode(
                 sentence, convert_to_tensor=True) for sentence in article])
-            
-            attention, _ = self.attention(query_vector.detach(), article_vector.detach())
+
+            attention, _ = self.attention(
+                query_vector.detach(), article_vector.detach())
 
             output = self.classifier(attention)
 
@@ -52,7 +53,7 @@ class Model_Paraformer(nn.Module):
         with torch.no_grad():
             query_vector = self.sentenceTransformer.encode(
                 query, convert_to_tensor=True)
-            
+
             '''>>> torch.Size([768]) -> torch.Size([1, 1, 768])'''
             query_vector = torch.unsqueeze(query_vector, 0)
             query_vector = torch.unsqueeze(query_vector, 0)
@@ -62,9 +63,29 @@ class Model_Paraformer(nn.Module):
             article_vector = torch.unsqueeze(article_vector, 1)
             article_vector = article_vector.permute(1, 0, 2)
 
-            attention, _ = self.attention(query_vector.detach(), article_vector.detach())
+            attention, _ = self.attention(
+                query_vector.detach(), article_vector.detach())
 
             output = self.classifier(attention)
 
             output = torch.squeeze(output, 1)
             return output.cpu().detach().numpy()[0][1]
+
+    def configure_optimizers(self):
+        FULL_FINETUNING = True
+        if FULL_FINETUNING:
+            param_optimizer = list(self.sentenceTransformer.named_parameters(
+            )) + list(self.attention.named_parameters()) + list(self.classifier.named_parameters())
+            no_decay = ['bias', 'gamma', 'beta']
+            optimizer_grouped_parameters = [
+                {'params': [p for n, p in param_optimizer if not any(nd in n for nd in no_decay)],
+                 'weight_decay_rate': 0.01},
+                {'params': [p for n, p in param_optimizer if any(nd in n for nd in no_decay)],
+                 'weight_decay_rate': 0.0}
+            ]
+        else:
+            param_optimizer = list(self.attention.named_parameters())
+            optimizer_grouped_parameters = [
+                {"params": [p for n, p in param_optimizer]}]
+
+        return torch.optim.Adam(optimizer_grouped_parameters, lr=3e-5, eps=1e-8)
