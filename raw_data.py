@@ -1,4 +1,5 @@
 import json
+import random
 import re
 import pandas as pd
 import torch
@@ -6,8 +7,7 @@ from tqdm import tqdm
 from model_paraformer import Model_Paraformer
 import my_env
 from processing_data import word_segment
-
-from rank_bm25 import BM25Plus
+from rank_bm25 import BM25Okapi, BM25Plus
 
 import pickle
 
@@ -49,7 +49,7 @@ def df_create_questions_test(path_json: str) -> pd.DataFrame:
     return pd.DataFrame(list_data)
 
 
-def _data_training_generator(path_json_question: str, path_json_law: str, top_bm25: int = 10):
+def data_training_generator(path_json_question: str, path_json_law: str,  top_bm25: int = 10, train_ratio=0.8, val_ratio=0.1):
     with open(path_json_law, 'r') as file:
         data_corpus = json.load(file)
 
@@ -58,62 +58,72 @@ def _data_training_generator(path_json_question: str, path_json_law: str, top_bm
 
     corpus = list(data_corpus.values())
 
-    bm25 = BM25Plus(corpus)
+    bm25 = BM25Okapi(corpus)
 
-    for item in data_question:
-        question = item['text']
-        list_question = []
-        if "choices" in item:
-            if "answer" in item:
-                pattern = r'^Cả'
-                if re.search(pattern, item['choices'][item["answer"]], re.IGNORECASE):
-                    true_answer = re.findall(
-                        r"[A-D]", item['choices'][item["answer"]].replace("Cả", ""))
-                    if true_answer:
-                        for ans in true_answer:
-                            list_question.append("{}\n{}".format(
-                                question, item['choices'][ans]))
+    random.shuffle(data_question)
+
+    train_size = int(len(data_question) * train_ratio)
+    val_size = int(len(data_question) * val_ratio)
+
+    train_data = data_question[:train_size]
+    val_data = data_question[train_size:train_size + val_size]
+    test_data = data_question[train_size + val_size:]
+
+    def generate_data(data):
+        for item in data:
+            question = item['text']
+            list_question = []
+            if "choices" in item:
+                if "answer" in item:
+                    pattern = r'^Cả'
+                    if re.search(pattern, item['choices'][item["answer"]], re.IGNORECASE):
+                        true_answer = re.findall(
+                            r"[A-D]", item['choices'][item["answer"]].replace("Cả", ""))
+                        if true_answer:
+                            for ans in true_answer:
+                                list_question.append("{}\n{}".format(
+                                    question, item['choices'][ans]))
+                        else:
+                            del item['choices'][item["answer"]]
+                            for ans in item['choices']:
+                                list_question.append("{}\n{}".format(
+                                    question, item['choices'][ans]))
                     else:
-                        del item['choices'][item["answer"]]
-                        for ans in item['choices']:
-                            list_question.append("{}\n{}".format(
-                                question, item['choices'][ans]))
-                else:
-                    list_question.append("{}\n{}".format(
-                        question,  item['choices'][item["answer"]]))
-        else:
-            list_question.append(question)
+                        list_question.append("{}\n{}".format(
+                            question,  item['choices'][item["answer"]]))
+            else:
+                list_question.append(question)
 
-        relevant_articles = item['relevant_articles']
-        for question in list_question:
-            neg_list = bm25.get_top_n(
-                question.split(" "), corpus, n=top_bm25)
+            relevant_articles = item['relevant_articles']
+            for question in list_question:
+                neg_list = bm25.get_top_n(
+                    question.split(" "), corpus, n=top_bm25)
 
-            for relevant_article in relevant_articles:
-                corpus_id = relevant_article['law_id'] + \
-                    "@" + relevant_article['article_id']
-                if corpus_id in data_corpus.keys():
-                    for _ in range(top_bm25 // 2):
-                        yield {
-                            "question": question,
-                            "article": [sentence.strip() for sentence in data_corpus[corpus_id].split("\n") if sentence.strip() != ""],
-                            "relevant": 1
-                        }
-                    neg_list = [neg for neg in neg_list
-                                if neg != data_corpus[corpus_id]]
+                for relevant_article in relevant_articles:
+                    corpus_id = relevant_article['law_id'] + \
+                        "@" + relevant_article['article_id']
+                    if corpus_id in data_corpus.keys():
+                        for _ in range(top_bm25 // 2):
+                            yield {
+                                "question": question,
+                                "article": [sentence.strip() for sentence in data_corpus[corpus_id].split("\n") if sentence.strip() != ""],
+                                "relevant": 1
+                            }
+                        neg_list = [neg for neg in neg_list
+                                    if neg != data_corpus[corpus_id]]
 
-            for neg in neg_list:
-                yield {
-                    "question": question,
-                    "article": [sentence.strip() for sentence in neg.split("\n") if sentence.strip() != ""],
-                    "relevant": 0
-                }
+                for neg in neg_list:
+                    yield {
+                        "question": question,
+                        "article": [sentence.strip() for sentence in neg.split("\n") if sentence.strip() != ""],
+                        "relevant": 0
+                    }
 
+    train_df = pd.DataFrame(generate_data(train_data))
+    val_df = pd.DataFrame(generate_data(val_data))
+    test_df = pd.DataFrame(generate_data(test_data))
 
-def df_create_data_training(path_json_question: str, path_json_law: str, top_bm25: int = 10) -> pd.DataFrame:
-    df = pd.DataFrame(_data_training_generator(
-        path_json_question, path_json_law, top_bm25))
-    return df
+    return train_df, val_df, test_df
 
 
 def _convert_all_law_to_json(*file_paths):
