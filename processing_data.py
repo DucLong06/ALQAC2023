@@ -1,6 +1,6 @@
 import re
 import string
-from pyvi import ViTokenizer
+from pyvi import ViTokenizer, ViPosTagger
 import torch
 from transformers import AutoModel, AutoTokenizer
 from torch.nn.utils.rnn import pad_sequence
@@ -66,7 +66,7 @@ def _remove_stopword(text: str) -> str:
     return ' '.join(pre_text)
 
 
-def word_segment(text: str) -> str:
+def word_segment(text: str, tags_filter=["V", "N", "P", "."]) -> str:
     """
     Segment the words in the text(using pyvi) and return the segmented text cleaned.
 
@@ -77,11 +77,12 @@ def word_segment(text: str) -> str:
         str: The text after word segmentation.
 
     """
+
     text = ViTokenizer.tokenize(text)
-    # text = _clean_text(text)
     text = _normalize_text(text)
-    # text = _remove_stopword(text)
     return text
+    # pos = ViPosTagger.postagging(text)
+    # new_words = [word for word, tag in zip(
+    #     pos[0], pos[1]) if tag in tags_filter]
 
-
-
+    # return " ".join(new_words)
