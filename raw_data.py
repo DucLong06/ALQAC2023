@@ -10,6 +10,10 @@ from processing_data import word_segment
 from rank_bm25 import BM25Okapi, BM25Plus
 
 import pickle
+import my_logger
+
+
+logger = my_logger.Logger("raw_data", my_env.LOG)
 
 
 def _data_generator(path_json: str):
@@ -55,6 +59,8 @@ def data_training_generator(path_json_question: str, path_json_law: str,  top_bm
 
     with open(path_json_question, 'r') as file:
         data_question = json.load(file)
+    logger.info(f"number question:{len(data_question)}")
+    logger.info(f"number corpus:{len(data_corpus)}")
 
     corpus = list(data_corpus.values())
 
@@ -123,6 +129,10 @@ def data_training_generator(path_json_question: str, path_json_law: str,  top_bm
     val_df = pd.DataFrame(generate_data(val_data))
     test_df = pd.DataFrame(generate_data(test_data))
 
+    logger.info(f"Number of data in train set: {len(train_df)}")
+    logger.info(f"Number of data in val set: {len(val_df)}")
+    logger.info(f"Number of data in test set: {len(test_df)}")
+
     return train_df, val_df, test_df
 
 
@@ -130,9 +140,10 @@ def _convert_all_law_to_json(*file_paths):
     result_json = {}
 
     for path in file_paths:
+
         with open(path, 'r') as file:
             data = json.load(file)
-
+        print(f"File: {path} len{len(data)}")
         for item in tqdm(data):
             for article in item['articles']:
                 id_text = f"{item['id']}@{article['id']}"
@@ -140,7 +151,7 @@ def _convert_all_law_to_json(*file_paths):
                 result_json[id_text] = text
 
     json_data = json.dumps(result_json, ensure_ascii=False)
-    output_file = 'all_articles_2023.json'
+    output_file = 'all_articles_2023_f.json'
     with open(output_file, 'w') as file:
         file.write(json_data)
 
@@ -152,8 +163,8 @@ def merge_json_files(*file_paths):
         with open(path, 'r') as file:
             data = json.load(file)
             merged_data.extend(data)
-
-    output_file = 'all_question_train.json'
+            print(f"File: {path} len:{len(data)}")
+    output_file = 'all_question_train_f.json'
     with open(output_file, 'w') as file:
         json.dump(merged_data, file, ensure_ascii=False)
 
@@ -162,9 +173,9 @@ def merge_json_files(*file_paths):
 
 # _convert_all_law_to_json(
 #     "/home/longhd/ALQAC2023/data/raw/V1.1/law.json",
-#     "/home/longhd/ALQAC2023/data/raw/V1.1/additional_data/zalo/zalo_corpus.json",
-#  "/home/longhd/ALQAC2023/data/raw/V1.1/additional_data/ALQAC_2022_training_data/law.json")
+#     "/home/longhd/ALQAC2023/data/fake/question_fake_have_ans.json",
+#     "/home/longhd/ALQAC2023/data/fake/question_fake_no_ans.json")
 
 # merge_json_files("/home/longhd/ALQAC2023/data/raw/V1.1/train.json",
-#                  "/home/longhd/ALQAC2023/data/raw/V1.1/additional_data/zalo/zalo_question.json",
-#                  "/home/longhd/ALQAC2023/data/raw/V1.1/additional_data/ALQAC_2022_training_data/question.json")
+#                  "data/fake/question_fake_have_ans.json",
+#                  "data/fake/question_fake_no_ans_f.json")

@@ -15,7 +15,7 @@ import my_env
 import asyncio
 from tqdm import tqdm
 import my_logger
-import evaluate
+
 
 logger = my_logger.Logger("training", my_env.LOG)
 
@@ -37,7 +37,7 @@ def generate_model_name(original_string, path_to_save=my_env.PATH_TO_SAVE_MODEL)
     clean_time_string = re.sub(r'\W+', '', time_string)
     original_string = original_string.replace("/", "-")
     return os.path.join(path_to_save,
-                        f"{original_string}_{clean_time_string}.pth")
+                        f"F_{original_string}_{clean_time_string}.pth")
 
 
 def train(base_model, input_questions, input_articles, top_bm25, batch_size, max_epochs):

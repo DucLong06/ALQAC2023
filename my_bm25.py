@@ -126,16 +126,19 @@ def test_submit(path_question, path_corpus):
             # tokenized_query = question.split(" ")
             similarity_scores = bm25.get_scores(tokenized_query)
             max_similarity_index = np.argmax(similarity_scores)
+            max_score = similarity_scores[max_similarity_index]
 
         if total_choice:
             max_similarity_indexes = [idx for _, idx in total_choice]
             counter = Counter(max_similarity_indexes)
             most_common = counter.most_common()
-            # if len(most_common) > 1:
-            #     _, max_similarity_index = max(total_choice, key=lambda x: x[0])
-            # else:
-            max_similarity_index = most_common[0][0]
+            if len(most_common) in [2, 4]:
+                _, max_similarity_index = max(total_choice, key=lambda x: x[0])
+            else:
+                max_similarity_index = most_common[0][0]
+            max_score = similarity_scores[max_similarity_index]
 
+        item["bm25_score"] = max_score
         item.setdefault("relevant_articles", []).append(
             convert_ID(id_corpus[max_similarity_index]))
     output_file = "output_bm25.json"
@@ -143,5 +146,43 @@ def test_submit(path_question, path_corpus):
         json.dump(out_put, f, ensure_ascii=False)
 
 
+def load_json_file(file_path):
+    with open(file_path, 'r') as file:
+        data = json.load(file)
+    return data
+
+
+def get_common_items_with_bm25_scores(data_list):
+    common_items = []
+    for item1 in data_list[0]:
+        common = True
+        for data in data_list[1:]:
+            if not any(item1["question_id"] == item2["question_id"] and item1["relevant_articles"] == item2["relevant_articles"] for item2 in data):
+                common = False
+                break
+        if common:
+            common_items.append(item1)
+    return common_items
+
+
+def get_top_80_highest_scores(data):
+    return sorted(data, key=lambda x: x.get('bm25_score', 0), reverse=True)[:40]
+
+
+def gen_80_ques(file_paths, output_file):
+    data_list = [load_json_file(file_path) for file_path in file_paths]
+
+    common_items = get_common_items_with_bm25_scores(data_list)
+    top_80_highest_scores = get_top_80_highest_scores(common_items)
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(top_80_highest_scores, f, ensure_ascii=False)
+
+
 train_bm25()
-test_submit(PATH_TO_PUBLIC_TEST, PATH_TO_CORPUS_ALL)
+file_paths = ["output_bm25.json", "87_bm25.json",
+              "public_test_phara_88.json", "output_87_1.json", "output_84_1.json"]
+output_file = "output_top_80_highest_scores.json"
+gen_80_ques(file_paths, output_file)
+
+# test_submit(PATH_TO_PUBLIC_TEST, PATH_TO_CORPUS_ALL)

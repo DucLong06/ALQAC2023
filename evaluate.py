@@ -18,7 +18,6 @@ from processing_data import word_segment
 from rank_bm25 import BM25Okapi, BM25Plus
 
 import my_logger
-from train import train
 
 logger = my_logger.Logger("evaluate", my_env.LOG)
 
@@ -144,15 +143,16 @@ def main(path_to_model: str, path_to_query: str, path_to_law: str, compare: bool
         data_corpus = json.load(file)
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    model = Model_Paraformer().to(device)
-
+    model = Model_Paraformer("sentence-transformers/paraphrase-xlm-r-multilingual-v1").to(device)
     checkpoint = torch.load(path_to_model, map_location=device)
     model.load_state_dict(checkpoint)
 
     output_data = gen_submit(model, data_question,
                              data_corpus, alpha=alpha, top_n=top_n)
+    # output_data = gen_submit_batch(model, data_question,
+    #                                data_corpus, alpha=alpha, top_n=top_n)
 
-    output_file = "output_train.json"
+    output_file = "output_train_okok.json"
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False)
     logger.info(f"Processing complete. Output saved to {output_file}")
@@ -170,8 +170,8 @@ if __name__ == '__main__':
     parser.add_argument('--input_articles', type=str,
                         default=my_env.PATH_TO_CORPUS_2023)
     parser.add_argument('--compare', type=bool, default=True)
-    parser.add_argument('--alpha', type=float, default=0)
-    parser.add_argument('--top_articles', type=int, default=10)
+    parser.add_argument('--alpha', type=float, default=0.6)
+    parser.add_argument('--top_articles', type=int, default=20)
 
     opts = parser.parse_args()
     main(opts.model, opts.input_questions, opts.input_articles,
