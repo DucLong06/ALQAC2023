@@ -1,7 +1,6 @@
 import argparse
 import asyncio
 from collections import Counter, defaultdict
-import glob
 import json
 import os
 import numpy as np
@@ -9,13 +8,13 @@ import torch
 from tqdm import tqdm
 from eval_metrics import calculate_accuracy, calculate_f2_score, calculate_precision, calculate_recall
 import my_env
-from bot_telegram import send_message, send_telegram_message
+from bot_telegram import send_telegram_message
 
 from model_paraformer import Model_Paraformer
 from post_data import convert_ID
-import pickle
 from processing_data import word_segment
 from rank_bm25 import BM25Okapi, BM25Plus
+from datetime import datetime
 
 import my_logger
 
@@ -73,14 +72,13 @@ def gen_submit(model: Model_Paraformer, data_question, data_corpus, alpha, top_n
             _, id_corpus = max(total_choice, key=lambda x: x[0])
         else:
             id_corpus = most_common[0][0]
-        # _, id_corpus = max(total_choice, key=lambda x: x[0])
         item.setdefault("relevant_articles", []).append(
             convert_ID(id_corpus))
 
     return out_put
 
 
-def compare_json(data, path_to_model, alpha, top_n, path_to_law):
+def compare_json(data, path_to_model, alpha, top_n, path_to_law, base_model):
     correct_count = 0
     total_count = len(data)
     true_positive = 0
@@ -111,7 +109,9 @@ def compare_json(data, path_to_model, alpha, top_n, path_to_law):
     count_dict = defaultdict(int)
     for item in error_data:
         count_dict[item["question_type"]] += 1
-    with open('error_data.json', 'w') as file:
+    error_file = os.path.join(
+        my_env.PATH_TO_SAVE_JSON, f'{base_model}_[ERROR]_{datetime.now().strftime("%d%m%Y")}.json')
+    with open(error_file, 'w') as file:
         json.dump(error_data, file, ensure_ascii=False)
 
     try:
@@ -136,29 +136,33 @@ def main(path_to_model: str, path_to_query: str, path_to_law: str, compare: bool
     with open(path_to_query, 'r') as file:
         data_question = json.load(file)
 
-    # with open(PATH_TO_BIN_CORPUS_ALL, 'rb') as file:
-    #     data_corpus = pickle.load(file)
-
     with open(path_to_law, 'r') as file:
         data_corpus = json.load(file)
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    model = Model_Paraformer("sentence-transformers/paraphrase-xlm-r-multilingual-v1").to(device)
+    base_model = ''
+    for key_model, value_model in my_env.dict_bast_model.items():
+        if key_model in path_to_model:
+            model = Model_Paraformer(value_model).to(device)
+            base_model = key_model
+            break
+
     checkpoint = torch.load(path_to_model, map_location=device)
     model.load_state_dict(checkpoint)
 
     output_data = gen_submit(model, data_question,
                              data_corpus, alpha=alpha, top_n=top_n)
-    # output_data = gen_submit_batch(model, data_question,
-    #                                data_corpus, alpha=alpha, top_n=top_n)
 
-    output_file = "output_train_okok.json"
+    output_file = os.path.join(
+        my_env.PATH_TO_SAVE_JSON, f'submit_{base_model}_[OUT]_{datetime.now().strftime("%d%m%Y%H%M%S")}.json')
+
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(output_data, f, ensure_ascii=False)
     logger.info(f"Processing complete. Output saved to {output_file}")
 
     if compare:
-        compare_json(output_data, path_to_model, alpha, top_n, path_to_law)
+        compare_json(output_data, path_to_model, alpha,
+                     top_n, path_to_law, base_model)
 
 
 if __name__ == '__main__':

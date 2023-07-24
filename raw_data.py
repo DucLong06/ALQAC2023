@@ -59,8 +59,8 @@ def data_training_generator(path_json_question: str, path_json_law: str,  top_bm
 
     with open(path_json_question, 'r') as file:
         data_question = json.load(file)
-    logger.info(f"number question:{len(data_question)}")
-    logger.info(f"number corpus:{len(data_corpus)}")
+    logger.info(f"Number question: {len(data_question)}")
+    logger.info(f"Number corpus: {len(data_corpus)}")
 
     corpus = list(data_corpus.values())
 

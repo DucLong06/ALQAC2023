@@ -29,6 +29,9 @@ PATH_TO_PUBLIC_TEST = os.getenv(
 PATH_TO_SAVE_MODEL = os.getenv(
     "PATH_TO_SAVE_MODEL", os.path.join(root_dir, 'models'))
 
+PATH_TO_SAVE_JSON = os.getenv(
+    "PATH_TO_SAVE_JSON", os.path.join(root_dir, 'data', 'result'))
+
 PATH_TO_MODEL_PARAFORMER = os.getenv(
     "PATH_TO_MODEL_PARAFORMER", os.path.join(root_dir, 'models', 'keepitreal-vietnamese-sbert_20230720174334.pth'))
 
@@ -40,6 +43,14 @@ list_base_model = [
     "VoVanPhuc/sup-SimCSE-VietNamese-phobert-base",
     "sentence-transformers/paraphrase-xlm-r-multilingual-v1",
     "khanhpd2/sbert_phobert_large_cosine_sim"
+    "hmthanh/VietnamLegalText-SBERT"
 ]
+
+dict_bast_model = {
+    "keepitreal": "keepitreal/vietnamese-sbert",
+    "vovanphuc": "VoVanPhuc/sup-SimCSE-VietNamese-phobert-base",
+    "sentence-transformers": "sentence-transformers/paraphrase-xlm-r-multilingual-v1",
+    "khanhpd2": "khanhpd2/sbert_phobert_large_cosine_sim"
+}
 # system
 LOG = os.getenv("LOG", "log/LOG")
