@@ -10,10 +10,10 @@ from eval_metrics import calculate_accuracy, calculate_f2_score, calculate_preci
 import my_env
 from bot_telegram import send_telegram_message
 
-from model_paraformer import Model_Paraformer
-from post_data import convert_ID
-from processing_data import word_segment
-from rank_bm25 import BM25Okapi, BM25Plus
+from src.task1.model_paraformer import Model_Paraformer
+from src.task1.post_data import convert_ID
+from src.task1.processing_data import word_segment
+from src.task1.rank_bm25 import BM25Okapi, BM25Plus
 from datetime import datetime
 
 import my_logger

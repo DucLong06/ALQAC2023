@@ -4,10 +4,10 @@ import re
 import pandas as pd
 import torch
 from tqdm import tqdm
-from model_paraformer import Model_Paraformer
+from src.task1.model_paraformer import Model_Paraformer
 import my_env
-from processing_data import word_segment
-from rank_bm25 import BM25Okapi, BM25Plus
+from src.task1.processing_data import word_segment
+from src.task1.rank_bm25 import BM25Okapi, BM25Plus
 
 import pickle
 import my_logger
@@ -176,6 +176,7 @@ def merge_json_files(*file_paths):
 #     "/home/longhd/ALQAC2023/data/fake/question_fake_have_ans.json",
 #     "/home/longhd/ALQAC2023/data/fake/question_fake_no_ans.json")
 
-# merge_json_files("/home/longhd/ALQAC2023/data/raw/V1.1/train.json",
-#                  "data/fake/question_fake_have_ans.json",
-#                  "data/fake/question_fake_no_ans_f.json")
+merge_json_files("/home/longhd/ALQAC2023/data/raw/V1.1/train.json",
+                 "data/fake/question_fake_have_ans.json",
+                 "data/fake/question_fake_no_ans_f.json",
+                 "data/private_test_GOLD_TASK_1.json")

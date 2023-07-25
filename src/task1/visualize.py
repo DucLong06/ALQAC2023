@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from raw_data import df_create_data_training
+from src.task1.raw_data import df_create_data_training
 import my_env
 
 

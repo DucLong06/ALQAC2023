@@ -1,6 +1,6 @@
 import torch
 from tqdm import tqdm
-from model_paraformer import Model_Paraformer
+from src.task1.model_paraformer import Model_Paraformer
 
 
 def calculate_accuracy(correct_predictions, total_questions) -> float:

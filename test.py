@@ -1,3 +1,6 @@
+import torch
+from torch.optim import Adam
+from torch.utils.data import DataLoader
 import argparse
 import datetime
 import os
@@ -7,14 +10,16 @@ import torch
 from torch.utils.data import DataLoader, random_split
 from bot_telegram import send_message, send_telegram_message
 from early_stopping import EarlyStopping
-from eval_metrics import eval_model
-from law_data import Law_Dataset
-from model_paraformer import Model_Paraformer
-from raw_data import data_training_generator
+from eval_metrics import calculate_accuracy, calculate_f2_score, calculate_precision, calculate_recall, eval_model
+from src.task1.law_data import Law_Dataset
+from src.task1.model_paraformer import Model_Paraformer
+from model_roberta import Model_Roberta
+from src.task1.raw_data import data_training_generator
 import my_env
 import asyncio
 from tqdm import tqdm
 import my_logger
+from src.task1.train import generate_model_name
 
 
 logger = my_logger.Logger("training", my_env.LOG)
@@ -31,16 +36,8 @@ def preprocessor_batch(batch):
     return questions, padded_articles, relevants
 
 
-def generate_model_name(original_string, path_to_save=my_env.PATH_TO_SAVE_MODEL):
-    now = datetime.datetime.now()
-    time_string = now.strftime("%Y%m%d%H%M%S")
-    clean_time_string = re.sub(r'\W+', '', time_string)
-    original_string = original_string.replace("/", "-")
-    return os.path.join(path_to_save,
-                        f"F_{original_string}_{clean_time_string}.pth")
+def train_model(input_questions, input_articles, top_bm25=10, batch_size=1, max_epochs=5):
 
-
-def train(base_model, input_questions, input_articles, top_bm25, batch_size, max_epochs):
     train_df, val_df, test_df = data_training_generator(
         input_questions, input_articles, top_bm25=top_bm25, train_ratio=0.8, val_ratio=0.1)
     train_dataset = Law_Dataset(train_df)
@@ -56,14 +53,12 @@ def train(base_model, input_questions, input_articles, top_bm25, batch_size, max
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-    model = Model_Paraformer(base_model).to(device)
+    model = Model_Roberta()
 
-    optimizer = model.configure_optimizers()
-
+    optimizer = Adam(model.parameters(), lr=3e-5, eps=1e-8)
+    base_model = "roberta"
     path_name_model = generate_model_name(base_model)
     early_stopping = EarlyStopping(patience=3, verbose=True, delta=0.0001)
-
-    # scheduler = lr_scheduler.StepLR(optimizer, step_size=1, gamma=0.1)
 
     for epoch in range(max_epochs):
         logger.info(f"Epoch {epoch+1}/{max_epochs}")
@@ -83,7 +78,6 @@ def train(base_model, input_questions, input_articles, top_bm25, batch_size, max
             # scheduler.step(loss)
             total_loss += loss.item()
 
-            # Validation loss calculation without backpropagation
         model.eval()
         val_total_loss = 0.0
         with torch.no_grad():
@@ -108,12 +102,33 @@ def train(base_model, input_questions, input_articles, top_bm25, batch_size, max
 
     logger.info('Training finished.')
 
-    # Evaluate the model on the test set
-
-    _, test_accuracy, test_precision, test_recall, test_f2_score = eval_model(
-        test_dataloader, model)
-
     try:
+        print("eval model")
+        model.eval()
+        correct = 0
+        total = 0
+        true_positive = 0
+        false_positive = 0
+        false_negative = 0
+        total_loss = 0.0
+        with torch.no_grad():
+            for query, article, label in tqdm(test_dataloader):
+                label = torch.tensor(label).cpu()
+                output = model.predict(query, article)
+                # total_loss += model.criterion(output, label).item()
+
+                total += label.size(0)
+                correct += output.eq(label).sum().item()
+                true_positive += (output.eq(1) & label.eq(1)).sum().item()
+                # true_negative += (output.eq(0) & label.eq(0)).sum().item()
+                false_positive += (output.eq(1) & label.eq(0)).sum().item()
+                false_negative += (output.eq(0) & label.eq(1)).sum().item()
+
+        loss = total_loss/len(test_dataloader)
+        test_accuracy = calculate_accuracy(correct, total)
+        test_precision = calculate_precision(true_positive, false_positive)
+        test_recall = calculate_recall(true_positive, false_negative)
+        test_f2_score = calculate_f2_score(test_precision, test_recall)
         asyncio.run(send_telegram_message(
             model_name=f"[TRAIN]{path_name_model}",
             model_base=f"base_model: {base_model}",
@@ -126,37 +141,16 @@ def train(base_model, input_questions, input_articles, top_bm25, batch_size, max
             f2=test_f2_score,
             note="question + True options",
         ))
+        logger.info(f"Test Accuracy: {test_accuracy:.4f}")
+        logger.info(f"Test Precision: {test_precision:.4f}")
+        logger.info(f"Test Recall: {test_recall:.4f}")
+        logger.info(f"Test F2 Score: {test_f2_score:.4f}")
     except Exception as e:
         logger.error(str(e))
-
-    logger.info(f"Test Accuracy: {test_accuracy:.4f}")
-    logger.info(f"Test Precision: {test_precision:.4f}")
-    logger.info(f"Test Recall: {test_recall:.4f}")
-    logger.info(f"Test F2 Score: {test_f2_score:.4f}")
 
     # Save the model
     torch.save(model.state_dict(), path_name_model)
     logger.info("Done Training !!!")
 
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--base_model', type=str,
-                        default="keepitreal/vietnamese-sbert",
-                        help="Base model to use for Paraformer.")
-    parser.add_argument('--input_questions', type=str,
-                        default=my_env.PATH_TO_PUBLIC_TRAIN,
-                        help="Path to the input questions data file.")
-    parser.add_argument('--input_articles', type=str,
-                        default=my_env.PATH_TO_CORPUS_2023,
-                        help="Path to the input articles data file.")
-    parser.add_argument('--top_bm25', type=int, default=10,
-                        help="Number of top fake BM25 articles to consider.")
-    parser.add_argument('--batch_size', type=int, default=64,
-                        help="Batch size for training.")
-    parser.add_argument('--max_epochs', type=int, default=20,
-                        help="Maximum number of epochs for training.")
-    args = parser.parse_args()
-
-    train(args.base_model, args.input_questions, args.input_articles,
-          args.top_bm25, args.batch_size, args.max_epochs)
+train_model(my_env.PATH_TO_PUBLIC_TRAIN, my_env.PATH_TO_CORPUS_2023)

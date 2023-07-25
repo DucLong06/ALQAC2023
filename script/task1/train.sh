@@ -1,11 +1,11 @@
 #!/bin/bash
 
-MODEL="keepitreal/vietnamese-sbert"
+MODEL="sentence-transformers/paraphrase-xlm-r-multilingual-v1"
 INPUT_QUESTIONS="data/raw/V1.1/train.json"
 INPUT_ARTICLES="data/training/all_articles_2023.json"
-TOP_BM25=20
-BATCH_SIZE=128
-MAX_EPOCHS=5
+TOP_BM25=10
+BATCH_SIZE=1
+MAX_EPOCHS=30
 
 python train.py \
     --base_model "$MODEL" \

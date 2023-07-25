@@ -50,7 +50,8 @@ dict_bast_model = {
     "keepitreal": "keepitreal/vietnamese-sbert",
     "vovanphuc": "VoVanPhuc/sup-SimCSE-VietNamese-phobert-base",
     "sentence-transformers": "sentence-transformers/paraphrase-xlm-r-multilingual-v1",
-    "khanhpd2": "khanhpd2/sbert_phobert_large_cosine_sim"
+    "khanhpd2": "khanhpd2/sbert_phobert_large_cosine_sim",
+    "hmthanh": "hmthanh/VietnamLegalText-SBERT"
 }
 # system
 LOG = os.getenv("LOG", "log/LOG")

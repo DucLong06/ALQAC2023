@@ -1,13 +1,13 @@
 from collections import Counter
 import os
 import pickle
-from rank_bm25 import *
+from src.task1.rank_bm25 import *
 import pandas as pd
 import numpy as np
-from post_data import *
-from raw_data import *
+from src.task1.post_data import *
+from src.task1.raw_data import *
 from eval_metrics import *
-from processing_data import *
+from src.task1.processing_data import *
 from tqdm import tqdm
 import my_env
 

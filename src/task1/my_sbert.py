@@ -1,11 +1,11 @@
 from sentence_transformers import SentenceTransformer, util
 import torch
 import my_env
-from post_data import convert_ID
-from processing_data import word_segment
-from raw_data import df_create_corpus, df_create_questions_test
+from src.task1.post_data import convert_ID
+from src.task1.processing_data import word_segment
+from src.task1.raw_data import df_create_corpus, df_create_questions_test
 from eval_metrics import *
-from rank_bm25 import *
+from src.task1.rank_bm25 import *
 
 embedder = SentenceTransformer('keepitreal/vietnamese-sbert')
 # embedder = SentenceTransformer('vinai/phobert-base')

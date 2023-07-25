@@ -3,7 +3,7 @@
 
 import torch
 import torch.nn as nn
-from my_sparsemax import Sparsemax
+from src.task1.my_sparsemax import Sparsemax
 
 
 class Attention(nn.Module):

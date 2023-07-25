@@ -1,11 +1,11 @@
 #!/bin/bash
 
-MODEL="models/keepitreal-vietnamese-sbert_20230722010521.pth"
-INPUT_QUESTIONS="data/raw/V1.1/train.json"
+MODEL="models/F_sentence-transformers-paraphrase-xlm-r-multilingual-v1_20230724040020.pth"
+INPUT_QUESTIONS="data/private_test.json"
 INPUT_ARTICLES="data/training/all_articles_2023.json"
-COMPARE=True
-ALPHA=0.7
-TOP_ARTICLES=20
+COMPARE="False"
+ALPHA=0.4
+TOP_ARTICLES=60
 
 python evaluate.py \
     --model "$MODEL" \
