@@ -1,6 +1,6 @@
 import torch
 from tqdm import tqdm
-from src.task1.model_paraformer import Model_Paraformer
+from src.retrieval.model_paraformer import Model_Paraformer
 
 
 def calculate_accuracy(correct_predictions, total_questions) -> float:
@@ -33,18 +33,18 @@ def eval_model(data_loader, model: Model_Paraformer):
             label = torch.tensor(label).cpu()
             output = model.predict(query, article)
             # total_loss += model.criterion(output, label).item()
-            
+
             total += label.size(0)
             correct += output.eq(label).sum().item()
             true_positive += (output.eq(1) & label.eq(1)).sum().item()
             # true_negative += (output.eq(0) & label.eq(0)).sum().item()
             false_positive += (output.eq(1) & label.eq(0)).sum().item()
             false_negative += (output.eq(0) & label.eq(1)).sum().item()
-            
+
     loss = total_loss/len(data_loader)
     accuracy = calculate_accuracy(correct, total)
     precision = calculate_precision(true_positive, false_positive)
     recall = calculate_recall(true_positive, false_negative)
     f2_score = calculate_f2_score(precision, recall)
 
-    return loss,accuracy, precision, recall, f2_score
+    return loss, accuracy, precision, recall, f2_score

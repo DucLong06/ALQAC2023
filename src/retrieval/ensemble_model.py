@@ -4,13 +4,13 @@ import os
 from typing import List
 import torch
 from tqdm import tqdm
-from src.task1.evaluate import compare_json, get_top_n_articles
-from src.task1.model_paraformer import Model_Paraformer
-import my_env
+from src.retrieval.evaluate import compare_json, get_top_n_articles
+from src.retrieval.model_paraformer import Model_Paraformer
+import src.utils.my_env as my_env
 import pandas as pd
 
-import my_logger
-from src.task1.post_data import convert_ID
+import src.utils.my_logger as my_logger
+from src.retrieval.post_data import convert_ID
 
 logger = my_logger.Logger("ensemble", my_env.LOG)
 

@@ -1,15 +1,14 @@
 from collections import Counter
 import os
 import pickle
-from src.task1.rank_bm25 import *
+from src.retrieval.rank_bm25 import *
 import pandas as pd
 import numpy as np
-from src.task1.post_data import *
-from src.task1.raw_data import *
-from eval_metrics import *
-from src.task1.processing_data import *
+from src.retrieval.post_data import *
+from src.retrieval.raw_data import *
+from src.utils.eval_metrics import *
+from src.retrieval.processing_data import *
 from tqdm import tqdm
-import my_env
 
 
 PATH_TO_CORPUS_ALL = "/home/longhd/ALQAC2023/data/raw/V1.1/law.json"

@@ -5,16 +5,16 @@ import re
 import pandas as pd
 import torch
 from torch.utils.data import DataLoader, random_split
-from bot_telegram import send_message, send_telegram_message
-from early_stopping import EarlyStopping
-from eval_metrics import eval_model
-from src.task1.law_data import Law_Dataset
-from src.task1.model_paraformer import Model_Paraformer
-from src.task1.raw_data import data_training_generator
-import my_env
+from src.utils.bot_telegram import send_message, send_telegram_message
+from src.utils.early_stopping import EarlyStopping
+from src.utils.eval_metrics import eval_model
+from src.retrieval.law_data import Law_Dataset
+from src.retrieval.model_paraformer import Model_Paraformer
+from src.retrieval.raw_data import data_training_generator
+import src.utils.my_env as my_env
 import asyncio
 from tqdm import tqdm
-import my_logger
+import src.utils.my_logger as my_logger
 
 
 logger = my_logger.Logger("training", my_env.LOG)

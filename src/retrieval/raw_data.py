@@ -4,13 +4,13 @@ import re
 import pandas as pd
 import torch
 from tqdm import tqdm
-from src.task1.model_paraformer import Model_Paraformer
-import my_env
-from src.task1.processing_data import word_segment
-from src.task1.rank_bm25 import BM25Okapi, BM25Plus
+from src.retrieval.model_paraformer import Model_Paraformer
+import src.utils.my_env as my_env
+from src.retrieval.processing_data import word_segment
+from src.retrieval.rank_bm25 import BM25Okapi, BM25Plus
 
 import pickle
-import my_logger
+import src.utils.my_logger as my_logger
 
 
 logger = my_logger.Logger("raw_data", my_env.LOG)

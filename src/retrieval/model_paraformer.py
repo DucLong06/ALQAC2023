@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from sentence_transformers import SentenceTransformer
 import torch.nn.functional as F
-from src.task1.my_attention import Attention
+from src.retrieval.my_attention import Attention
 
 
 class Model_Paraformer(nn.Module):

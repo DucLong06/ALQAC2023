@@ -1,7 +1,7 @@
 import glob
 import os
-import my_env
-import src.task1.evaluate as evaluate
+import src.utils.my_env as my_env
+import src.retrieval.evaluate as evaluate
 import concurrent.futures
 
 

@@ -6,17 +6,17 @@ import os
 import numpy as np
 import torch
 from tqdm import tqdm
-from eval_metrics import calculate_accuracy, calculate_f2_score, calculate_precision, calculate_recall
-import my_env
-from bot_telegram import send_telegram_message
+from src.utils.eval_metrics import calculate_accuracy, calculate_f2_score, calculate_precision, calculate_recall
+import src.utils.my_env as my_env
+from src.utils.bot_telegram import send_telegram_message
 
-from src.task1.model_paraformer import Model_Paraformer
-from src.task1.post_data import convert_ID
-from src.task1.processing_data import word_segment
-from src.task1.rank_bm25 import BM25Okapi, BM25Plus
+from src.retrieval.model_paraformer import Model_Paraformer
+from src.retrieval.post_data import convert_ID
+from src.retrieval.processing_data import word_segment
+from src.retrieval.rank_bm25 import BM25Okapi, BM25Plus
 from datetime import datetime
 
-import my_logger
+import src.utils.my_logger as my_logger
 
 logger = my_logger.Logger("evaluate", my_env.LOG)
 

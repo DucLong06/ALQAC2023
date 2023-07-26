@@ -2458,3 +2458,177 @@ Invalid username or password.[0m
 [2023-07-25 15:51:13,605] - INFO - [92mTrain Loss: 0.0483[0m
 [2023-07-25 15:51:13,606] - INFO - [92m================================================[0m
 [2023-07-25 15:51:13,606] - INFO - [92mEpoch 6/20[0m
+[2023-07-25 16:10:07,509] - INFO - [92mValidation Loss: 0.1498[0m
+[2023-07-25 16:10:07,509] - INFO - [92mTrain Loss: 0.0407[0m
+[2023-07-25 16:10:07,509] - INFO - [92m================================================[0m
+[2023-07-25 16:10:07,509] - INFO - [92mEpoch 7/20[0m
+[2023-07-25 16:28:59,822] - INFO - [92mValidation Loss: 0.1658[0m
+[2023-07-25 16:28:59,822] - INFO - [92mTrain Loss: 0.0366[0m
+[2023-07-25 16:28:59,822] - INFO - [92m================================================[0m
+[2023-07-25 16:28:59,822] - INFO - [92mEpoch 8/20[0m
+[2023-07-25 16:47:52,555] - INFO - [92mValidation Loss: 0.1449[0m
+[2023-07-25 16:47:52,555] - INFO - [92mTrain Loss: 0.0314[0m
+[2023-07-25 16:47:52,555] - INFO - [92m================================================[0m
+[2023-07-25 16:47:52,555] - INFO - [92mEpoch 9/20[0m
+[2023-07-25 17:06:46,016] - INFO - [92mValidation Loss: 0.1466[0m
+[2023-07-25 17:06:46,016] - INFO - [92mTrain Loss: 0.0276[0m
+[2023-07-25 17:06:46,016] - INFO - [92m================================================[0m
+[2023-07-25 17:06:46,016] - INFO - [92mEpoch 10/20[0m
+[2023-07-25 17:25:33,474] - INFO - [92mValidation Loss: 0.1520[0m
+[2023-07-25 17:25:33,475] - INFO - [92mTrain Loss: 0.0261[0m
+[2023-07-25 17:25:33,475] - INFO - [92m================================================[0m
+[2023-07-25 17:25:33,475] - INFO - [92mEpoch 11/20[0m
+[2023-07-25 17:44:25,205] - INFO - [92mValidation Loss: 0.1554[0m
+[2023-07-25 17:44:25,205] - INFO - [92mTrain Loss: 0.0242[0m
+[2023-07-25 17:44:25,205] - INFO - [92mEarly stopping[0m
+[2023-07-25 17:44:25,206] - INFO - [92mTraining finished.[0m
+[2023-07-25 17:46:31,874] - INFO - [92mTest Accuracy: 0.9784[0m
+[2023-07-25 17:46:31,875] - INFO - [92mTest Precision: 0.9794[0m
+[2023-07-25 17:46:31,875] - INFO - [92mTest Recall: 0.9553[0m
+[2023-07-25 17:46:31,875] - INFO - [92mTest F2 Score: 0.9600[0m
+[2023-07-25 17:46:32,317] - INFO - [92mDone Training !!![0m
+[2023-07-25 17:46:32,360] - INFO - [92mDone: keepitreal/vietnamese-sbert[0m
+[2023-07-25 17:46:32,360] - INFO - [92mTraining base model: VoVanPhuc/sup-SimCSE-VietNamese-phobert-base[0m
+[2023-07-25 17:46:32,360] - INFO - [92mInput Questions (Train): data/training/all_question_train_f.json[0m
+[2023-07-25 17:46:32,360] - INFO - [92mInput Articles (Train): data/training/all_articles_2023.json[0m
+[2023-07-25 17:46:32,360] - INFO - [92mTop Fake BM25: 20[0m
+[2023-07-25 17:46:32,360] - INFO - [92mBatch Size: 32[0m
+[2023-07-25 17:46:32,360] - INFO - [92mMax Epochs: 20[0m
+[2023-07-25 17:46:32,374] - INFO - [92mNumber question: 1740[0m
+[2023-07-25 17:46:32,374] - INFO - [92mNumber corpus: 2249[0m
+[2023-07-25 17:46:41,694] - INFO - [92mNumber of data in train set: 41429[0m
+[2023-07-25 17:46:41,694] - INFO - [92mNumber of data in val set: 5157[0m
+[2023-07-25 17:46:41,694] - INFO - [92mNumber of data in test set: 5201[0m
+[2023-07-25 17:46:44,869] - INFO - [92mEpoch 1/20[0m
+[2023-07-25 18:05:39,657] - INFO - [92mValidation Loss: 0.1246[0m
+[2023-07-25 18:05:39,657] - INFO - [92mTrain Loss: 0.1799[0m
+[2023-07-25 18:05:39,658] - INFO - [92m================================================[0m
+[2023-07-25 18:05:39,658] - INFO - [92mEpoch 2/20[0m
+[2023-07-25 18:24:34,305] - INFO - [92mValidation Loss: 0.1007[0m
+[2023-07-25 18:24:34,306] - INFO - [92mTrain Loss: 0.1051[0m
+[2023-07-25 18:24:34,306] - INFO - [92m================================================[0m
+[2023-07-25 18:24:34,306] - INFO - [92mEpoch 3/20[0m
+[2023-07-25 18:43:32,156] - INFO - [92mValidation Loss: 0.0922[0m
+[2023-07-25 18:43:32,157] - INFO - [92mTrain Loss: 0.0822[0m
+[2023-07-25 18:43:32,157] - INFO - [92m================================================[0m
+[2023-07-25 18:43:32,157] - INFO - [92mEpoch 4/20[0m
+[2023-07-25 19:02:30,786] - INFO - [92mValidation Loss: 0.0824[0m
+[2023-07-25 19:02:30,786] - INFO - [92mTrain Loss: 0.0658[0m
+[2023-07-25 19:02:30,787] - INFO - [92m================================================[0m
+[2023-07-25 19:02:30,787] - INFO - [92mEpoch 5/20[0m
+[2023-07-25 19:21:32,141] - INFO - [92mValidation Loss: 0.0728[0m
+[2023-07-25 19:21:32,141] - INFO - [92mTrain Loss: 0.0568[0m
+[2023-07-25 19:21:32,141] - INFO - [92m================================================[0m
+[2023-07-25 19:21:32,141] - INFO - [92mEpoch 6/20[0m
+[2023-07-25 19:40:33,556] - INFO - [92mValidation Loss: 0.0648[0m
+[2023-07-25 19:40:33,556] - INFO - [92mTrain Loss: 0.0514[0m
+[2023-07-25 19:40:33,556] - INFO - [92m================================================[0m
+[2023-07-25 19:40:33,556] - INFO - [92mEpoch 7/20[0m
+[2023-07-25 19:59:39,310] - INFO - [92mValidation Loss: 0.0634[0m
+[2023-07-25 19:59:39,310] - INFO - [92mTrain Loss: 0.0455[0m
+[2023-07-25 19:59:39,310] - INFO - [92m================================================[0m
+[2023-07-25 19:59:39,310] - INFO - [92mEpoch 8/20[0m
+[2023-07-25 20:18:41,585] - INFO - [92mValidation Loss: 0.0698[0m
+[2023-07-25 20:18:41,585] - INFO - [92mTrain Loss: 0.0413[0m
+[2023-07-25 20:18:41,585] - INFO - [92m================================================[0m
+[2023-07-25 20:18:41,585] - INFO - [92mEpoch 9/20[0m
+[2023-07-25 20:37:40,748] - INFO - [92mValidation Loss: 0.0806[0m
+[2023-07-25 20:37:40,748] - INFO - [92mTrain Loss: 0.0367[0m
+[2023-07-25 20:37:40,748] - INFO - [92m================================================[0m
+[2023-07-25 20:37:40,748] - INFO - [92mEpoch 10/20[0m
+[2023-07-25 20:56:36,682] - INFO - [92mValidation Loss: 0.0641[0m
+[2023-07-25 20:56:36,682] - INFO - [92mTrain Loss: 0.0342[0m
+[2023-07-25 20:56:36,682] - INFO - [92mEarly stopping[0m
+[2023-07-25 20:56:36,682] - INFO - [92mTraining finished.[0m
+[2023-07-25 20:58:42,185] - INFO - [92mTest Accuracy: 0.9619[0m
+[2023-07-25 20:58:42,185] - INFO - [92mTest Precision: 0.9439[0m
+[2023-07-25 20:58:42,185] - INFO - [92mTest Recall: 0.9429[0m
+[2023-07-25 20:58:42,185] - INFO - [92mTest F2 Score: 0.9431[0m
+[2023-07-25 20:58:42,624] - INFO - [92mDone Training !!![0m
+[2023-07-25 20:58:42,672] - INFO - [92mDone: VoVanPhuc/sup-SimCSE-VietNamese-phobert-base[0m
+[2023-07-25 20:58:42,672] - INFO - [92mTraining base model: sentence-transformers/paraphrase-xlm-r-multilingual-v1[0m
+[2023-07-25 20:58:42,672] - INFO - [92mInput Questions (Train): data/training/all_question_train_f.json[0m
+[2023-07-25 20:58:42,672] - INFO - [92mInput Articles (Train): data/training/all_articles_2023.json[0m
+[2023-07-25 20:58:42,673] - INFO - [92mTop Fake BM25: 20[0m
+[2023-07-25 20:58:42,673] - INFO - [92mBatch Size: 32[0m
+[2023-07-25 20:58:42,673] - INFO - [92mMax Epochs: 20[0m
+[2023-07-25 20:58:42,696] - INFO - [92mNumber question: 1740[0m
+[2023-07-25 20:58:42,697] - INFO - [92mNumber corpus: 2249[0m
+[2023-07-25 20:58:52,010] - INFO - [92mNumber of data in train set: 41311[0m
+[2023-07-25 20:58:52,010] - INFO - [92mNumber of data in val set: 5161[0m
+[2023-07-25 20:58:52,011] - INFO - [92mNumber of data in test set: 5315[0m
+[2023-07-25 20:58:54,153] - INFO - [92mEpoch 1/20[0m
+[2023-07-25 21:16:57,999] - INFO - [92mValidation Loss: 0.1305[0m
+[2023-07-25 21:16:57,999] - INFO - [92mTrain Loss: 0.1670[0m
+[2023-07-25 21:16:57,999] - INFO - [92m================================================[0m
+[2023-07-25 21:16:57,999] - INFO - [92mEpoch 2/20[0m
+[2023-07-25 21:35:07,346] - INFO - [92mValidation Loss: 0.1131[0m
+[2023-07-25 21:35:07,347] - INFO - [92mTrain Loss: 0.0738[0m
+[2023-07-25 21:35:07,347] - INFO - [92m================================================[0m
+[2023-07-25 21:35:07,347] - INFO - [92mEpoch 3/20[0m
+[2023-07-25 21:53:14,837] - INFO - [92mValidation Loss: 0.1128[0m
+[2023-07-25 21:53:14,837] - INFO - [92mTrain Loss: 0.0518[0m
+[2023-07-25 21:53:14,838] - INFO - [92m================================================[0m
+[2023-07-25 21:53:14,838] - INFO - [92mEpoch 4/20[0m
+[2023-07-25 22:11:23,806] - INFO - [92mValidation Loss: 0.1171[0m
+[2023-07-25 22:11:23,807] - INFO - [92mTrain Loss: 0.0395[0m
+[2023-07-25 22:11:23,807] - INFO - [92m================================================[0m
+[2023-07-25 22:11:23,807] - INFO - [92mEpoch 5/20[0m
+[2023-07-25 22:29:27,570] - INFO - [92mValidation Loss: 0.1271[0m
+[2023-07-25 22:29:27,570] - INFO - [92mTrain Loss: 0.0314[0m
+[2023-07-25 22:29:27,570] - INFO - [92m================================================[0m
+[2023-07-25 22:29:27,571] - INFO - [92mEpoch 6/20[0m
+[2023-07-25 22:47:36,285] - INFO - [92mValidation Loss: 0.1481[0m
+[2023-07-25 22:47:36,286] - INFO - [92mTrain Loss: 0.0270[0m
+[2023-07-25 22:47:36,286] - INFO - [92mEarly stopping[0m
+[2023-07-25 22:47:36,286] - INFO - [92mTraining finished.[0m
+[2023-07-25 22:49:44,536] - INFO - [92mTest Accuracy: 0.9684[0m
+[2023-07-25 22:49:44,536] - INFO - [92mTest Precision: 0.9664[0m
+[2023-07-25 22:49:44,536] - INFO - [92mTest Recall: 0.9382[0m
+[2023-07-25 22:49:44,536] - INFO - [92mTest F2 Score: 0.9437[0m
+[2023-07-25 22:49:45,480] - INFO - [92mDone Training !!![0m
+[2023-07-25 22:49:45,674] - INFO - [92mDone: sentence-transformers/paraphrase-xlm-r-multilingual-v1[0m
+[2023-07-25 22:49:45,675] - INFO - [92mTraining base model: khanhpd2/sbert_phobert_large_cosine_simhmthanh/VietnamLegalText-SBERT[0m
+[2023-07-25 22:49:45,675] - INFO - [92mInput Questions (Train): data/training/all_question_train_f.json[0m
+[2023-07-25 22:49:45,675] - INFO - [92mInput Articles (Train): data/training/all_articles_2023.json[0m
+[2023-07-25 22:49:45,675] - INFO - [92mTop Fake BM25: 20[0m
+[2023-07-25 22:49:45,675] - INFO - [92mBatch Size: 32[0m
+[2023-07-25 22:49:45,675] - INFO - [92mMax Epochs: 20[0m
+[2023-07-25 22:49:45,690] - INFO - [92mNumber question: 1740[0m
+[2023-07-25 22:49:45,690] - INFO - [92mNumber corpus: 2249[0m
+[2023-07-25 22:49:55,213] - INFO - [92mNumber of data in train set: 41587[0m
+[2023-07-25 22:49:55,214] - INFO - [92mNumber of data in val set: 5036[0m
+[2023-07-25 22:49:55,214] - INFO - [92mNumber of data in test set: 5164[0m
+[2023-07-25 22:49:55,217] - ERROR - [91mkhanhpd2/sbert_phobert_large_cosine_simhmthanh/VietnamLegalText-SBERT: Path khanhpd2/sbert_phobert_large_cosine_simhmthanh/VietnamLegalText-SBERT not found[0m
+[2023-07-26 11:15:17,451] - INFO - [92mTraining base model: khanhpd2/sbert_phobert_large_cosine_sim[0m
+[2023-07-26 11:15:17,451] - INFO - [92mInput Questions (Train): data/training/all_question_train_f.json[0m
+[2023-07-26 11:15:17,451] - INFO - [92mInput Articles (Train): data/training/all_articles_2023.json[0m
+[2023-07-26 11:15:17,451] - INFO - [92mTop Fake BM25: 20[0m
+[2023-07-26 11:15:17,451] - INFO - [92mBatch Size: 32[0m
+[2023-07-26 11:15:17,451] - INFO - [92mMax Epochs: 20[0m
+[2023-07-26 11:15:17,468] - INFO - [92mNumber question: 1740[0m
+[2023-07-26 11:15:17,468] - INFO - [92mNumber corpus: 2249[0m
+[2023-07-26 11:15:26,650] - INFO - [92mNumber of data in train set: 41456[0m
+[2023-07-26 11:15:26,650] - INFO - [92mNumber of data in val set: 5074[0m
+[2023-07-26 11:15:26,650] - INFO - [92mNumber of data in test set: 5257[0m
+[2023-07-26 11:15:28,573] - INFO - [92mEpoch 1/20[0m
+[2023-07-26 11:18:54,161] - INFO - [92mTraining base model: khanhpd2/sbert_phobert_large_cosine_sim[0m
+[2023-07-26 11:18:54,161] - INFO - [92mInput Questions (Train): data/training/all_question_train_f.json[0m
+[2023-07-26 11:18:54,161] - INFO - [92mInput Articles (Train): data/training/all_articles_2023.json[0m
+[2023-07-26 11:18:54,161] - INFO - [92mTop Fake BM25: 20[0m
+[2023-07-26 11:18:54,162] - INFO - [92mBatch Size: 32[0m
+[2023-07-26 11:18:54,162] - INFO - [92mMax Epochs: 20[0m
+[2023-07-26 11:18:54,178] - INFO - [92mNumber question: 1740[0m
+[2023-07-26 11:18:54,179] - INFO - [92mNumber corpus: 2249[0m
+[2023-07-26 11:19:09,878] - INFO - [92mTraining base model: khanhpd2/sbert_phobert_large_cosine_sim[0m
+[2023-07-26 11:19:09,878] - INFO - [92mInput Questions (Train): data/training/all_question_train_f.json[0m
+[2023-07-26 11:19:09,878] - INFO - [92mInput Articles (Train): data/training/all_articles_2023.json[0m
+[2023-07-26 11:19:09,878] - INFO - [92mTop Fake BM25: 20[0m
+[2023-07-26 11:19:09,878] - INFO - [92mBatch Size: 32[0m
+[2023-07-26 11:19:09,878] - INFO - [92mMax Epochs: 20[0m
+[2023-07-26 11:19:09,895] - INFO - [92mNumber question: 1740[0m
+[2023-07-26 11:19:09,895] - INFO - [92mNumber corpus: 2249[0m
+[2023-07-26 11:19:19,160] - INFO - [92mNumber of data in train set: 41466[0m
+[2023-07-26 11:19:19,161] - INFO - [92mNumber of data in val set: 5166[0m
+[2023-07-26 11:19:19,161] - INFO - [92mNumber of data in test set: 5155[0m
+[2023-07-26 11:19:21,069] - INFO - [92mEpoch 1/20[0m

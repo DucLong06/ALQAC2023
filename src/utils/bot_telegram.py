@@ -1,7 +1,7 @@
 import asyncio
 import datetime
 from telegram import Bot
-import my_env
+import src.utils.my_env as my_env
 import html
 
 

@@ -3,7 +3,7 @@
 
 import torch
 import torch.nn as nn
-from src.task1.my_sparsemax import Sparsemax
+from src.retrieval.my_sparsemax import Sparsemax
 
 
 class Attention(nn.Module):
@@ -88,7 +88,6 @@ class Attention(nn.Module):
         # (batch_size, output_len, query_len) * (batch_size, query_len, dimensions) ->
         # (batch_size, output_len, dimensions)
         mix = torch.bmm(attention_weights, context)
-
 
         # concat -> (batch_size * output_len, 2*dimensions)
         combined = torch.cat((mix, query), dim=2)

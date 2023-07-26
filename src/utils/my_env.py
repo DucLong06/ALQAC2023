@@ -39,10 +39,7 @@ ID_TELEGRAM = os.getenv("ID_TELEGRAM")
 TOKEN_BOT = os.getenv("TOKEN_BOT")
 
 list_base_model = [
-    "keepitreal/vietnamese-sbert",
-    "VoVanPhuc/sup-SimCSE-VietNamese-phobert-base",
-    "sentence-transformers/paraphrase-xlm-r-multilingual-v1",
-    "khanhpd2/sbert_phobert_large_cosine_sim"
+    "khanhpd2/sbert_phobert_large_cosine_sim",
     "hmthanh/VietnamLegalText-SBERT"
 ]
 
