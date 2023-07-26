@@ -11,7 +11,7 @@ from src.utils.eval_metrics import eval_model
 from src.retrieval.law_data import Law_Dataset
 from src.retrieval.model_paraformer import Model_Paraformer
 from src.retrieval.raw_data import data_training_generator
-import src.utils.my_env as my_env
+import my_env
 import asyncio
 from tqdm import tqdm
 import src.utils.my_logger as my_logger

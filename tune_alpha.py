@@ -1,6 +1,6 @@
 import glob
 import os
-import src.utils.my_env as my_env
+import my_env as my_env
 import src.retrieval.evaluate as evaluate
 import concurrent.futures
 

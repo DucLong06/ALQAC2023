@@ -21,10 +21,10 @@ PATH_TO_QUESTION_F = os.getenv(
     "PATH_TO_QUESTION_F", os.path.join('data', 'training', 'all_question_train_f.json'))
 
 PATH_TO_PUBLIC_TRAIN = os.getenv(
-    "PATH_TO_PUBLIC_TRAIN",  os.path.join(root_dir, 'data', 'raw', 'V1.1', 'train.json'))
+    "PATH_TO_PUBLIC_TRAIN",  os.path.join(root_dir, 'data', 'raw', 'train.json'))
 
 PATH_TO_PUBLIC_TEST = os.getenv(
-    "PATH_TO_PUBLIC_TEST",  os.path.join(root_dir, 'data', 'raw', 'V1.1', 'public_test.json'))
+    "PATH_TO_PUBLIC_TEST",  os.path.join(root_dir, 'data', 'raw', 'public_test.json'))
 
 PATH_TO_SAVE_MODEL = os.getenv(
     "PATH_TO_SAVE_MODEL", os.path.join(root_dir, 'models'))
@@ -39,6 +39,9 @@ ID_TELEGRAM = os.getenv("ID_TELEGRAM")
 TOKEN_BOT = os.getenv("TOKEN_BOT")
 
 list_base_model = [
+    "keepitreal/vietnamese-sbert",
+    "VoVanPhuc/sup-SimCSE-VietNamese-phobert-base",
+    "sentence-transformers/paraphrase-xlm-r-multilingual-v1",
     "khanhpd2/sbert_phobert_large_cosine_sim",
     "hmthanh/VietnamLegalText-SBERT"
 ]
@@ -51,4 +54,4 @@ dict_bast_model = {
     "hmthanh": "hmthanh/VietnamLegalText-SBERT"
 }
 # system
-LOG = os.getenv("LOG", "log/LOG")
+LOG = os.getenv("LOG", "logs/LOG")

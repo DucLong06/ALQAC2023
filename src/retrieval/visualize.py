@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from src.retrieval.raw_data import df_create_data_training
-import src.utils.my_env as my_env
+import my_env as my_env
 
 
 def visualize_data(df_train, df_test):

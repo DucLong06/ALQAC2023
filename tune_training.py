@@ -1,7 +1,7 @@
 import asyncio
 import os
 import concurrent.futures
-import src.utils.my_env as my_env
+import my_env as my_env
 import src.utils.my_logger as my_logger
 import src.retrieval.train as train
 from src.utils.bot_telegram import send_message

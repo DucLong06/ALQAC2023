@@ -4,7 +4,7 @@ from transformers import GPT2Tokenizer, GPT2LMHeadModel
 tokenizer = GPT2Tokenizer.from_pretrained("wanderer2k1/gpt2-vietnamese-laws-qa")
 model = GPT2LMHeadModel.from_pretrained("wanderer2k1/gpt2-vietnamese-laws-qa")
 
-text = "Theo Luật Du Lịch, hợp đồng lữ hành không cần phải được lập thành văn bản. Đúng hay sai?"
+text = "Khi thay đổi người giám hộ thì trong thời hạn bao nhiêu ngày, kể từ ngày có người giám hộ mới, người đã thực hiện việc giám hộ phải chuyển giao giám hộ cho người thay thế mình? là 15 ngày đúng hay sai"
 input_ids = tokenizer.encode(text, return_tensors='pt')
 max_length = 100
 

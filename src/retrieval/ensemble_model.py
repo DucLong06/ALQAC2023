@@ -6,7 +6,7 @@ import torch
 from tqdm import tqdm
 from src.retrieval.evaluate import compare_json, get_top_n_articles
 from src.retrieval.model_paraformer import Model_Paraformer
-import src.utils.my_env as my_env
+import my_env as my_env
 import pandas as pd
 
 import src.utils.my_logger as my_logger

@@ -1,7 +1,7 @@
 from collections import Counter
 import os
 import pickle
-from src.retrieval.rank_bm25 import *
+from src.utils.rank_bm25 import *
 import pandas as pd
 import numpy as np
 from src.retrieval.post_data import *
