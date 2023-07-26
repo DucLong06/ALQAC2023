@@ -1,0 +1,1662 @@
+[
+    {
+        "question_id": "DS-1",
+        "question_type": "Đúng/Sai",
+        "text": "Người nghiện ma túy từ đủ 18 tuổi trở lên bị áp dụng biện pháp xử lý hành chính đưa vào cơ sở cai nghiện bắt buộc theo quy định của Luật Xử lý vi phạm hành chính khi bị phát hiện sử dụng chất ma túy một cách trái phép trong thời gian cai nghiện ma túy tự nguyện, đúng hay sai?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "32"
+            }
+        ],
+        "answer": "Đúng"
+    },
+    {
+        "question_id": "TN-7",
+        "question_type": "Trắc nghiệm",
+        "text": "Nguồn tài chính nào sau đây được dùng cho phòng, chống ma túy?",
+        "choices": {
+            "A": "Ngân sách nhà nước",
+            "B": "Nguồn tài trợ, viện trợ, đầu tư, tặng cho của tổ chức, cá nhân trong nước và ngoài nước",
+            "C": "Chi trả của gia đình, người nghiện ma túy",
+            "D": "Cả A, B, C đều đúng"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "4"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-8",
+        "question_type": "Trắc nghiệm",
+        "text": "Chất ma túy là gì?",
+        "choices": {
+            "A": "Chất kích thích hoặc ức chế thần kinh, dễ gây nghiện đối với người sử dụng.",
+            "B": "Chất gây ảo giác, nếu sử dụng nhiều lần có thể dẫn tới tình trạng nghiện đối với người sử dụng.",
+            "C": "Chất gây nghiện, chất hướng thần được quy định trong danh mục chất ma túy do Chính phủ ban hành.",
+            "D": "Tất cả đều đúng."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "2"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-9",
+        "question_type": "Trắc nghiệm",
+        "text": "Các cây có chứa chất ma túy bao gồm?",
+        "choices": {
+            "A": "Cây thuốc phiện",
+            "B": "Cây côca",
+            "C": "Cây cần sa",
+            "D": "Tất cả đều đúng"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "2"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-10",
+        "question_type": "Trắc nghiệm",
+        "text": "Tệ nạn ma túy là gì?",
+        "choices": {
+            "A": "Việc sử dụng trái phép chất ma túy, nghiện ma túy và các hành vi vi phạm pháp luật về ma túy mà chưa đến mức hoặc không bị truy cứu trách nhiệm hình sự.",
+            "B": "Quá trình thực hiện các hoạt động hỗ trợ về y tế, tâm lý, xã hội, giúp người nghiện ma túy dừng sử dụng chất ma túy, thuốc gây nghiện, thuốc hướng thần.",
+            "C": "Cơ sở được thành lập để thực hiện đầy đủ quy trình cai nghiện theo quy định của Luật này, bao gồm cơ sở cai nghiện ma túy công lập và cơ sở cai nghiện ma túy tự nguyện.",
+            "D": "Tất cả đều sai."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "2"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-11",
+        "question_type": "Trắc nghiệm",
+        "text": "Phòng, chống ma túy là gì?",
+        "choices": {
+            "A": "Phòng ngừa, ngăn chặn, đấu tranh chống tội phạm và tệ nạn ma túy; kiểm soát các hoạt động hợp pháp liên quan đến ma túy.",
+            "B": "Cơ sở được thành lập để thực hiện đầy đủ quy trình cai nghiện theo quy định của Luật này, bao gồm cơ sở cai nghiện ma túy công lập và cơ sở cai nghiện ma túy tự nguyện.",
+            "C": "Quá trình thực hiện các hoạt động hỗ trợ về y tế, tâm lý, xã hội, giúp người nghiện ma túy dừng sử dụng chất ma túy, thuốc gây nghiện, thuốc hướng thần.",
+            "D": "Tất cả đều đúng."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "2"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-12",
+        "question_type": "Trắc nghiệm",
+        "text": "Người sử dụng trái phép chất ma túy là ai?",
+        "choices": {
+            "A": "Người có hành vi sử dụng chất ma túy mà không được sự cho phép của người hoặc cơ quan chuyên môn có thẩm quyền và xét nghiệm chất ma túy trong cơ thể có kết quả dương tính.",
+            "B": "Người sử dụng trái phép chất ma túy mà không được sự cho phép của người hoặc cơ quan chuyên môn có thẩm quyền và xét nghiệm chất ma túy trong cơ thể có kết quả dương tính.",
+            "C": "Người có hành vi sử dụng chất ma túy, thuốc gây nghiện, thuốc hướng thần và bị lệ thuộc vào các chất này.",
+            "D": "Người sử dụng trái phép chất ma túy, thuốc gây nghiện, thuốc hướng thần và bị lệ thuộc vào các chất này."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "2"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-13",
+        "question_type": "Trắc nghiệm",
+        "text": "Cai nghiện ma túy là gì?",
+        "choices": {
+            "A": "Việc cho phép, theo dõi, kiểm tra, giám sát các hoạt động hợp pháp liên quan đến ma túy và phòng ngừa, ngăn chặn việc lợi dụng các hoạt động đó vào mục đích khác.",
+            "B": "Quá trình thực hiện các hoạt động hỗ trợ về y tế, tâm lý, xã hội, giúp người nghiện ma túy dừng sử dụng chất ma túy, thuốc gây nghiện, thuốc hướng thần, phục hồi thể chất, tinh thần, nâng cao nhận thức, thay đổi hành vi để chấm dứt việc sử dụng trái phép các chất này.",
+            "C": "Cơ sở được thành lập để thực hiện đầy đủ quy trình cai nghiện theo quy định của Luật này, bao gồm cơ sở cai nghiện ma túy công lập và cơ sở cai nghiện ma túy tự nguyện.",
+            "D": "Quá trình thực hiện các hoạt động hỗ trợ về y tế, tâm lý, xã hội, giúp người nghiện ma túy dừng sử dụng chất ma túy, thuốc gây nghiện, thuốc hướng thần."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "2"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-14",
+        "question_type": "Trắc nghiệm",
+        "text": "Cơ sở cai nghiện ma túy là gì?",
+        "choices": {
+            "A": "Cơ sở được thành lập để thực hiện đầy đủ quy trình cai nghiện theo quy định của Luật này, bao gồm cơ sở cai nghiện ma túy công lập và cơ sở cai nghiện ma túy tự nguyện.",
+            "B": "Cơ sở được thành lập để thực hiện đầy đủ quy trình cai nghiện theo quy định của Luật này, chỉ bao gồm cơ sở cai nghiện ma túy tự nguyện.",
+            "C": "Cơ sở được thành lập để thực hiện đầy đủ quy trình cai nghiện theo quy định của Luật này, chỉ bao gồm cơ sở cai nghiện ma túy công lập.",
+            "D": "Tất cả đều sai."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "2"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-15",
+        "question_type": "Trắc nghiệm",
+        "text": "Chính sách của Nhà nước về phòng, chống ma túy bao gồm điều gì?",
+        "choices": {
+            "A": "Thực hiện đồng bộ các biện pháp phòng, chống ma túy; kết hợp với phòng, chống HIV/AIDS và các tệ nạn xã hội khác.",
+            "B": "Tăng cường hoạt động tuyên truyền, giáo dục về công tác phòng, chống ma túy; khuyến khích tổ chức, cá nhân tham gia tuyên truyền, giáo dục phòng, chống ma túy.",
+            "C": "Ưu tiên nguồn lực phòng, chống ma túy cho vùng đồng bào dân tộc thiểu số và miền núi, vùng sâu, vùng xa, hải đảo, khu vực biên giới và địa bàn phức tạp về ma túy.",
+            "D": "Tất cả đều đúng."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "3"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-16",
+        "question_type": "Trắc nghiệm",
+        "text": "Ngân sách nhà nước được dùng cho mục tiêu phòng, chống ma túy, đúng hay sai?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "4"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-17",
+        "question_type": "Trắc nghiệm",
+        "text": "Nguồn tài chính cho phòng, chống ma túy bao gồm?",
+        "choices": {
+            "A": "Ngân sách nhà nước.",
+            "B": "Nguồn tài trợ, viện trợ, đầu tư, tặng cho của tổ chức, cá nhân trong nước và ngoài nước.",
+            "C": "Chi trả của gia đình, người nghiện ma túy.",
+            "D": "Các nguồn tài chính hợp pháp khác."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "4"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-18",
+        "question_type": "Trắc nghiệm",
+        "text": "Khen thưởng cá nhân, tổ chức, cơ quan có thành tích trong phòng, chống ma túy được miễn, giảm tiền thuê đất, thuế thu nhập doanh nghiệp theo quy định của pháp luật, đúng hay sai?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "3"
+            }
+        ],
+        "answer": "Đúng"
+    },
+    {
+        "question_id": "TN-19",
+        "question_type": "Trắc nghiệm",
+        "text": "Nguồn tài trợ, viện trợ, đầu tư, tặng cho của tổ chức, cá nhân trong nước và ngoài nước có thể được sử dụng cho phòng, chống ma túy, đúng hay sai?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "4"
+            }
+        ],
+        "answer": "Đúng"
+    },
+    {
+        "question_id": "TN-20",
+        "question_type": "Trắc nghiệm",
+        "text": "Thực hiện đồng bộ các biện pháp phòng, chống ma túy; kết hợp với phòng, chống HIV/AIDS và các tệ nạn xã hội khác là mục tiêu của chính sách của Nhà nước về phòng, chống ma túy, đúng hay sai?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "3"
+            }
+        ],
+        "answer": "Đúng"
+    },
+    {
+        "question_id": "DS-2",
+        "question_type": "Đúng/Sai",
+        "text": "Trồng cây có chứa chất ma túy là hành vi bị nghiêm cấm theo luật pháp về phòng, chống ma túy, đúng hay sai?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "5"
+            }
+        ],
+        "answer": "Đúng"
+    },
+    {
+        "question_id": "DS-3",
+        "question_type": "Đúng/Sai",
+        "text": "Nghiên cứu, sản xuất, mua bán, vận chuyển chất ma túy trái phép là hành vi bị nghiêm cấm theo luật pháp về phòng, chống ma túy, đúng hay sai?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "5"
+            }
+        ],
+        "answer": "Đúng"
+    },
+    {
+        "question_id": "DS-4",
+        "question_type": "Đúng/Sai",
+        "text": "Người sử dụng trái phép chất ma túy có trách nhiệm thực hiện đúng chỉ định của người có thẩm quyền về sử dụng thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, thuốc thú y có chứa chất ma túy, tiền chất, đúng hay sai?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "6"
+            }
+        ],
+        "answer": "Đúng"
+    },
+    {
+        "question_id": "DS-5",
+        "question_type": "Đúng/Sai",
+        "text": "Cơ sở giáo dục phải tổ chức thực hiện chương trình giáo dục về phòng, chống ma túy và giáo dục pháp luật về phòng, chống ma túy cho học sinh, sinh viên, học viên, đúng hay sai?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "8"
+            }
+        ],
+        "answer": "Đúng"
+    },
+    {
+        "question_id": "TN-2",
+        "question_type": "Trắc nghiệm",
+        "text": "Trồng cây có chứa chất ma túy là hành vi bị nghiêm cấm theo luật pháp nào?",
+        "choices": {
+            "A": "Luật Phòng, chống ma túy",
+            "B": "Luật Xử lý vi phạm hành chính",
+            "C": "Luật Phòng, chống tội phạm",
+            "D": "Luật Bảo vệ môi trường"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "5"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-3",
+        "question_type": "Trắc nghiệm",
+        "text": "Trong trường hợp bị phát hiện sử dụng chất ma túy trái phép trong thời gian cai nghiện ma túy tự nguyện, biện pháp xử lý nào áp dụng cho người nghiện?",
+        "choices": {
+            "A": "Tạm giam",
+            "B": "Giám sát",
+            "C": "Cai nghiện bắt buộc",
+            "D": "Bồi thường thiệt hại"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "32"
+        }],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-4",
+        "question_type": "Trắc nghiệm",
+        "text": "Nguồn tài chính nào được dùng cho phòng, chống ma túy?",
+        "choices": {
+            "A": "Ngân sách nhà nước",
+            "B": "Nguồn tài trợ từ tổ chức quốc tế",
+            "C": "Chi trả của người nghiện ma túy",
+            "D": "Cả A, B và C"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "4"
+        }],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-5",
+        "question_type": "Trắc nghiệm",
+        "text": "Trách nhiệm của cá nhân và gia đình trong phòng, chống ma túy là gì?",
+        "choices": {
+            "A": "Sử dụng chất ma túy hợp pháp",
+            "B": "Tuyên truyền, giáo dục về tác hại của ma túy",
+            "C": "Cung cấp chất ma túy cho người nghiện",
+            "D": "Hỗ trợ việc sử dụng trái phép chất ma túy"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "6"
+        }],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-6",
+        "question_type": "Trắc nghiệm",
+        "text": "Trách nhiệm của cơ quan báo chí trong phòng, chống ma túy là gì?",
+        "choices": {
+            "A": "Tuyên truyền, phổ biến kiến thức, pháp luật về phòng, chống ma túy",
+            "B": "Sản xuất, mua bán chất ma túy",
+            "C": "Trồng cây có chứa chất ma túy",
+            "D": "Tổ chức sử dụng trái phép chất ma túy"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "9"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-7",
+        "question_type": "Trắc nghiệm",
+        "text": "Trách nhiệm của Mặt trận Tổ quốc Việt Nam và các tổ chức thành viên của Mặt trận trong phòng, chống ma túy bao gồm điều gì?",
+        "choices": {
+            "A": "Tuyên truyền, giáo dục về tác hại của ma túy",
+            "B": "Phối hợp với cơ quan có thẩm quyền thực hiện các hoạt động phòng, chống ma túy",
+            "C": "Phòng ngừa, ngăn chặn người của tổ chức mình vi phạm pháp luật về phòng, chống ma túy",
+            "D": "Tất cả các phương án trên đều đúng"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "10"
+        }],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-8",
+        "question_type": "Trắc nghiệm",
+        "text": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy thuộc Bộ đội nào?",
+        "choices": {
+            "A": "Bộ đội Không quân",
+            "B": "Bộ đội Hải quân",
+            "C": "Bộ đội Biên phòng",
+            "D": "Bộ đội Phòng không-Không quân"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "11"
+        }],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-9",
+        "question_type": "Trắc nghiệm",
+        "text": "Những hoạt động nào sau đây là hợp pháp liên quan đến ma túy?",
+        "choices": {
+            "A": "Trồng cây có chứa chất ma túy",
+            "B": "Bảo quản, tồn trữ chất ma túy trái phép",
+            "C": "Nhập khẩu, xuất khẩu chất ma túy trái phép",
+            "D": "Nghiên cứu, sản xuất chất ma túy được cơ quan quản lý nhà nước cho phép"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "12"
+        }],
+        "answer": "D"
+    },
+    {
+        "question_id": "DS-6",
+        "question_type": "Đúng/Sai",
+        "text": "Cơ quan báo chí có trách nhiệm phối hợp với cơ quan, tổ chức có liên quan tuyên truyền chủ trương, chính sách, pháp luật về phòng, chống ma túy, đúng hay sai?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "9"
+            }
+        ],
+        "answer": "Đúng"
+    },
+    {
+        "question_id": "DS-7",
+        "question_type": "Đúng/Sai",
+        "text": "Tổ chức và phối hợp với cơ quan có thẩm quyền tuyên truyền, phổ biến kiến thức, pháp luật về phòng, chống ma túy trong Nhân dân; vận động Nhân dân tham gia phòng, chống ma túy và thực hiện các phong trào phòng, chống ma túy là trách nhiệm của Mặt trận Tổ quốc Việt Nam và các tổ chức thành viên của Mặt trận, đúng hay sai?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "10"
+            }
+        ],
+        "answer": "Đúng"
+    },
+    {
+        "question_id": "DS-8",
+        "question_type": "Đúng/Sai",
+        "text": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy bao gồm Công an nhân dân, Bộ đội Biên phòng, Cảnh sát biển Việt Nam và Hải quan, đúng hay sai?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "11"
+            }
+        ],
+        "answer": "Đúng"
+    },
+    {
+        "question_id": "DS-9",
+        "question_type": "Đúng/Sai",
+        "text": "Hoạt động hợp pháp liên quan đến ma túy là hoạt động được cơ quan quản lý nhà nước có thẩm quyền cho phép, bao gồm nghiên cứu, giám định, kiểm nghiệm, kiểm định, sản xuất chất ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, nguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc và thuốc thú y có chứa chất ma túy, tiền chất, đúng hay sai?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "12"
+            }
+        ],
+        "answer": "Đúng"
+    },
+    {
+        "question_id": "TN-10",
+        "question_type": "Trắc nghiệm",
+        "text": "Theo Luật Phòng, chống ma túy, ai có trách nhiệm thực hiện chương trình giáo dục về phòng, chống ma túy?",
+        "choices": {
+            "A": "Cơ sở giáo dục",
+            "B": "Người nghiện ma túy",
+            "C": "Cơ quan báo chí",
+            "D": "Nhà nước"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "8"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-11",
+        "question_type": "Trắc nghiệm",
+        "text": "Ngoài cơ quan chuyên trách phòng, chống tội phạm về ma túy thuộc Công an nhân dân, còn có cơ quan nào tham gia phòng, chống ma túy tại khu vực hoặc địa bàn quản lý, kiểm soát?",
+        "choices": {
+            "A": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy thuộc Bộ đội Biên phòng",
+            "B": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy thuộc Cảnh sát biển Việt Nam",
+            "C": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy thuộc Hải quan",
+            "D": "Tất cả các phương án trên đều đúng"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "11"
+        }],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-12",
+        "question_type": "Trắc nghiệm",
+        "text": "Cơ quan báo chí có trách nhiệm phối hợp với cơ quan, tổ chức có liên quan tuyên truyền chủ trương, chính sách, pháp luật về phòng, chống ma túy, đúng hay sai?",
+        "choices": {
+            "A": "Đúng",
+            "B": "Sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "9"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-13",
+        "question_type": "Trắc nghiệm",
+        "text": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy bao gồm Công an nhân dân và Bộ đội Biên phòng, đúng hay sai?",
+        "choices": {
+            "A": "Đúng",
+            "B": "Sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "11"
+        }],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-14",
+        "question_type": "Trắc nghiệm",
+        "text": "Hoạt động hợp pháp liên quan đến ma túy là hoạt động được cơ quan quản lý nhà nước có thẩm quyền cho phép, đúng hay sai?",
+        "choices": {
+            "A": "Đúng",
+            "B": "Sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "12"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-15",
+        "question_type": "Trắc nghiệm",
+        "text": "Trách nhiệm của cơ quan báo chí trong phòng, chống ma túy là gì?",
+        "choices": {
+            "A": "Tuyên truyền, phổ biến kiến thức, pháp luật về phòng, chống ma túy",
+            "B": "Sản xuất, mua bán chất ma túy",
+            "C": "Trồng cây có chứa chất ma túy",
+            "D": "Tổ chức sử dụng trái phép chất ma túy"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "9"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-16",
+        "question_type": "Trắc nghiệm",
+        "text": "Trách nhiệm của Mặt trận Tổ quốc Việt Nam và các tổ chức thành viên của Mặt trận trong phòng, chống ma túy bao gồm điều gì?",
+        "choices": {
+            "A": "Tuyên truyền, giáo dục về tác hại của ma túy",
+            "B": "Phối hợp với cơ quan có thẩm quyền thực hiện các hoạt động phòng, chống ma túy",
+            "C": "Phòng ngừa, ngăn chặn người của tổ chức mình vi phạm pháp luật về phòng, chống ma túy",
+            "D": "Tất cả các phương án trên đều đúng"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "10"
+        }],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-17",
+        "question_type": "Trắc nghiệm",
+        "text": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy thuộc Bộ đội nào?",
+        "choices": {
+            "A": "Bộ đội Không quân",
+            "B": "Bộ đội Hải quân",
+            "C": "Bộ đội Biên phòng",
+            "D": "Bộ đội Phòng không-Không quân"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "11"
+        }],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-18",
+        "question_type": "Trắc nghiệm",
+        "text": "Những hoạt động nào sau đây là hợp pháp liên quan đến ma túy?",
+        "choices": {
+            "A": "Trồng cây có chứa chất ma túy",
+            "B": "Bảo quản, tồn trữ chất ma túy trái phép",
+            "C": "Nhập khẩu, xuất khẩu chất ma túy trái phép",
+            "D": "Nghiên cứu, sản xuất chất ma túy được cơ quan quản lý nhà nước cho phép"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "12"
+        }],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-19",
+        "question_type": "Trắc nghiệm",
+        "text": "Theo Luật Phòng, chống ma túy, ai có trách nhiệm thực hiện chương trình giáo dục về phòng, chống ma túy?",
+        "choices": {
+            "A": "Cơ sở giáo dục",
+            "B": "Người nghiện ma túy",
+            "C": "Cơ quan báo chí",
+            "D": "Nhà nước"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "8"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-20",
+        "question_type": "Trắc nghiệm",
+        "text": "Ngoài cơ quan chuyên trách phòng, chống tội phạm về ma túy thuộc Công an nhân dân, còn có cơ quan nào tham gia phòng, chống ma túy tại khu vực hoặc địa bàn quản lý, kiểm soát?",
+        "choices": {
+            "A": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy thuộc Bộ đội Biên phòng",
+            "B": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy thuộc Cảnh sát biển Việt Nam",
+            "C": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy thuộc Hải quan",
+            "D": "Tất cả các phương án trên đều đúng"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "11"
+        }],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-21",
+        "question_type": "Trắc nghiệm",
+        "text": "Hoạt động nghiên cứu, giám định, sản xuất chất ma túy (không bao gồm trồng cây có chứa chất ma túy), tiền chất phải được ai theo dõi, kiểm tra, giám sát?",
+        "choices": {
+            "A": "Cơ quan nhà nước có thẩm quyền",
+            "B": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy",
+            "C": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy thuộc Công an nhân dân",
+            "D": "Tất cả các phương án trên đều sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "13"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-22",
+        "question_type": "Trắc nghiệm",
+        "text": "Theo Luật Phòng, chống ma túy, hoạt động nghiên cứu, giám định, sản xuất chất ma túy bao gồm cả việc trồng cây có chứa chất ma túy, đúng hay sai?",
+        "choices": {
+            "A": "Đúng",
+            "B": "Sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "13"
+        }],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-23",
+        "question_type": "Trắc nghiệm",
+        "text": "Ai được cơ quan nhà nước có thẩm quyền cho phép thực hiện hoạt động vận chuyển chất ma túy, tiền chất?",
+        "choices": {
+            "A": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy",
+            "B": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy thuộc Công an nhân dân",
+            "C": "Cơ quan, tổ chức, cá nhân được cơ quan nhà nước có thẩm quyền cho phép",
+            "D": "Tất cả các phương án trên đều đúng"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "14"
+        }],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-24",
+        "question_type": "Trắc nghiệm",
+        "text": "Khi thực hiện việc vận chuyển chất ma túy, tiền chất, người thực hiện phải đóng gói, niêm phong theo quy định của cơ quan có thẩm quyền, đúng hay sai?",
+        "choices": {
+            "A": "Đúng",
+            "B": "Sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "14"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-25",
+        "question_type": "Trắc nghiệm",
+        "text": "Hoạt động vận chuyển chất ma túy, tiền chất phải chịu sự theo dõi, kiểm tra, giám sát của cơ quan nhà nước có thẩm quyền, đúng hay sai?",
+        "choices": {
+            "A": "Đúng",
+            "B": "Sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "14"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-26",
+        "question_type": "Trắc nghiệm",
+        "text": "Việc kiểm soát hoạt động liên quan đến thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, nguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc thực hiện theo quy định của pháp luật về dược, đúng hay sai?",
+        "choices": {
+            "A": "Đúng",
+            "B": "Sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "15"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-27",
+        "question_type": "Trắc nghiệm",
+        "text": "Có hoạt động nào liên quan đến thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, nguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc được kiểm soát quy định tại khoản 1 và khoản 2 Điều 17 của Luật Phòng, chống ma túy?",
+        "choices": {
+            "A": "Có",
+            "B": "Không"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "15"
+        }],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-28",
+        "question_type": "Trắc nghiệm",
+        "text": "Việc kiểm soát hoạt động liên quan đến thuốc thú y có chứa chất ma túy, tiền chất thực hiện theo quy định của Chính phủ, đúng hay sai?",
+        "choices": {
+            "A": "Đúng",
+            "B": "Sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "16"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-29",
+        "question_type": "Trắc nghiệm",
+        "text": "Cơ quan nào quy định việc kiểm soát hoạt động liên quan đến thuốc thú y có chứa chất ma túy, tiền chất?",
+        "choices": {
+            "A": "Bộ Y tế",
+            "B": "Chính phủ",
+            "C": "Bộ Nông nghiệp và Phát triển nông thôn",
+            "D": "Bộ Tài chính"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "16"
+        }],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-30",
+        "question_type": "Trắc nghiệm",
+        "text": "Theo Luật Phòng, chống ma túy, hoạt động nào sau đây là hợp pháp liên quan đến ma túy?",
+        "choices": {
+            "A": "Trồng cây có chứa chất ma túy",
+            "B": "Nhập khẩu, xuất khẩu chất ma túy trái phép",
+            "C": "Nghiên cứu, giám định, sản xuất chất ma túy được cơ quan quản lý nhà nước cho phép",
+            "D": "Vận chuyển, bảo quản chất ma túy trái phép"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "12"
+        }],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-31",
+        "question_type": "Trắc nghiệm",
+        "text": "Trường hợp hoạt động vận chuyển chất ma túy, tiền chất không đóng gói, niêm phong theo quy định của cơ quan có thẩm quyền, hành vi này vi phạm quy định của Luật Phòng, chống ma túy, đúng hay sai?",
+        "choices": {
+            "A": "Đúng",
+            "B": "Sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "14"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-32",
+        "question_type": "Trắc nghiệm",
+        "text": "Cơ quan nào có trách nhiệm kiểm soát hoạt động liên quan đến thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, nguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc?",
+        "choices": {
+            "A": "Bộ Y tế",
+            "B": "Bộ Công an",
+            "C": "Bộ Tài chính",
+            "D": "Bộ Khoa học và Công nghệ"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "15"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-33",
+        "question_type": "Trắc nghiệm",
+        "text": "Hoạt động vận chuyển, bảo quản chất ma túy trái phép được kiểm soát quy định tại khoản 1 và khoản 2 Điều 12 của Luật Phòng, chống ma túy, đúng hay sai?",
+        "choices": {
+            "A": "Đúng",
+            "B": "Sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "14"
+        }],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-34",
+        "question_type": "Trắc nghiệm",
+        "text": "Trường hợp hoạt động nghiên cứu, giám định, sản xuất chất ma túy, tiền chất không được cơ quan nhà nước có thẩm quyền theo dõi, kiểm tra, giám sát thì hành vi này vi phạm quy định của Luật Phòng, chống ma túy, đúng hay sai?",
+        "choices": {
+            "A": "Đúng",
+            "B": "Sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "13"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-35",
+        "question_type": "Trắc nghiệm",
+        "text": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy thuộc Công an nhân dân có trách nhiệm kiểm soát hoạt động nào liên quan đến ma túy?",
+        "choices": {
+            "A": "Nghiên cứu, giám định, sản xuất chất ma túy",
+            "B": "Vận chuyển chất ma túy",
+            "C": "Nghiên cứu, giám định, sản xuất chất ma túy và vận chuyển chất ma túy",
+            "D": "Không kiểm soát hoạt động nào liên quan đến ma túy"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "11"
+        }],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-36",
+        "question_type": "Trắc nghiệm",
+        "text": "Hoạt động nào sau đây không thuộc hoạt động hợp pháp liên quan đến ma túy theo Luật Phòng, chống ma túy?",
+        "choices": {
+            "A": "Nhập khẩu, xuất khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập, quá cảnh chất ma túy, tiền chất",
+            "B": "Nghiên cứu, giám định, sản xuất chất ma túy (không bao gồm trồng cây có chứa chất ma túy), tiền chất",
+            "C": "Vận chuyển, bảo quản, tồn trữ, mua bán, phân phối, sử dụng, xử lý, trao đổi chất ma túy, tiền chất",
+            "D": "Trồng cây có chứa chất ma túy"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "12"
+        }],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-37",
+        "question_type": "Trắc nghiệm",
+        "text": "Cơ quan nào có trách nhiệm kiểm soát hoạt động nghiên cứu, giám định, sản xuất chất ma túy, tiền chất?",
+        "choices": {
+            "A": "Bộ Khoa học và Công nghệ",
+            "B": "Chính phủ",
+            "C": "Bộ Tài chính",
+            "D": "Cơ quan nhà nước có thẩm quyền"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "13"
+        }],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-38",
+        "question_type": "Trắc nghiệm",
+        "text": "Hoạt động nào sau đây không liên quan đến thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, nguyên liệu làm thuốc là dược chất gây nghiện, dược chất hướng thần, tiền chất dùng làm thuốc?",
+        "choices": {
+            "A": "Nghiên cứu, giám định, sản xuất chất ma túy",
+            "B": "Vận chuyển chất ma túy",
+            "C": "Nhập khẩu, xuất khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập, quá cảnh chất ma túy, tiền chất",
+            "D": "Trồng cây có chứa chất ma túy"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "15"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-39",
+        "question_type": "Trắc nghiệm",
+        "text": "Trong trường hợp việc vận chuyển, bảo quản chất ma túy, tiền chất được cơ quan nhà nước có thẩm quyền cho phép thì người thực hiện có chịu trách nhiệm về số lượng, chất lượng, đúng hay sai?",
+        "choices": {
+            "A": "Đúng",
+            "B": "Sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "14"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-40",
+        "question_type": "Trắc nghiệm",
+        "text": "Việc vận chuyển, bảo quản chất ma túy trái phép được kiểm soát quy định tại khoản 1 và khoản 2 Điều 12 của Luật Phòng, chống ma túy, đúng hay sai?",
+        "choices": {
+            "A": "Đúng",
+            "B": "Sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "14"
+        }],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-21",
+        "question_type": "Trắc nghiệm",
+        "text": "Hoạt động nghiên cứu, giám định, sản xuất chất ma túy (không bao gồm trồng cây có chứa chất ma túy), tiền chất phải được ai theo dõi, kiểm tra, giám sát?",
+        "choices": {
+            "A": "Cơ quan nhà nước có thẩm quyền",
+            "B": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy",
+            "C": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy thuộc Công an nhân dân",
+            "D": "Tất cả các phương án trên đều sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "13"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-22",
+        "question_type": "Trắc nghiệm",
+        "text": "Hoạt động trồng cây có chứa chất ma túy, tiền chất phải được ai theo dõi, kiểm tra, giám sát?",
+        "choices": {
+            "A": "Cơ quan nhà nước có thẩm quyền",
+            "B": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy",
+            "C": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy thuộc Công an nhân dân",
+            "D": "Tất cả các phương án trên đều sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "13"
+        }],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-23",
+        "question_type": "Trắc nghiệm",
+        "text": "Hoạt động sản xuất, kinh doanh, lưu thông sản phẩm thuốc gây nghiện, thuốc hướng thần phải được ai cấp phép?",
+        "choices": {
+            "A": "Cơ quan nhà nước có thẩm quyền",
+            "B": "Cơ quan chuyên trách phòng, chống tội phạm về ma túy",
+            "C": "Cơ quan chuyên trách về y tế",
+            "D": "Tất cả các phương án trên đều sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "14"
+        }],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-24",
+        "question_type": "Trắc nghiệm",
+        "text": "Những hoạt động nào được cấp phép nhập khẩu, xuất khẩu chất ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần?",
+        "choices": {
+            "A": "Những hoạt động liên quan đến mục đích quốc phòng, an ninh",
+            "B": "Những hoạt động liên quan đến mục đích y học",
+            "C": "Những hoạt động hợp pháp và được Chính phủ quy định",
+            "D": "Tất cả các phương án trên đều sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "17"
+        }],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-25",
+        "question_type": "Trắc nghiệm",
+        "text": "Các hoạt động nào phải tuân thủ đúng hành trình đã ghi trong giấy phép quá cảnh chất ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần?",
+        "choices": {
+            "A": "Nhập khẩu, xuất khẩu",
+            "B": "Tạm nhập, tái xuất",
+            "C": "Tạm xuất, tái nhập",
+            "D": "Tất cả các phương án trên đều đúng"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "17"
+        }],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-26",
+        "question_type": "Trắc nghiệm",
+        "text": "Ai phải thực hiện việc quá cảnh chất ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần?",
+        "choices": {
+            "A": "Cơ quan Hải quan và cơ quan có thẩm quyền của Việt Nam",
+            "B": "Cơ quan nhà nước có thẩm quyền",
+            "C": "Cơ quan chuyên trách về y tế",
+            "D": "Tất cả các phương án trên đều sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "17"
+        }],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-27",
+        "question_type": "Trắc nghiệm",
+        "text": "Các hoạt động nào phải lập hồ sơ và báo cáo theo quy định của Chính phủ?",
+        "choices": {
+            "A": "Hoạt động nhập khẩu, xuất khẩu chất ma túy, tiền chất",
+            "B": "Hoạt động sản xuất, kinh doanh, lưu thông sản phẩm thuốc gây nghiện, thuốc hướng thần",
+            "C": "Hoạt động quá cảnh chất ma túy, tiền chất, thuốc gây nghiện, thuốc hướng thần",
+            "D": "Tất cả các phương án trên đều đúng"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "18"
+        }],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-28",
+        "question_type": "Trắc nghiệm",
+        "text": "Hoạt động nghiên cứu, giám định, sản xuất chất ma túy (không bao gồm trồng cây có chứa chất ma túy), tiền chất phải được lập hồ sơ và báo cáo theo quy định của Chính phủ?",
+        "choices": {
+            "A": "Đúng",
+            "B": "Sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "18"
+        }],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-29",
+        "question_type": "Trắc nghiệm",
+        "text": "Hoạt động trồng cây có chứa chất ma túy, tiền chất phải được lập hồ sơ và báo cáo theo quy định của Chính phủ?",
+        "choices": {
+            "A": "Đúng",
+            "B": "Sai"
+        },
+        "relevant_articles": [{
+            "law_id": "Luật Phòng, chống ma túy",
+            "article_id": "18"
+        }],
+        "answer": "B"
+    },
+    {
+        "question_id": "DS-72",
+        "question_type": "Đúng/Sai",
+        "text": "Phương tiện vận tải khách du lịch có biển hiệu được vận tải hành khách theo hợp đồng và được ưu tiên bố trí nơi neo đậu, dừng, đỗ để đón, trả khách du lịch tại sân bay, bến cảng, nhà ga, bến xe, trong khu du lịch, gần điểm du lịch, cơ sở lưu trú du lịch. Đúng hay sai?",
+        "bm25_score": 293.81357859156213,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Du lịch",
+                "article_id": "46"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-53",
+        "question_type": "Đúng/Sai",
+        "text": "Địa điểm giải quyết tranh chấp là nơi Hội đồng trọng tài tiến hành giải quyết tranh chấp theo sự thỏa thuận lựa chọn của các bên hoặc do Hội đồng trọng tài quyết định nếu các bên không có thỏa thuận. Nếu địa điểm giải quyết tranh chấp được tiến hành trên lãnh thổ Việt Nam thì phán quyết phải được coi là tuyên tại Việt Nam mà không phụ thuộc vào nơi Hội đồng trọng tài tiến hành phiên họp để ra phán quyết đó, đúng hay sai?",
+        "bm25_score": 207.41137354583896,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "3"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-86",
+        "question_type": "Đúng/Sai",
+        "text": "Phim đã được cấp Giấy phép phân loại phim hoặc Quyết định phát sóng được phép tham gia liên hoan phim, giải thưởng phim, cuộc thi phim, chương trình phim, tuần phim tại Việt Nam và nước ngoài là đúng hay sai?",
+        "bm25_score": 181.49928219083066,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Điện ảnh",
+                "article_id": "40"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-82",
+        "question_type": "Trắc nghiệm",
+        "text": "Nội dung khai báo tạm văng bao gồm những thông tin gì? ",
+        "choices": {
+            "A": "Họ và tên, số định danh cá nhân hoặc số Chứng minh nhân dân, số hộ chiếu của người khai báo tạm vắng; thời gian tạm vắng; địa chỉ nơi đến.",
+            "B": "Họ và tên, số định danh cá nhân hoặc số Chứng minh nhân dân, số hộ chiếu của người khai báo tạm vắng; lý do tạm vắng; thời gian tạm vắng; địa chỉ nơi đến.",
+            "C": "Họ và tên, số định danh cá nhân hoặc số Chứng minh nhân dân, số hộ chiếu của người khai báo tạm vắng; lý do tạm vắng; thời gian tạm vắng.",
+            "D": "Họ và tên, số định danh cá nhân hoặc số Chứng minh nhân dân, số hộ chiếu của người khai báo tạm vắng; lý do tạm vắng; thời gian tạm vắng; địa chỉ nơi ở trước đó và nơi đến."
+        },
+        "bm25_score": 161.8756849833749,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "31"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-64",
+        "question_type": "Trắc nghiệm",
+        "text": "Con ở độ tuổi nào được giao cho mẹ trực tiếp nuôi, trừ trường hợp người mẹ không đủ điều kiện để trực tiếp trông nom, chăm sóc, nuôi dưỡng, giáo dục con hoặc cha mẹ có thỏa thuận khác phù hợp với lợi ích của con",
+        "choices": {
+            "A": "Dưới 12 tháng tuổi",
+            "B": " Dưới 18 tháng tuổi",
+            "C": " Dưới 24 tháng tuổi",
+            "D": "Dưới 36 tháng tuổi"
+        },
+        "bm25_score": 156.69173502845288,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "81"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-90",
+        "question_type": "Đúng/Sai",
+        "text": "Khi công dân thực hiện các thủ tục đăng ký cư trú dẫn đến thay đổi thông tin trong Sổ hộ khẩu thì cơ quan đăng ký cư trú có trách nhiệm thu hồi Sổ hộ khẩu đã cấp và không cấp mới, cấp lại Sổ hộ khẩu, đúng hay sai?",
+        "bm25_score": 152.05894080365505,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "38"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-81",
+        "question_type": "Trắc nghiệm",
+        "text": "Chọn câu sai trong những câu dưới đây, liên quan đến phạm vi hành nghề của hướng dẫn viên du lịch.",
+        "choices": {
+            "A": "Hướng dẫn viên du lịch quốc tế được hướng dẫn cho khách du lịch nội địa, khách du lịch quốc tế đến Việt Nam trong phạm vi toàn quốc và đưa khách du lịch ra nước ngoài.",
+            "B": "Hướng dẫn viên du lịch nội địa được hướng dẫn cho khách du lịch quốc tế đến Việt Nam trong phạm vi toàn quốc và đưa khách du lịch ra nước ngoài.",
+            "C": "Hướng dẫn viên du lịch nội địa được hướng dẫn cho khách du lịch nội địa là công dân Việt Nam trong phạm vi toàn quốc.",
+            "D": "Hướng dẫn viên du lịch tại điểm được hướng dẫn cho khách du lịch trong phạm vi khu du lịch, điểm du lịch."
+        },
+        "bm25_score": 138.6009551066775,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Du lịch",
+                "article_id": "58"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-45",
+        "question_type": "Trắc nghiệm",
+        "text": "Hồ sơ đề nghị cấp đổi thẻ hướng dẫn viên du lịch không bao gồm điều nào dưới đây?",
+        "choices": {
+            "A": "Đơn đề nghị giải quyết tranh chấp đất đai theo mẫu quy định.",
+            "B": "Đơn đề nghị cấp đổi thẻ hướng dẫn viên du lịch theo mẫu do Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch quy định.",
+            "C": "Thẻ hướng dẫn viên du lịch đã được cấp.",
+            "D": "Bản sao có chứng thực giấy chứng nhận đã qua khóa cập nhật kiến thức cho hướng dẫn viên du lịch do cơ quan nhà nước có thẩm quyền cấp."
+        },
+        "bm25_score": 137.91299903974726,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Du lịch",
+                "article_id": "62"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-51",
+        "question_type": "Đúng/Sai",
+        "text": "Lưu trú là việc công dân sinh sống tại một địa điểm thuộc đơn vị hành chính cấp xã hoặc đơn vị hành chính cấp huyện ở nơi không có đơn vị hành chính cấp xã (sau đây gọi chung là đơn vị hành chính cấp xã), đúng hay sai?",
+        "bm25_score": 132.94471530071485,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "2"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-80",
+        "question_type": "Trắc nghiệm",
+        "text": "Khi chung sống với cha mẹ, con từ bao nhiêu tuổi phải có nghĩa vụ chăm lo đời sống chung của gia đình; đóng góp vào việc đáp ứng nhu cầu thiết yếu của gia đình nếu có thu nhập.",
+        "choices": {
+            "A": "Đủ 15 tuổi trở lên",
+            "B": "Đủ 16 tuổi trở lên",
+            "C": "Đủ 17 tuổi trở lên",
+            "D": "Đủ 18 tuổi trở lên"
+        },
+        "bm25_score": 129.2675668898957,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "75"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-56",
+        "question_type": "Đúng/Sai",
+        "text": "Trách nhiệm của cơ quan Mặt Trận Tổ Quốc Việt Nam trong việc phòng, chống ma túy là phòng ngừa, và ngăn chặn người của tổ chức mình và mọi công dân vi phạm luật phòng, chống ma túy, đúng hay sai?",
+        "bm25_score": 123.43767198039605,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "10"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-62",
+        "question_type": "Đúng/Sai",
+        "text": "Doanh nghiệp kinh doanh dịch vụ lữ hành quốc tế phục vụ khách du lịch quốc tế đến Việt Nam có quyền và nghĩa vụ hỗ trợ khách du lịch làm thủ tục nhập cảnh, xuất cảnh, quá cảnh, hải quan. Đúng hay sai?",
+        "bm25_score": 118.51265938011184,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Du lịch",
+                "article_id": "37"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-81",
+        "question_type": "Đúng/Sai",
+        "text": "Cơ quan đăng ký cư trú có trách nhiệm quản lý, lưu trữ hồ sơ, giấy tờ, tài liệu về đăng ký, quản lý cư trú và bảo mật thông tin về đăng ký cư trú của công dân, đúng hay sai?",
+        "bm25_score": 114.03874032167883,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "33"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-76",
+        "question_type": "Trắc nghiệm",
+        "text": "Theo Luật Du Lịch, đâu không phải một hoạt động mà Nhà nước khuyến khích tổ chức, cá nhân thực hiện nhằm phát triển các loại dịch vụ du lịch khác?",
+        "choices": {
+            "A": "Cung cấp các dịch vụ có liên quan khác theo nhu cầu của khách du lịch và kể cả khi không phù hợp với quy định của pháp luật.",
+            "B": "Cung cấp các dịch vụ y tế, chăm sóc sức khỏe, chăm sóc sắc đẹp trên cơ sở khai thác giá trị y học cổ truyền, y học hiện đại.\n",
+            "C": "Đầu tư, xây dựng các chuỗi nhà hàng ăn uống, khu ẩm thực, lễ hội ẩm thực nhằm bảo tồn và phát huy các giá trị ẩm thực truyền thống, tiếp thu tinh hoa ẩm thực thế giới.",
+            "D": "Cung cấp các dịch vụ có liên quan khác theo nhu cầu của khách du lịch và phù hợp với quy định của pháp luật."
+        },
+        "bm25_score": 109.56445233333481,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Du lịch",
+                "article_id": "55"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-66",
+        "question_type": "Trắc nghiệm",
+        "text": "Hình thức thỏa thuận trọng tài thương mại nào dưới đây không được coi là xác lập dưới dạng văn bản?",
+        "choices": {
+            "A": "Thỏa thuận được xác lập thông trao đổi giữa các bên bằng telegram",
+            "B": "Thỏa thuận được xác lập thông trao đổi giữa các bên bằng facebook",
+            "C": "Thỏa thuận được xác lập thông trao đổi giữa các bên bằng fax",
+            "D": "Thỏa thuận được xác lập thông trao đổi giữa các bên bằng thư điện tử."
+        },
+        "bm25_score": 108.66201096461391,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "16"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-98",
+        "question_type": "Đúng/Sai",
+        "text": "Thời điểm bắt đầu tố tụng trọng tài được tính từ khi trọng tài nhận đơn khởi kiện của nguyên đơn đối với trường hợp tranh chấp được giải quyết tại Trung tâm trọng tài.",
+        "bm25_score": 107.53057239165592,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "31"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-67",
+        "question_type": "Trắc nghiệm",
+        "text": "Quyết định nghỉ hưu đối với viên chức được cơ quan, đơn vị, tổ chức ban hành trong thời gian bao lâu trước khi đến thời hạn viên chức nghỉ hưu? ",
+        "choices": {
+            "A": "06 tháng",
+            "B": "04 tháng",
+            "C": "03 tháng",
+            "D": "02 tháng"
+        },
+        "bm25_score": 106.59440458667625,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Viên chức",
+                "article_id": "46"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-74",
+        "question_type": "Trắc nghiệm",
+        "text": "Thành viên hộ gia đình được tách hộ để đăng ký thường trú tại cùng một chỗ ở hợp pháp khi đáp ứng các điều kiện nào sau đây?",
+        "choices": {
+            "A": "Có năng lực hành vi dân sự đầy đủ; trường hợp có nhiều thành viên cùng đăng ký tách hộ để lập thành một hộ gia đình mới thì trong số các thành viên đó có ít nhất một người có năng lực hành vi dân sự đầy đủ.",
+            "B": "Được chủ hộ, chủ sở hữu chỗ ở hợp pháp đồng ý, trừ trường hợp thành viên hộ gia đình đăng ký tách hộ là vợ, chồng đã ly hôn mà vẫn được cùng sử dụng chỗ ở hợp pháp đó.",
+            "C": "Nơi thường trú của hộ gia đình không thuộc trường hợp quy định tại Điều 23 của Luật cư trú về địa điểm đăng ký thường trú mới.",
+            "D": "Cả 3 đáp án A, B, C."
+        },
+        "bm25_score": 106.48383860831467,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "25"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-100",
+        "question_type": "Đúng/Sai",
+        "text": "Nền giáo dục Việt Nam là nền giáo dục xã hội chủ nghĩa có tính nhân dân, và dân tộc, mang tính khoa học, hiện đại, đúng hay sai?",
+        "bm25_score": 104.6792089235594,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Giáo dục",
+                "article_id": "3"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-53",
+        "question_type": "Trắc nghiệm",
+        "text": "Thành viên hộ gia đình được tách hộ để đăng ký thường trú tại cùng một chỗ ở hợp pháp khi đáp ứng các điều kiện nào?",
+        "choices": {
+            "A": "Có năng lực hành vi dân sự đầy đủ; trường hợp có nhiều thành viên cùng đăng ký tách hộ để lập thành một hộ gia đình mới thì trong số các thành viên đó có ít nhất một người có năng lực hành vi dân sự đầy đủ.",
+            "B": "Được chủ hộ, chủ sở hữu chỗ ở hợp pháp đồng ý, trừ trường hợp thành viên hộ gia đình đăng ký tách hộ là vợ, chồng đã ly hôn mà vẫn được cùng sử dụng chỗ ở hợp pháp đó.",
+            "C": "Nơi thường trú của hộ gia đình không thuộc trường hợp quy định tại Điều 23 của Luật cư trú về địa điểm đăng ký thường trú mới.",
+            "D": "Cả 3 đáp án A, B, C."
+        },
+        "bm25_score": 104.65675873289373,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "25"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-42",
+        "question_type": "Trắc nghiệm",
+        "text": "Vắng mặt liên tục tại nơi tạm trú từ bao lâu mà không đăng ký tạm trú tại chỗ ở khác thì bị xóa đăng ký tạm trú?",
+        "choices": {
+            "A": "01 tháng trở lên.",
+            "B": "02 tháng trở lên.",
+            "C": "03 tháng trở lên.",
+            "D": "06 tháng trở lên."
+        },
+        "bm25_score": 103.79336301019087,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "29"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-60",
+        "question_type": "Đúng/Sai",
+        "text": "Cơ quan Hải quan có trách nhiệm trong việc kiểm soát hoạt động quá cảnh lãnh thổ Việt Nam chất ma túy, tiền chất, thuốc gây nghiện, đúng hay sai?",
+        "bm25_score": 103.30057828910148,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "17"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-89",
+        "question_type": "Trắc nghiệm",
+        "text": "Xét nghiệm chất ma túy trong cơ thể là việc thực hiện các kỹ thuật chuyên môn nhằm xác định chất ma túy trong cơ thể thông qua các mẫu nào sau đây?",
+        "choices": {
+            "A": "Mẫu nước tiểu",
+            "B": "Mẫu máu",
+            "C": "Các mẫu vật khác của cơ thể người.",
+            "D": "Cả A, B, C đều đúng"
+        },
+        "bm25_score": 98.75400150003412,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "2"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-88",
+        "question_type": "Đúng/Sai",
+        "text": "Người cai nghiện ma túy tự nguyện tại cơ sở cai nghiện ma túy phải có trách nhiệm nộp chi phí liên quan đến cai nghiện ma túy, đúng hay sai?",
+        "bm25_score": 98.25991276264885,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "31"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-44",
+        "question_type": "Trắc nghiệm",
+        "text": "Khi không có quy định cụ thể và không có thỏa thuận giữa các bên, tập quán áp dụng trong hôn nhân và gia đình phải đáp ứng những điều sau, trừ điều nào?",
+        "choices": {
+            "A": "Không trái với nguyên tắc quy định tại Điều 2 của Luật Hôn nhân và gia đình.",
+            "B": "Không vi phạm các điều cấm của Luật Hôn nhân và gia đình.",
+            "C": "Tập quán phải phù hợp với bản sắc của mỗi dân tộc.",
+            "D": "Chính phủ không có quyền quy định chi tiết về tập quán trong trường hợp này."
+        },
+        "bm25_score": 97.91001724017661,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "7"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-63",
+        "question_type": "Đúng/Sai",
+        "text": "Mục tiêu của giáo dục thường xuyên là nhằm mục đích tạo điều kiện cho mọi người có cơ hội vừa làm vừa học, học liên tục, đúng hay sai?",
+        "bm25_score": 97.54558553204048,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Giáo dục",
+                "article_id": "41"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-54",
+        "question_type": "Đúng/Sai",
+        "text": "Chồng có nghĩa vụ tôn trọng, giữ gìn và bảo vệ danh dự, nhân phẩm, uy tín cho vợ của mình, đúng hay sai?",
+        "bm25_score": 96.84396505547777,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "21"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-79",
+        "question_type": "Trắc nghiệm",
+        "text": "Trong những điều dưới đây, đâu không phải là một điều kiện kinh doanh dịch vụ lưu trú du lịch?",
+        "choices": {
+            "A": "Có đăng ký kinh doanh theo quy định của pháp luật.",
+            "B": "Đáp ứng điều kiện về an ninh, trật tự, an toàn về phòng cháy và chữa cháy, bảo vệ môi trường, an toàn thực phẩm theo quy định của pháp luật.",
+            "C": "Chưa đăng ký kinh doanh theo quy định của pháp luật.",
+            "D": "Đáp ứng điều kiện tối thiểu về cơ sở vật chất kỹ thuật và dịch vụ phục vụ khách du lịch."
+        },
+        "bm25_score": 96.57143806140542,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Du lịch",
+                "article_id": "49"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-60",
+        "question_type": "Trắc nghiệm",
+        "text": "Người nào sau đây có đủ tiêu chuẩn để làm trọng tài viên?",
+        "choices": {
+            "A": "Người đang là bị can, bị cáo, người đang chấp hành án hình sự hoặc đã chấp hành xong bản án nhưng chưa được xóa án tích; là chuyên gia có trình độ chuyên môn cao và có nhiều kinh nghiệm thực tế.",
+            "B": "Người hiện là công chức thuộc Tòa án nhân dân, có năng lực hành vi dân sự đầy đủ theo quy định của Bộ luật dân sự; có trình độ đại học và đã qua thực tế công tác theo ngành đã học từ 5 năm trở lên",
+            "C": "Người có năng lực hành vi dân sự đầy đủ theo quy định của Bộ luật dân sự; có trình độ đại học và đã qua thực tế công tác theo ngành đã học từ 5 năm trở lên hoặc là chuyên gia có trình độ chuyên môn cao và có nhiều kinh nghiệm thực tế; không giữ chức vụ thẩm phán, kiểm sát viên, điều tra viên, chấp hành viên; hiện không phải là bị can, bị cáo, người đang chấp hành án hình sự hoặc đã chấp hành xong bản án nhưng chưa được xóa án tích.\n",
+            "D": "Người đang là điều tra viên và là chuyên gia có trình độ chuyên môn cao và có nhiều kinh nghiệm thực tế."
+        },
+        "bm25_score": 96.39256738609919,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "20"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-92",
+        "question_type": "Đúng/Sai",
+        "text": "Cho phép truyền bá tôn giáo và thực hiện các nghi lễ tôn giáo trong cơ sở giáo dục của hệ thống giáo dục quốc dân và tổ chức chính trị, đúng hay sai?",
+        "bm25_score": 94.73564839573766,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Giáo dục",
+                "article_id": "20"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-97",
+        "question_type": "Đúng/Sai",
+        "text": "Chức danh nghề nghiệp là tên gọi thể hiện trình độ và năng lực chuyên môn, nghiệp vụ của viên chức trong từng lĩnh vực nghề nghiệp là đúng hay sai?",
+        "bm25_score": 93.78189624955854,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Viên chức",
+                "article_id": "8"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-63",
+        "question_type": "Trắc nghiệm",
+        "text": "Trường hợp người đến lưu trú lúc 22 giờ thì việc thông báo lưu trú được thực hiện lúc nào?",
+        "choices": {
+            "A": "Trước 07 giờ ngày hôm sau.",
+            "B": "Trước 08 giờ ngày hôm sau.",
+            "C": "Trong vòng 2 tiếng kể từ thời điểm đến lưu trú.",
+            "D": "Trước 23 giờ của ngày bắt đầu lưu trú."
+        },
+        "bm25_score": 92.45894147952833,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "30"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-84",
+        "question_type": "Đúng/Sai",
+        "text": "Công an cấp xã không cần giúp Ủy ban nhân dân cùng cấp lập danh sách những người sử dụng trái phép chất ma túy tại địa phương, đúng hay sai?",
+        "bm25_score": 91.25059582657433,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "26"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-72",
+        "question_type": "Trắc nghiệm",
+        "text": "Mang thai hộ vì mục đích thương mại là gì?",
+        "choices": {
+            "A": "Việc một phụ nữ mang thai cho người khác với mục đích kỹ thuật hỗ trợ sinh sản.",
+            "B": "Việc một phụ nữ mang thai cho người khác với mục đích hưởng lợi về kinh tế hoặc lợi ích khác.",
+            "C": "Việc một phụ nữ mang thai cho người khác miễn phí.",
+            "D": "Việc một phụ nữ mang thai cho người khác mà không sử dụng kỹ thuật hỗ trợ sinh sản."
+        },
+        "bm25_score": 90.34726724508398,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "95"
+            }
+        ]
+    },
+    {
+        "question_id": "TN-90",
+        "question_type": "Trắc nghiệm",
+        "text": "Cơ quan nào của tỉnh/thành phố trực thuộc trung ương giúp Bộ Tư pháp thực hiện một số nhiệm vụ theo quy định của Chính Phủ và quy định tại Luật Trọng tài thương mại?",
+        "choices": {
+            "A": "Sở Tài nguyên và môi trường",
+            "B": "Sở Nội vụ",
+            "C": "Sở Công thương",
+            "D": "Sở Tư pháp"
+        },
+        "bm25_score": 86.65541984437715,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "15"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-79",
+        "question_type": "Đúng/Sai",
+        "text": "Trong quy phạm pháp luật, người thân thích được xác định là những cá nhân liên quan đến một nhân vật cụ thể thông qua quan hệ hôn nhân, nuôi dưỡng hoặc cùng có nguồn gốc dòng máu thuộc trực hệ, cũng như những người có họ thuộc phạm vi ba đời.",
+        "bm25_score": 85.37787088128937,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "3"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-91",
+        "question_type": "Đúng/Sai",
+        "text": "Một trong những điều kiện kinh doanh dịch vụ lưu trú du lịch là đáp ứng điều kiện tối thiểu về cơ sở vật chất kỹ thuật và dịch vụ phục vụ khách du lịch. Đúng hay sai?",
+        "bm25_score": 85.32213197565825,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Du lịch",
+                "article_id": "49"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-61",
+        "question_type": "Đúng/Sai",
+        "text": "Khi một bên phát hiện có vi phạm quy định của Luật trọng tài thương mại và không phản đối vi phạm trong thời hạn do Luật quy định thì mất quyền phản đối tại Trọng tài hoặc Tòa án",
+        "bm25_score": 84.65561308177652,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "13"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-96",
+        "question_type": "Đúng/Sai",
+        "text": "Thỏa thuận được xác lập thông qua trao đổi giữa các bên bằng telex không được coi là xác lập dưới dạng văn bản, đúng hay sai?",
+        "bm25_score": 83.95833063860154,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "16"
+            }
+        ]
+    },
+    {
+        "question_id": "DS-94",
+        "question_type": "Đúng/Sai",
+        "text": "Chung sống như vợ chồng là việc nam, nữ tổ chức cuộc sống chung và coi nhau là vợ chồng, đúng hay sai?",
+        "bm25_score": 81.92545913084781,
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "15"
+            }
+        ]
+    }
+]
