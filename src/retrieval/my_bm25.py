@@ -5,7 +5,7 @@ from src.utils.rank_bm25 import *
 import pandas as pd
 import numpy as np
 from src.retrieval.post_data import *
-from src.retrieval.raw_data import *
+from src.utils.raw_data_process import *
 from src.utils.eval_metrics import *
 from src.retrieval.processing_data import *
 from tqdm import tqdm

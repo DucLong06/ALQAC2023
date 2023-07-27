@@ -3,14 +3,7 @@ import random
 import re
 import pandas as pd
 from tqdm import tqdm
-import my_env 
 from src.utils.rank_bm25 import BM25Okapi
-
-import src.utils.my_logger as my_logger
-
-
-logger = my_logger.Logger("raw_data", my_env.LOG)
-
 
 def _data_generator(path_json: str):
     with open(path_json, 'r') as file:
@@ -55,8 +48,8 @@ def data_training_generator(path_json_question: str, path_json_law: str,  top_bm
 
     with open(path_json_question, 'r') as file:
         data_question = json.load(file)
-    logger.info(f"Number question: {len(data_question)}")
-    logger.info(f"Number corpus: {len(data_corpus)}")
+    print(f"Number question: {len(data_question)}")
+    print(f"Number corpus: {len(data_corpus)}")
 
     corpus = list(data_corpus.values())
 
@@ -125,14 +118,14 @@ def data_training_generator(path_json_question: str, path_json_law: str,  top_bm
     val_df = pd.DataFrame(generate_data(val_data))
     test_df = pd.DataFrame(generate_data(test_data))
 
-    logger.info(f"Number of data in train set: {len(train_df)}")
-    logger.info(f"Number of data in val set: {len(val_df)}")
-    logger.info(f"Number of data in test set: {len(test_df)}")
+    print(f"Number of data in train set: {len(train_df)}")
+    print(f"Number of data in val set: {len(val_df)}")
+    print(f"Number of data in test set: {len(test_df)}")
 
     return train_df, val_df, test_df
 
 
-def _convert_all_law_to_json(*file_paths):
+def convert_all_law_to_json(*file_paths):
     result_json = {}
 
     for path in file_paths:
@@ -153,6 +146,7 @@ def _convert_all_law_to_json(*file_paths):
 
 
 def merge_json_files(*file_paths):
+
     merged_data = []
 
     for path in file_paths:
@@ -167,12 +161,38 @@ def merge_json_files(*file_paths):
     print("Merge completed. Output saved to", output_file)
 
 
-# _convert_all_law_to_json(
-#     "/home/longhd/ALQAC2023/data/raw/V1.1/law.json",
-#     "/home/longhd/ALQAC2023/data/fake/question_fake_have_ans.json",
-#     "/home/longhd/ALQAC2023/data/fake/question_fake_no_ans.json")
+def extract_law_ids(data_list):
+    law_ids = []
+    for item in data_list:
+        for articles in item['relevant_articles']:
+            law_ids.append(articles["law_id"])
+    return law_ids
 
-# merge_json_files("/home/longhd/ALQAC2023/data/raw/V1.1/train.json",
-#                  "data/fake/question_fake_have_ans.json",
-#                  "data/fake/question_fake_no_ans_f.json",
-#                  "data/private_test_GOLD_TASK_1.json")
+
+def merge_en_vi(file_en, file_vi, type="articles"):
+
+    with open(file_en, 'r') as file:
+        data_en = json.load(file)
+    with open(file_vi, 'r') as file:
+        data_vi = json.load(file)
+
+    if type == "articles":
+        result_json = {}
+        for idx, item in tqdm(enumerate(data_en)):
+            for article in item['articles']:
+                id_text = f"{data_vi[idx]['id']}@{article['id']}"
+                text = article['text']
+                result_json[id_text] = text
+        json_data = json.dumps(result_json, ensure_ascii=False)
+        output_file = 'gg_all_articles_2023.json'
+        with open(output_file, 'w') as file:
+            file.write(json_data)
+
+    elif type == "questions":
+        result_json = []
+        for idx, item in tqdm(enumerate(data_en)):
+            item["relevant_articles"] = data_vi[idx]["relevant_articles"]
+            result_json.append(item)
+
+        with open("gg_question_train.json", 'w') as file:
+            json.dump(result_json, file, ensure_ascii=False, indent=4)

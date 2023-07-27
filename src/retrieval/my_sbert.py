@@ -3,7 +3,7 @@ import torch
 import my_env as my_env
 from src.retrieval.post_data import convert_ID
 from src.retrieval.processing_data import word_segment
-from src.retrieval.raw_data import df_create_corpus, df_create_questions_test
+from src.utils.raw_data_process import df_create_corpus, df_create_questions_test
 from src.utils.eval_metrics import *
 from src.utils.rank_bm25 import *
 

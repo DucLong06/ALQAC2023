@@ -8,6 +8,9 @@ root_dir = os.path.dirname(os.path.abspath(__file__))
 PATH_TO_BIN_CORPUS_ALL = os.getenv(
     "PATH_TO_BIN_CORPUS_ALL", os.path.join(root_dir, 'data', 'training', 'embedding_data.pkl'))
 
+PATH_TO_CORPUS = os.getenv(
+    "PATH_TO_CORPUS", os.path.join('data', 'raw', 'law.json'))
+
 PATH_TO_CORPUS_ALL = os.getenv(
     "PATH_TO_CORPUS_ALL", os.path.join('data', 'training', 'all_articles.json'))
 
