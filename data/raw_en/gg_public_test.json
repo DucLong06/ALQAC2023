@@ -1,0 +1,802 @@
+[
+    {
+        "question_id": "DS-51",
+        "question_type": "True/False",
+        "text": "Staying means a citizen living at a place belonging to a commune-level administrative unit or a district-level administrative unit in a place where there is no commune-level administrative unit (hereinafter collectively referred to as administrative units). commune government), right or wrong?"
+    },
+    {
+        "question_id": "DS-52",
+        "question_type": "True/False",
+        "text": "Is the employee's probationary period specified in the working contract right or wrong?"
+    },
+    {
+        "question_id": "DS-53",
+        "question_type": "True/False",
+        "text": "Dispute settlement place is the place where the arbitral tribunal conducts dispute settlement according to the agreement of the parties selected or decided by the arbitration council if the parties do not agree. If the dispute settlement is conducted in the Vietnamese territory, the award must be considered to be made in Vietnam, regardless of where the arbitration council holds the meeting to issue the award, right or wrong?"
+    },
+    {
+        "question_id": "DS-54",
+        "question_type": "True/False",
+        "text": "Husbands have the obligation to respect, preserve and protect the honor, dignity and prestige of their wives, right or wrong?"
+    },
+    {
+        "question_id": "DS-55",
+        "question_type": "True/False",
+        "text": "The arbitration agreement is completely independent of the contract, true or false?"
+    },
+    {
+        "question_id": "DS-56",
+        "question_type": "True/False",
+        "text": "The responsibility of the Vietnam Fatherland Front agency in drug prevention and control is to prevent and prevent its own people and all citizens from violating the law on drug prevention and control, right or wrong. wrong?"
+    },
+    {
+        "question_id": "DS-57",
+        "question_type": "True/False",
+        "text": "The husband has the right\better than the wife in all aspects of the family, right or wrong?"
+    },
+    {
+        "question_id": "DS-58",
+        "question_type": "True/False",
+        "text": "Is the film hosting facility not responsible for securing the intellectual property rights to the films stored on the premises, is it true or false?"
+    },
+    {
+        "question_id": "DS-59",
+        "question_type": "True/False",
+        "text": "Officials of a public non-business unit are currently not allowed to participate in seasonal contracts, is it right or wrong to work with other units, agencies and organizations?"
+    },
+    {
+        "question_id": "DS-60",
+        "question_type": "True/False",
+        "text": "The customs authority is responsible for controlling the transit of narcotics, precursors and narcotic drugs, right or wrong?"
+    },
+    {
+        "question_id": "DS-61",
+        "question_type": "True/False",
+        "text": "When a party detects a violation of the provisions of the Commercial Arbitration Law and does not object to the violation within the time limit prescribed by the Law, it loses the right to object at the Arbitration or Court"
+    },
+    {
+        "question_id": "DS-62",
+        "question_type": "True/False",
+        "text": "An international travel service business serving international tourists to Vietnam has the right and obligation to assist tourists in completing entry, exit, transit and customs procedures. Right or wrong?"
+    },
+    {
+        "question_id": "DS-63",
+        "question_type": "True/False",
+        "text": "The goal of continuing education is to create conditions for everyone to have the opportunity to work while learning, learning continuously, right or wrong?"
+    },
+    {
+        "question_id": "DS-64",
+        "question_type": "True/False",
+        "text": "The film owner is obliged to open the film key for comparison and check when requested by a competent state agency is it true or false"
+    },
+    {
+        "question_id": "DS-65",
+        "question_type": "True/False",
+        "text": "the statute of limitations for initiating a lawsuit according to arbitration procedures is 03 years from the time when legitimate rights and interests are infringed (unless otherwise provided for by specialized law)"
+    },
+    {
+        "question_id": "DS-66",
+        "question_type": "True/False",
+        "text": "Husband and wife are obliged to live together in any circumstances, for any reason, right or wrong?"
+    },
+    {
+        "question_id": "DS-67",
+        "question_type": "True/False",
+        "text": "Husband helps wife in studying, choosing a career; improving cultural level, right or wrong?"
+    },
+    {
+        "question_id": "DS-68",
+        "question_type": "True/False",
+        "text": "A fake divorce is the termination of the husband and wife relationship according to a legally valid judgment or decision of the Court, right or wrong?"
+    },
+    {
+        "question_id": "DS-69",
+        "question_type": "True/False",
+        "text": "Are the disputing parties Vietnamese or foreign individuals, agencies or organizations participating in the arbitration proceedings as plaintiffs, defendants, right or wrong?"
+    },
+    {
+        "question_id": "DS-70",
+        "question_type": "True/False",
+        "text": "Husband and wife are equal in voluntary marriage but not equal in arranged marriage, true or false?"
+    },
+    {
+        "question_id": "DS-71",
+        "question_type": "True/False",
+        "text": "The People's Committees at all levels are not responsible for performing the state management of residence, right or wrong?"
+    },
+    {
+        "question_id": "DS-72",
+        "question_type": "True/False",
+        "text": "Vehicles of tourist transport with signboards are permitted to carry passengers under contracts and are given priority to arrange anchoring, stopping and parking places to pick up and drop off tourists at airports, harbors, train stations, bus stations, in tourist areas, near tourist attractions, tourist accommodation establishments. True or false?"
+    },
+    {
+        "question_id": "DS-73",
+        "question_type": "True/False",
+        "text": "According to the Law on Tourism, the travel contract must contain content related to the terms of insurance for tourists. True or false?"
+    },
+    {
+        "question_id": "DS-74",
+        "question_type": "True/False",
+        "text": "Is it right or wrong for public employees to receive training and retraining to improve their political, professional and professional qualifications?"
+    },
+    {
+        "question_id": "DS-75",
+        "question_type": "True/False",
+        "text": "An arbitrator is a person selected by the parties or appointed by an arbitration center or a court to resolve a dispute in accordance with this Law."
+    },
+    {
+        "question_id": "DS-76",
+        "question_type": "True/False",
+        "text": "Dispute with foreign elements is a dispute arising in commercial relations or other legal relations with foreign elements specified in the Penal Code, right or wrong?"
+    },
+    {
+        "question_id": "DS-77",
+        "question_type": "True/False",
+        "text": "The place for dispute resolution by arbitration must be in the territory of Vietnam."
+    },
+    {
+        "question_id": "DS-78",
+        "question_type": "True/False",
+        "text": "Is it right or wrong for the State to prohibit the dissemination of films at public movie venues without notifying the competent state agency?"
+    },
+    {
+        "question_id": "DS-79",
+        "question_type": "True/False",
+        "text": "In legal terms, relatives are defined as individuals related to a particular character through marriage, fostering or having the same direct bloodline, as well as like those whose last name belongs to the three generations."
+    },
+    {
+        "question_id": "DS-80",
+        "question_type": "True/False",
+        "text": "A domestic travel service enterprise has the right not to provide information about tourist programs, services and destinations to tourists. True or false?"
+    },
+    {
+        "question_id": "DS-81",
+        "question_type": "True/False",
+        "text": "Resident registration agencies are responsible for managing and storing dossiers, papers and documents on registration and residence management and keeping confidential information on citizens' residence registration, properly or wrong?"
+    },
+    {
+        "question_id": "DS-82",
+        "question_type": "True/False",
+        "text": "Is it right or wrong for foreign organizations and individuals to participate in cinematographic activities in Vietnam that are not subject to the application of the Law on Cinema?"
+    },
+    {
+        "question_id": "DS-83",
+        "question_type": "True/False",
+        "text": "Is it allowed to cheat in studies and exams, and at the same time, allow students to smoke, drink alcohol, right or wrong?"
+    },
+    {
+        "question_id": "DS-84",
+        "question_type": "True/False",
+        "text": "Commune-level police do not need to help the People's Committee of the same level to make a list of local illegal drug users, right or wrong?"
+    },
+    {
+        "question_id": "DS-85",
+        "question_type": "True/False",
+        "text": "The government, ministries, ministerial-level agencies and other relevant agencies when carrying out administrative procedures should limit the use of information about residence, right or wrong?"
+    },
+    {
+        "question_id": "DS-86",
+        "question_type": "True/False",
+        "text": "Is the film that has been granted a Film Classification License or a Broadcast Decision that is allowed to participate in film festivals, film awards, film contests, film programs, film weeks in Vietnam and abroad? wrong?"
+    },
+    {
+        "question_id": "DS-87",
+        "question_type": "True/False",
+        "text": "According to the Law on Tourism, a tourist villa is a type of tourist accommodation establishment?"
+    },
+    {
+        "question_id": "DS-88",
+        "question_type": "True/False",
+        "text": "Voluntary drug addicts at drug detoxification establishments must be responsible for paying expenses related to drug addiction treatment, right or wrong?"
+    },
+    {
+        "question_id": "DS-89",
+        "question_type": "True/False",
+        "text": "Citizen's place of residence does not include residence, true or false?"
+    },
+    {
+        "question_id": "DS-90",
+        "question_type": "True/False",
+        "text": "When a citizen carries out the procedures for residence registration leading to changes in information in the household registration book, the residence registration agency is responsible for withdrawing the issued household registration book and not issuing a new one. Household book, true or false?"
+    },
+    {
+        "question_id": "DS-91",
+        "question_type": "True/False",
+        "text": "One of the conditions for doing business in tourist accommodation is to meet the minimum conditions for technical facilities and services to serve tourists. True or false?"
+    },
+    {
+        "question_id": "DS-92",
+        "question_type": "True/False",
+        "text": "Is it true or false to allow the propagation of religion and the performance of religious ceremonies in the educational institutions of the national education system and political organizations?"
+    },
+    {
+        "question_id": "DS-93",
+        "question_type": "True/False",
+        "text": "Is it right or wrong for public employees to be recruited through entrance examination or selection?"
+    },
+    {
+        "question_id": "DS-94",
+        "question_type": "True/False",
+        "text": "Cohabiting as husband and wife is the fact that men and women organize their lives together and consider each other as husband and wife, right or wrong?"
+    },
+    {
+        "question_id": "DS-95",
+        "question_type": "True/False",
+        "text": "Is it true or false that the Minister of Culture, Sports and Tourism stipulates film classification criteria applicable to all forms of film dissemination?"
+    },
+    {
+        "question_id": "DS-96",
+        "question_type": "True/False",
+        "text": "Agreement established through exchanges between the parties by telex is not considered to be in writing, true or false?"
+    },
+    {
+        "question_id": "DS-97",
+        "question_type": "True/False",
+        "text": "A professional title is a name showing the qualifications and professional competence of an officer in each professional field, is it true or false?"
+    },
+    {
+        "question_id": "DS-98",
+        "question_type": "True/False",
+        "text": "The time to start the arbitration is counted from the time the arbitrator receives the plaintiff's petition for the dispute to be resolved at the Arbitration Center."
+    },
+    {
+        "question_id": "DS-99",
+        "question_type": "True/False",
+        "text": "Is it right or wrong for a foreign organization to use film production services in Vietnam to receive tax incentives in accordance with tax laws?"
+    },
+    {
+        "question_id": "DS-100",
+        "question_type": "True/False",
+        "text": "Vietnamese education is a socialist education with the people, and the nation, scientific, modern, right or wrong?"
+    },
+    {
+        "question_id": "TN-41",
+        "question_type": "Question",
+        "text": "Which of the following agencies is in charge of drug-related crime prevention and control?",
+        "choices": {
+            "A": "People's Public Security",
+            "B": "Customs",
+            "C": "Border Guard",
+            "D": "All A, B, C are correct"
+        }
+    },
+    {
+        "question_id": "TN-42",
+        "question_type": "Question",
+        "text": "How long have you been absent from your temporary residence without registering your temporary residence at another place of residence, your temporary residence registration will be deleted?",
+        "choices": {
+            "A": "01 month or more.",
+            "B": "02 months or more.",
+            "C": "03 months or more.",
+            "D": "06 months or more."
+        }
+    },
+    {
+        "question_id": "TN-43",
+        "question_type": "Question",
+        "text": "Which of the following cases can the court refuse to accept when the disputing parties have reached an arbitration agreement?",
+        "choices": {
+            "A": "One party initiates a lawsuit against the court.",
+            "B": "One party brings a lawsuit again and the arbitration agreement is void",
+            "C": "One party sues the court and the arbitration agreement cannot be performed",
+            "D": "All three of the above options are correct"
+        }
+    },
+    {
+        "question_id": "TN-44",
+        "question_type": "Question",
+        "text": "When there is no specific regulation and there is no agreement between the parties, the custom applied in marriage and family must satisfy the following, except which one?",
+        "choices": {
+            "A": "Not contrary to the principles specified in Article 2 of the Law on Marriage and Family.",
+            "B": "Does not violate the prohibitions of the Law on Marriage and Family.",
+            "C": "Customs must match the identity of each nation.",
+            "D": "The government doesn't have the power to detail the custom in this case."
+        }
+    },
+    {
+        "question_id": "TN-45",
+        "question_type": "Question",
+        "text": "The application file for the renewal of a tourist guide card does not include which of the following?",
+        "choices": {
+            "A": "Application for settlement of a land dispute according to the prescribed form.",
+            "B": "Application for the renewal of a tour guide card, made according to the form prescribed by the Minister of Culture, Sports and Tourism.",
+            "C": "Tour guide card issued.",
+            "D": "A certified copy of the certificate of passing the knowledge update course for tour guides issued by a competent state agency."
+        }
+    },
+    {
+        "question_id": "TN-46",
+        "question_type": "Question",
+        "text": "Viewers under the age of 16 can watch movies with content in which of the following categories?",
+        "choices": {
+            "A": "T18 (18+)",
+            "B": "T16 (16+)",
+            "C": "C",
+            "D": "K"
+        }
+    },
+    {
+        "question_id": "TN-47",
+        "question_type": "Question",
+        "text": "What is the maximum time limit for public employees to be appointed to hold managerial positions?",
+        "choices": {
+            "A": "02 years",
+            "B": "03 years",
+            "C": "04 years",
+            "D": "05 years"
+        }
+    },
+    {
+        "question_id": "TN-48",
+        "question_type": "Question",
+        "text": "Which ministry is responsible to the Government for state management of arbitration?",
+        "choices": {
+            "A": "Ministry of Finance",
+            "B": "Ministry of Justice",
+            "C": "Ministry of Public Security",
+            "D": "Ministry of Foreign Affairs"
+        }
+    },
+    {
+        "question_id": "TN-49",
+        "question_type": "Question",
+        "text": "How many days before the end of the registered temporary residence period?",
+        "choices": {
+            "A": "15 days.",
+            "B": "14 days.",
+            "C": "10 days.",
+            "D": "7 days."
+        }
+    },
+    {
+        "question_id": "TN-50",
+        "question_type": "Question",
+        "text": "The higher education qualifications include the following?",
+        "choices": {
+            "A": "College level",
+            "B": "Master's Degree",
+            "C": "Doctoral level",
+            "D": "All A, B, C are correct"
+        }
+    },
+    {
+        "question_id": "TN-51",
+        "question_type": "Question",
+        "text": "Operations of public drug rehabilitation establishments include which of the following activities?",
+        "choices": {
+            "A": "Receiving and organizing drug detoxification for drug addicts who are sent to compulsory detoxification establishments and drug addicts who voluntarily undergo detoxification",
+            "B": "Receiving, managing, educating, counseling, treating withdrawal syndrome, treating mental disorders and other diseases for people who are in the process of making a dossier of request for admission to a rehab facility. compulsive addiction",
+            "C": "Performing a drug addiction determination",
+            "D": "All A, B, C are correct"
+        }
+    },
+    {
+        "question_id": "TN-52",
+        "question_type": "Question",
+        "text": "Which of the following obligations does an organization or individual providing tourist accommodation services have?",
+        "choices": {
+            "A": "Publicly list the selling prices of goods and services, and the rules of tourist accommodation establishments.",
+            "B": "Compensation for damage to tourists according to the provisions of civil law.",
+            "C": "Both A and B are correct.",
+            "D": "Both A and B are false."
+        }
+    },
+    {
+        "question_id": "TN-53",
+        "question_type": "Question",
+        "text": "Household members are allowed to separate households to register for permanent residence at the same lawful residence when meeting which conditions?",
+        "choices": {
+            "A": "Having full civil act capacity; in case many members register to separate their households to form a new household, among those members there is at least one person with legal capacity. full civil rights.",
+            "B": "With the consent of the head of the household or the owner of the lawful residence, unless a household member who registers to separate his or her household is a divorced husband or wife, but is still allowed to use the same legal residence. ",
+            "C": "The permanent residence of the household does not fall into the case specified in Article 23 of the Law on Residence regarding the new registered place of permanent residence.",
+            "D": "All three answers A, B, C."
+        }
+    },
+    {
+        "question_id": "TN-54",
+        "question_type": "Question",
+        "text": "When can a woman get married?",
+        "choices": {
+            "A": "When you have enough money to organize a wedding",
+            "B": "Age 18 and up",
+            "C": "When losing the capacity for civil acts",
+            "D": "When parents agree"
+        }
+    },
+    {
+        "question_id": "TN-55",
+        "question_type": "Question",
+        "text": "\bWhat are not the duties and rights of parents",
+        "choices": {
+            "A": "Looking after, nurturing, caring for and protecting the lawful rights and interests of minor children and adult children who have lost their civil act capacity or have no working capacity and no talent property to support themselves.\n",
+            "B": "Abusing the labor of a minor child",
+            "C": "Love you, \respect your opinion; ",
+            "D": "Do not discriminate against children on the basis of gender or the marital status of parents"
+        }
+    },
+    {
+        "question_id": "TN-56",
+        "question_type": "Question",
+        "text": "In what case is the place of dispute by arbitration in the territory of Vietnam?",
+        "choices": {
+            "A": "The parties agree on a location for dispute settlement outside the territory of Vietnam.",
+            "B": "The parties cannot agree on the location of dispute settlement, the arbitration council decides the place of dispute settlement outside the territory of Vietnam.",
+            "C": "The parties agree on the location of dispute settlement within the territory of Vietnam.",
+            "D": "All three of the above options are correct"
+        }
+    },
+    {
+        "question_id": "TN-57",
+        "question_type": "Question",
+        "text": "Which of the following are legal places to live?",
+        "choices": {
+            "A": "My own offshore fishing vessel.",
+            "B": "House owned by yourself.",
+            "C": "The company's legal house, which has been granted the right to use by the company through a legal document.",
+            "D": "All three answers A, B, C."
+        }
+    },
+    {
+        "question_id": "TN-58",
+        "question_type": "Question",
+        "text": "Tour guides don't have which of the following rights?",
+        "choices": {
+            "A": "You are allowed to change the tour program, adjust the standards and services of tourists.",
+            "B": "Receive salary and other remuneration according to the contract.",
+            "C": "Participate in refresher courses on knowledge, expertise, professionalism, and skills to practice as a tour guide.",
+            "D": "Join a social-professional organization about tourist guides."
+        }
+    },
+    {
+        "question_id": "TN-59",
+        "question_type": "Question",
+        "text": "Which of the following is NOT a principle of arbitration?",
+        "choices": {
+            "A": "The arbitrator must respect the agreement of the parties if such agreement does not violate the prohibition and is contrary to social ethics.",
+            "B": "The disputing parties are equal in rights and obligations. The arbitral tribunal is responsible for creating conditions for them to exercise their rights and obligations.",
+            "C": "Disputes shall be settled by Arbitration if the parties have an arbitration agreement. The arbitration agreement may be made before or after the dispute.",
+            "D": "Dispute settlement by Arbitration shall be conducted in a non-public manner, unless otherwise agreed by the parties."
+        }
+    },
+    {
+        "question_id": "TN-60",
+        "question_type": "Question",
+        "text": "Which of the following is qualified to act as an arbitrator?",
+        "choices": {
+            "A": "The person who is currently the accused, the defendant, the person who is serving a criminal sentence or has completed the sentence but has not yet had his criminal record cleared; is an expert with high professional qualifications and extensive practical experience. economic.",
+            "B": "A person who is currently a civil servant of the People's Court, has full civil act capacity as prescribed by the Civil Code; has a university degree and has worked in the field of study. 5 years or more",
+            "C": "A person who has full civil act capacity as prescribed by the Civil Code; has a university degree and has worked in the field for at least 5 years, or is a qualified expert. high professional qualifications and practical experience; does not hold the position of judge, prosecutor, investigator, or enforcer; is not currently a defendant, defendant, a person serving a criminal sentence or has served the sentence but has not yet been cleared of the criminal record.\n",
+            "D": "The person who is an investigator and expert is highly qualified and has a lot of practical experience."
+        }
+    },
+    {
+        "question_id": "TN-61",
+        "question_type": "Question",
+        "text": "What is the maximum time limit for temporary residence registration?",
+        "choices": {
+            "A": "06 months.",
+            "B": "01 year.",
+            "C": "02 years.",
+            "D": "03 years."
+        }
+    },
+    {
+        "question_id": "TN-62",
+        "question_type": "Question",
+        "text": "What is the statute of limitations for disciplinary action of an officer from the time of violation?",
+        "choices": {
+            "A": "24 months",
+            "B": "12 months",
+            "C": "36 months",
+            "D": "48 months"
+        }
+    },
+    {
+        "question_id": "TN-63",
+        "question_type": "Question",
+        "text": "In case a person comes to stay at 10pm, when will the stay notification be made?",
+        "choices": {
+            "A": "Before 7:00 the next day.",
+            "B": "Before 08 o'clock the next day.",
+            "C": "Within 2 hours from arrival time.",
+            "D": "Before 23 o'clock of the start date of stay."
+        }
+    },
+    {
+        "question_id": "TN-64",
+        "question_type": "Question",
+        "text": "A child of any age shall be assigned to his mother to directly raise him, unless the mother is ineligible to directly look after, care for, nurture and educate the child or the parents have other agreements in accordance with the law. in accordance with the interests of the child",
+        "choices": {
+            "A": "Under 12 months old",
+            "B": "Under 18 months old",
+            "C": "Under 24 months old",
+            "D": "under 36 months old"
+        }
+    },
+    {
+        "question_id": "TN-65",
+        "question_type": "Question",
+        "text": "What is residency?",
+        "choices": {
+            "A": "The place where citizens live stably and permanently and have been registered for permanent residence.",
+            "B": "The act of citizens living at a place belonging to a commune-level administrative unit or a district-level administrative unit in a place where there is no commune-level administrative unit.",
+            "C": "The place where the citizen has lived for a certain period of time other than his/her permanent residence and has been registered for temporary residence.",
+            "D": "Performance of procedures for permanent residence registration, temporary residence registration, temporary absence declaration, residence notice and information declaration, adjustment of residence information."
+        }
+    },
+    {
+        "question_id": "TN-66",
+        "question_type": "Question",
+        "text": "Which form of commercial arbitration agreement below is not considered to be established in writing?",
+        "choices": {
+            "A": "Agreement is established through the exchange between the parties by telegram",
+            "B": "Agreement is established through the exchange between the parties by facebook",
+            "C": "Agreement is established through fax communication between the parties",
+            "D": "Agreement is established through the exchange between the parties by email."
+        }
+    },
+    {
+        "question_id": "TN-67",
+        "question_type": "Question",
+        "text": "How long is the retirement decision for public employees issued by agencies, units or organizations before the time limit for public employees to retire?",
+        "choices": {
+            "A": "06 months",
+            "B": "04 months",
+            "C": "03 months",
+            "D": "02 months"
+        }
+    },
+    {
+        "question_id": "TN-68",
+        "question_type": "Question",
+        "text": "\bWhich factor does NOT affect \nthe division of common property of \nhusband and wife?",
+        "choices": {
+            "A": "The fault of each party in violating the rights and obligations of husband and wife.",
+            "B": "The situation of the family and of the husband and wife",
+            "C": "Contributing effort of husband and wife to the creation, maintenance and development of common property. The labor of husband and wife in the family is considered as income labor",
+            "D": "\b\bSpouse's right to raise children"
+        }
+    },
+    {
+        "question_id": "TN-69",
+        "question_type": "Question",
+        "text": "What are the forms of public employee training and retraining?",
+        "choices": {
+            "A": "Training and fostering according to the standards of management positions",
+            "B": "Reinforcement according to professional title standards",
+            "C": "Training to supplement and update knowledge and skills for professional activities",
+            "D": "All 3 answers A, B, C are correct"
+        }
+    },
+    {
+        "question_id": "TN-70",
+        "question_type": "Question",
+        "text": "What are the contents of the evaluation of management officers?",
+        "choices": {
+            "A": "Spirit of responsibility, attitude of service to the people, spirit of cooperation with colleagues and the implementation of the code of conduct of public employees;",
+            "B": "Capability to lead, manage, administer and organize the performance of tasks;",
+            "C": "Operating results of the unit assigned to manage and take charge of.",
+            "D": "All 3 answers A, B, C are correct"
+        }
+    },
+    {
+        "question_id": "TN-71",
+        "question_type": "Question",
+        "text": "In which of the following cases does a court in a foreign country have the authority to appoint an arbitrator to establish an ad hoc arbitration council?",
+        "choices": {
+            "A": "The parties do not have an agreement to choose a competent court, the plaintiff has a place of residence or head office in Vietnam, the defendant has a place of residence or head office in a foreign country.",
+            "B": "The parties do not have an agreement to choose a court, the plaintiff has a place of residence or head office in a foreign country, one of the defendants has a place of residence or head office in Vietnam.",
+            "C": "The parties do not have an agreement to choose a court, the plaintiff and the respondent both have domicile or domicile in a foreign country.",
+            "D": "The parties have an agreement to choose a court in Vietnam."
+        }
+    },
+    {
+        "question_id": "TN-72",
+        "question_type": "Question",
+        "text": "What is commercial surrogacy?",
+        "choices": {
+            "A": "The pregnancy of a woman to another for the purpose of assisted reproductive technology.",
+            "B": "A woman's pregnancy for another person for the purpose of economic gain or other benefit.",
+            "C": "A woman's pregnancy for another is free.",
+            "D": "The fact that a woman becomes pregnant for another person without the use of assisted reproductive technology."
+        }
+    },
+    {
+        "question_id": "TN-73",
+        "question_type": "Question",
+        "text": "How long will the salary increase time limit be extended to an officer receiving a disciplinary punishment?",
+        "choices": {
+            "A": "03 months",
+            "B": "06 months",
+            "C": "12 months",
+            "D": "24 months"
+        }
+    },
+    {
+        "question_id": "TN-74",
+        "question_type": "Question",
+        "text": "Household members may separate their households to register for permanent residence at the same lawful residence when they meet which of the following conditions?",
+        "choices": {
+            "A": "Having full civil act capacity; in case many members register to separate their households to form a new household, among those members there is at least one person with legal capacity. full civil rights.",
+            "B": "With the consent of the head of the household or the owner of the lawful residence, unless a household member who registers to separate his or her household is a divorced husband or wife, but is still allowed to use the same legal residence. ",
+            "C": "The permanent residence of the household does not fall into the case specified in Article 23 of the Law on Residence regarding the new registered place of permanent residence.",
+            "D": "All three answers A, B, C."
+        }
+    },
+    {
+        "question_id": "TN-75",
+        "question_type": "Question",
+        "text": "What is the responsibility of the press agency in drug prevention and control?",
+        "choices": {
+            "A": "Propaganda on policies and laws in drug prevention",
+            "B": "Press publishing",
+            "C": "Press circulation",
+            "D": "All A, B, C are wrong"
+        }
+    },
+    {
+        "question_id": "TN-76",
+        "question_type": "Question",
+        "text": "According to the Law on Tourism, which is not an activity that the State encourages organizations and individuals to perform in order to develop other types of tourism services?",
+        "choices": {
+            "A": "Provide other related services according to the needs of tourists and even when not in accordance with the provisions of law.",
+            "B": "Provide medical services, health care, beauty care on the basis of exploiting the value of traditional medicine, modern medicine.\n",
+            "C": "Invest in and build chains of restaurants, food courts, food festivals in order to preserve and promote traditional culinary values, and absorb the quintessence of world cuisine.",
+            "D": "Provide other relevant services according to the needs of tourists and in accordance with the provisions of law."
+        }
+    },
+    {
+        "question_id": "TN-77",
+        "question_type": "Question",
+        "text": "Which of the following is one of the principles of dispute resolution by arbitration?",
+        "choices": {
+            "A": "The arbitrator relies on his or her feelings to make the most appropriate award.",
+            "B": "The arbitral tribunal is not responsible for creating conditions for the parties to perform their rights and obligations",
+            "C": "Dispute settlement by Arbitration shall be conducted in public, unless otherwise agreed by the parties.",
+            "D": "The arbitral award is not final"
+        }
+    },
+    {
+        "question_id": "TN-78",
+        "question_type": "Question",
+        "text": "The husband does not have the right to request a divorce \nunder what circumstances?",
+        "choices": {
+            "A": "My wife is mentally ill, unable to perceive and control her behavior.",
+            "B": "\bWife having an affair with another man.",
+            "C": "Wife is pregnant, giving birth or nursing a child under 12 months old.",
+            "D": "\bThe couple doesn't get along, often conflicts and quarrels."
+        }
+    },
+    {
+        "question_id": "TN-79",
+        "question_type": "Question",
+        "text": "Which of the following is not a condition for doing business in tourist accommodation services?",
+        "choices": {
+            "A": "Has a business registration in accordance with the law.",
+            "B": "Meet conditions on security, order, safety in terms of fire prevention and fighting, environmental protection, and food safety as prescribed by law.",
+            "C": "The business has not been registered in accordance with the law.",
+            "D": "Meet the minimum conditions for technical facilities and services to serve tourists."
+        }
+    },
+    {
+        "question_id": "TN-80",
+        "question_type": "Question",
+        "text": "When living with parents, from what age children must have the obligation to take care of the common life of the family; to contribute to meeting the family's essential needs if they have an income.",
+        "choices": {
+            "A": "At least 15 years old",
+            "B": "At least 16 years old",
+            "C": "At least 17 years old",
+            "D": "At least 18 years old"
+        }
+    },
+    {
+        "question_id": "TN-81",
+        "question_type": "Question",
+        "text": "Choose the incorrect sentence from the following sentences, related to the scope of practice of tourist guides.",
+        "choices": {
+            "A": "International tour guides are guided for domestic tourists, international tourists to Vietnam nationwide and take tourists abroad.",
+            "B": "Domestic tour guides guide international tourists to Vietnam nationwide and take tourists abroad.",
+            "C": "Domestic tour guides are guided for domestic tourists who are Vietnamese citizens nationwide.",
+            "D": "The tour guide at the point is guided for tourists within the tourist area, tourist attraction."
+        }
+    },
+    {
+        "question_id": "TN-82",
+        "question_type": "Question",
+        "text": "What information does the temporary declaration include?",
+        "choices": {
+            "A": "Full name, personal identification number or ID card number, passport number of the declarant temporarily absent; duration of temporary absence; address of destination.",
+            "B": "Full name, personal identification number or ID card number, passport number of the declarant of temporary absence; reason for temporary absence; duration of temporary absence; address of destination.",
+            "C": "Full name, personal identification number or ID card number, passport number of the declarant temporarily absent; reason for temporary absence; duration of temporary absence.",
+            "D": "Full name, personal identification number or ID card number, passport number of the declarant temporarily absent; reason for temporary absence; duration of temporary absence; address of previous residence and destination ."
+        }
+    },
+    {
+        "question_id": "TN-83",
+        "question_type": "Question",
+        "text": "Which is NOT an arbitrator's rights and obligations?",
+        "choices": {
+            "A": "Accept or refuse to settle the dispute.",
+            "B": "Independence in dispute settlement.",
+            "C": "Ensure impartial, prompt and timely dispute resolution.",
+            "D": "Provide information related to the dispute."
+        }
+    },
+    {
+        "question_id": "TN-84",
+        "question_type": "Question",
+        "text": "The State does not have the power to enforce which of the following in the administration of Arbitration?",
+        "choices": {
+            "A": "Issuing establishment license of branches and representative offices of foreign arbitration institutions in Southeast Asia",
+            "B": "Revoking the Operation Registration Certificate of the Arbitration Center.",
+            "C": "Announcing the list of arbitrators of organizations operating in Vietnam",
+            "D": "Checking, inspecting and handling violations of the law on arbitration."
+        }
+    },
+    {
+        "question_id": "TN-85",
+        "question_type": "Question",
+        "text": "Which of the following acts is strictly prohibited?",
+        "choices": {
+            "A": "A guide to growing narcotic plants.",
+            "B": "Production, possession, sale of drugs",
+            "C": "Research on medicinal ingredients that are addictive drugs",
+            "D": "All A, B, C are correct"
+        }
+    },
+    {
+        "question_id": "TN-86",
+        "question_type": "Question",
+        "text": "How long is the maximum period of temporary suspension of work for public employees?",
+        "choices": {
+            "A": "15 days",
+            "B": "20 days",
+            "C": "30 days",
+            "D": "40 days"
+        }
+    },
+    {
+        "question_id": "TN-87",
+        "question_type": "Question",
+        "text": "The application file for re-issuance of tourist guide card includes which of the following? Choose the best answer.",
+        "choices": {
+            "A": "Application for re-issuance of tourist guide card according to the form prescribed by the Minister of Culture, Sports and Tourism.",
+            "B": "A certified copy of the document related to the change in content in the case of re-issuance of the card due to a change in information on the tour guide card.",
+            "C": "02 color portrait photos of size 3 cm x 4 cm.",
+            "D": "All three options above."
+        }
+    },
+    {
+        "question_id": "TN-88",
+        "question_type": "Question",
+        "text": "Men and women getting married must comply with the following conditions",
+        "choices": {
+            "A": "Not incapacitated civil act",
+            "B": "Men from full 20 years old \n or older, women from full 18 years old \n or older, not in the \ncases where marriage is prohibited by law",
+            "C": "Marriage is voluntarily decided by a man and a woman,\nnot of the same sex",
+            "D": "All of the above conditions."
+        }
+    },
+    {
+        "question_id": "TN-89",
+        "question_type": "Question",
+        "text": "The drug test in the body is the implementation of specialized techniques to determine the drug substance in the body through which of the following samples?",
+        "choices": {
+            "A": "Urine sample",
+            "B": "Blood Sample",
+            "C": "Other specimens of the human body.",
+            "D": "All A, B, C are correct"
+        }
+    },
+    {
+        "question_id": "TN-90",
+        "question_type": "Question",
+        "text": "Which provincial/municipal agency assists the Ministry of Justice in performing a number of tasks according to the Government's regulations and the Law on Commercial Arbitration?",
+        "choices": {
+            "A": "Department of Natural Resources and Environment",
+            "B": "Department of the Interior",
+            "C": "Department of Industry and Trade",
+            "D": "Department of Justice"
+        }
+    }
+]
