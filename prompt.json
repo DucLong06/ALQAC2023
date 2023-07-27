@@ -1,4 +1,0 @@
-{
-    "1": "{{context}} Question {{querry}} True or False?",
-    "2": "Can the given question {{querry}} be answered within this context: {{context}}"
-}

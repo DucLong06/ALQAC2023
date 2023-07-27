@@ -9,7 +9,7 @@ from src.utils.raw_data_process import *
 from src.utils.eval_metrics import *
 from src.retrieval.processing_data import *
 from tqdm import tqdm
-
+import my_env
 
 PATH_TO_CORPUS_ALL = "/home/longhd/ALQAC2023/data/raw/V1.1/law.json"
 PATH_TO_PUBLIC_TRAIN = my_env.PATH_TO_PUBLIC_TRAIN

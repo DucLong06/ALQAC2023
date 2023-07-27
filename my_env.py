@@ -5,6 +5,9 @@ load_dotenv()
 
 root_dir = os.path.dirname(os.path.abspath(__file__))
 
+PATH_TO_CACHE = os.getenv(
+    "PATH_TO_CACHE", os.path.join(root_dir, 'cache'))
+
 PATH_TO_BIN_CORPUS_ALL = os.getenv(
     "PATH_TO_BIN_CORPUS_ALL", os.path.join(root_dir, 'data', 'training', 'embedding_data.pkl'))
 

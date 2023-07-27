@@ -2,6 +2,7 @@
 data/
 models/
 model-bin/
+cache/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
