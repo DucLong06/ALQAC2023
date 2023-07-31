@@ -52,6 +52,12 @@ list_base_model = [
     "hmthanh/VietnamLegalText-SBERT"
 ]
 
+TRUE_WORDS = {'true', 'correct', 'accurate', 'right',
+              'yes', 'affirmative', 'guaranteed', 'always'}
+FALSE_WORDS = {'false', 'incorrect', 'inaccurate', 'wrong',
+               'no', 'negative', 'not true', 'never', 'impossible'}
+
+
 dict_bast_model = {
     "keepitreal": "keepitreal/vietnamese-sbert",
     "vovanphuc": "VoVanPhuc/sup-SimCSE-VietNamese-phobert-base",
