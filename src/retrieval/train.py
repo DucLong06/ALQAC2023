@@ -5,7 +5,7 @@ import re
 import pandas as pd
 import torch
 from torch.utils.data import DataLoader, random_split
-from src.utils.bot_telegram import send_message, send_telegram_message
+from bot_telegram import send_message, send_telegram_message
 from src.utils.early_stopping import EarlyStopping
 from src.utils.eval_metrics import eval_model
 from src.retrieval.law_data import Law_Dataset

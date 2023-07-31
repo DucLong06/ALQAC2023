@@ -3,7 +3,8 @@ import random
 import re
 import pandas as pd
 from tqdm import tqdm
-from src.utils.rank_bm25 import BM25Okapi
+from rank_bm25 import BM25Okapi
+
 
 def _data_generator(path_json: str):
     with open(path_json, 'r') as file:
@@ -83,6 +84,13 @@ def data_training_generator(path_json_question: str, path_json_law: str,  top_bm
                             for ans in item['choices']:
                                 list_question.append("{}\n{}".format(
                                     question, item['choices'][ans]))
+                    elif re.search("^Cả 3", item['choices'][item["answer"]], re.IGNORECASE):
+                        true_answer = re.findall(
+                            r"[A-C]", item['choices'][item["answer"]].replace("Cả", ""))
+                        del item['choices'][item["answer"]]
+                        for ans in item['choices']:
+                            list_question.append("{}\n{}".format(
+                                question, item['choices'][ans]))
                     else:
                         list_question.append("{}\n{}".format(
                             question,  item['choices'][item["answer"]]))
@@ -184,7 +192,7 @@ def merge_en_vi(file_en, file_vi, type="articles"):
                 text = article['text']
                 result_json[id_text] = text
         json_data = json.dumps(result_json, ensure_ascii=False)
-        output_file = 'gg_all_articles_2023.json'
+        output_file = 'vit5_all_articles_2023.json'
         with open(output_file, 'w') as file:
             file.write(json_data)
 
@@ -196,3 +204,7 @@ def merge_en_vi(file_en, file_vi, type="articles"):
 
         with open("gg_question_train.json", 'w') as file:
             json.dump(result_json, file, ensure_ascii=False, indent=4)
+
+
+# merge_en_vi("/home/longhd/drive/ALQAC2023/data/raw_en/vit5_law.json",
+#             "/home/longhd/drive/ALQAC2023/data/raw/law.json")

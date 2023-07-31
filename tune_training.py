@@ -4,7 +4,7 @@ import concurrent.futures
 import my_env as my_env
 import src.utils.my_logger as my_logger
 import src.retrieval.train as train
-from src.utils.bot_telegram import send_message
+from bot_telegram import send_message
 
 logger = my_logger.Logger("training", my_env.LOG)
 models = my_env.list_base_model

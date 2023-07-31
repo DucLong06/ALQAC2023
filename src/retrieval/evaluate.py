@@ -8,7 +8,7 @@ import torch
 from tqdm import tqdm
 from src.utils.eval_metrics import calculate_accuracy, calculate_f2_score, calculate_precision, calculate_recall
 import my_env as my_env
-from src.utils.bot_telegram import send_telegram_message
+from bot_telegram import send_telegram_message
 
 from src.retrieval.model_paraformer import Model_Paraformer
 from src.retrieval.post_data import convert_ID

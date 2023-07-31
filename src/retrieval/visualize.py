@@ -58,7 +58,6 @@ def visualize_data(df_train, df_test):
 
     plt.tight_layout()
     plt.savefig("data_visualization.png")
-    plt.show()
 
 
 # Gọi hàm visualize_data với hai DataFrame df_train và df_test
