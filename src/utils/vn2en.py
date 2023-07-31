@@ -1,3 +1,4 @@
+from collections import defaultdict
 from googletrans import Translator
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from tqdm import tqdm
@@ -8,7 +9,7 @@ def _translate_using_google(text):
     sentences = text.split("\n")
     for sentence in sentences:
         if sentence.strip():
-            yield translator.translate(sentence.strip(), src='vi', dest='en').text
+            yield translator.translate(text, src='vi', dest='en').text
 
 
 def _translate_using_transformers(text, model, tokenizer):
@@ -45,7 +46,8 @@ def translate_text(data, method='transformers'):
     for idx, item in enumerate(data):
         print(f"Number: {idx+1}/{len(data)}")
         translated_articles = []
-        if "articles" in item.key():
+        # if isinstance(item, dict):
+        if "articles" in item.keys():
             for article in tqdm(item["articles"]):
                 translated_text = _translate_sentence(article["text"])
                 translated_article = {
@@ -59,20 +61,34 @@ def translate_text(data, method='transformers'):
             }
         else:
             for article in tqdm(item["relevant_articles"]):
-                translated_text = _translate_sentence(article["law_id"])
+                # translated_text = _translate_sentence(article["law_id"])
                 translated_article = {
-                    "law_id": " ".join(translated_text),
+                    "law_id": article["law_id"],
                     "article_id": article["article_id"]
                 }
                 translated_articles.append(translated_article)
-            
-            translated_item = {
-                "question_id": item["question_id"],
-                "question_type": item["question_type"],
-                "text": " ".join(_translate_sentence(item["text"])),
-                "relevant_articles": translated_articles
-            }
-            
+            if "choices" in item.keys():
+                translated_choices = defaultdict()
+                for ans, choice in item["choices"].items():
+                    translated_choices[ans] = " ".join(
+                        _translate_sentence(choice))
+                translated_item = {
+                    "question_id": item["question_id"],
+                    "question_type": item["question_type"],
+                    "text": " ".join(_translate_sentence(item["text"])),
+                    "relevant_articles": translated_articles,
+                    "answer": " ".join(_translate_sentence(item["answer"])),
+                    "choices": translated_choices
+                }
+            else:
+                translated_item = {
+                    "question_id": item["question_id"],
+                    "question_type": item["question_type"],
+                    "text": " ".join(_translate_sentence(item["text"])),
+                    "relevant_articles": translated_articles,
+                    "answer": " ".join(_translate_sentence(item["answer"]))
+                }
+
         translated_data.append(translated_item)
 
     return translated_data
