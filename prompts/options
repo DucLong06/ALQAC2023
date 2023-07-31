@@ -1,1 +1,0 @@
-Context: "{context}" Question: "{querry}" Choices:A) {choices[A]} B) {choices[B]} C) {choices[C]} D) {choices[D]}
