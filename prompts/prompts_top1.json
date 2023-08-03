@@ -1,0 +1,11 @@
+{
+    "essay": [
+        "{premise} Question {hypothesis}?"
+    ],
+    "options": [
+        "Use the following clues to answer the following multiple-choice question.\n\nclues:{premise}\n\nQuestion: {hypothesis}\n\nChoices:A) {choices[A]} B) {choices[B]} C) {choices[C]} D) {choices[D]}\n\nSolution:"
+    ],
+    "truefalse": [
+        "Given that {premise} Does it follow that {hypothesis} Yes or no? "
+    ]
+}

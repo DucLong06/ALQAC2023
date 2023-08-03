@@ -1,8 +1,10 @@
+.DS_Store
 #private file 
 data/
 models/
 model-bin/
 cache/
+logs/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -10,7 +12,6 @@ __pycache__/
 
 # C extensions
 *.so
-.DS_Store
 # Distribution / packaging
 .Python
 build/

@@ -202,9 +202,11 @@ def merge_en_vi(file_en, file_vi, type="articles"):
             item["relevant_articles"] = data_vi[idx]["relevant_articles"]
             result_json.append(item)
 
-        with open("gg_question_train.json", 'w') as file:
+        with open("gg_question_private.json", 'w') as file:
             json.dump(result_json, file, ensure_ascii=False, indent=4)
 
 
+merge_en_vi("data/raw_en/gg_private_test.json",
+            "data/raw/private_test.json", "questions")
 # merge_en_vi("/home/longhd/drive/ALQAC2023/data/raw_en/vit5_law.json",
 #             "/home/longhd/drive/ALQAC2023/data/raw/law.json")

@@ -2760,3 +2760,280 @@ Invalid username or password.[0m
 [2023-07-26 17:18:24,822] - INFO - [92mTrain Loss: 0.0588[0m
 [2023-07-26 17:18:24,822] - INFO - [92m================================================[0m
 [2023-07-26 17:18:24,822] - INFO - [92mEpoch 6/20[0m
+[2023-07-26 17:37:24,831] - INFO - [92mValidation Loss: 0.1829[0m
+[2023-07-26 17:37:24,831] - INFO - [92mTrain Loss: 0.0527[0m
+[2023-07-26 17:37:24,832] - INFO - [92mEarly stopping[0m
+[2023-07-26 17:37:24,832] - INFO - [92mTraining finished.[0m
+[2023-07-26 17:39:41,786] - INFO - [92mTest Accuracy: 0.9688[0m
+[2023-07-26 17:39:41,786] - INFO - [92mTest Precision: 0.9282[0m
+[2023-07-26 17:39:41,786] - INFO - [92mTest Recall: 0.9825[0m
+[2023-07-26 17:39:41,786] - INFO - [92mTest F2 Score: 0.9711[0m
+[2023-07-26 17:39:42,236] - INFO - [92mDone Training !!![0m
+[2023-07-26 17:39:42,282] - INFO - [92mDone: VoVanPhuc/sup-SimCSE-VietNamese-phobert-base[0m
+[2023-07-26 17:39:42,282] - INFO - [92mTraining base model: sentence-transformers/paraphrase-xlm-r-multilingual-v1[0m
+[2023-07-26 17:39:42,282] - INFO - [92mInput Questions (Train): data/training/all_question_train_f.json[0m
+[2023-07-26 17:39:42,282] - INFO - [92mInput Articles (Train): data/training/all_articles_2023.json[0m
+[2023-07-26 17:39:42,283] - INFO - [92mTop Fake BM25: 20[0m
+[2023-07-26 17:39:42,283] - INFO - [92mBatch Size: 32[0m
+[2023-07-26 17:39:42,283] - INFO - [92mMax Epochs: 20[0m
+[2023-07-26 17:39:42,297] - INFO - [92mNumber question: 1740[0m
+[2023-07-26 17:39:42,297] - INFO - [92mNumber corpus: 2249[0m
+[2023-07-26 17:39:51,638] - INFO - [92mNumber of data in train set: 41304[0m
+[2023-07-26 17:39:51,638] - INFO - [92mNumber of data in val set: 5335[0m
+[2023-07-26 17:39:51,638] - INFO - [92mNumber of data in test set: 5148[0m
+[2023-07-26 17:39:53,751] - INFO - [92mEpoch 1/20[0m
+[2023-07-26 17:57:58,879] - INFO - [92mValidation Loss: 0.0777[0m
+[2023-07-26 17:57:58,880] - INFO - [92mTrain Loss: 0.1772[0m
+[2023-07-26 17:57:58,880] - INFO - [92m================================================[0m
+[2023-07-26 17:57:58,880] - INFO - [92mEpoch 2/20[0m
+[2023-07-26 18:16:09,844] - INFO - [92mValidation Loss: 0.0732[0m
+[2023-07-26 18:16:09,844] - INFO - [92mTrain Loss: 0.0821[0m
+[2023-07-26 18:16:09,844] - INFO - [92m================================================[0m
+[2023-07-26 18:16:09,844] - INFO - [92mEpoch 3/20[0m
+[2023-07-26 18:34:19,852] - INFO - [92mValidation Loss: 0.0752[0m
+[2023-07-26 18:34:19,852] - INFO - [92mTrain Loss: 0.0554[0m
+[2023-07-26 18:34:19,852] - INFO - [92m================================================[0m
+[2023-07-26 18:34:19,852] - INFO - [92mEpoch 4/20[0m
+[2023-07-26 18:52:34,338] - INFO - [92mValidation Loss: 0.0658[0m
+[2023-07-26 18:52:34,338] - INFO - [92mTrain Loss: 0.0398[0m
+[2023-07-26 18:52:34,338] - INFO - [92m================================================[0m
+[2023-07-26 18:52:34,339] - INFO - [92mEpoch 5/20[0m
+[2023-07-26 19:10:41,646] - INFO - [92mValidation Loss: 0.0583[0m
+[2023-07-26 19:10:41,646] - INFO - [92mTrain Loss: 0.0309[0m
+[2023-07-26 19:10:41,646] - INFO - [92m================================================[0m
+[2023-07-26 19:10:41,646] - INFO - [92mEpoch 6/20[0m
+[2023-07-26 19:28:53,817] - INFO - [92mValidation Loss: 0.0570[0m
+[2023-07-26 19:28:53,818] - INFO - [92mTrain Loss: 0.0264[0m
+[2023-07-26 19:28:53,818] - INFO - [92m================================================[0m
+[2023-07-26 19:28:53,818] - INFO - [92mEpoch 7/20[0m
+[2023-07-26 19:47:08,955] - INFO - [92mValidation Loss: 0.0787[0m
+[2023-07-26 19:47:08,955] - INFO - [92mTrain Loss: 0.0214[0m
+[2023-07-26 19:47:08,955] - INFO - [92m================================================[0m
+[2023-07-26 19:47:08,955] - INFO - [92mEpoch 8/20[0m
+[2023-07-26 20:05:23,517] - INFO - [92mValidation Loss: 0.1053[0m
+[2023-07-26 20:05:23,518] - INFO - [92mTrain Loss: 0.0198[0m
+[2023-07-26 20:05:23,518] - INFO - [92m================================================[0m
+[2023-07-26 20:05:23,518] - INFO - [92mEpoch 9/20[0m
+[2023-07-26 20:23:34,243] - INFO - [92mValidation Loss: 0.0863[0m
+[2023-07-26 20:23:34,243] - INFO - [92mTrain Loss: 0.0165[0m
+[2023-07-26 20:23:34,244] - INFO - [92mEarly stopping[0m
+[2023-07-26 20:23:34,244] - INFO - [92mTraining finished.[0m
+[2023-07-26 20:25:41,584] - INFO - [92mTest Accuracy: 0.9734[0m
+[2023-07-26 20:25:41,584] - INFO - [92mTest Precision: 0.9720[0m
+[2023-07-26 20:25:41,584] - INFO - [92mTest Recall: 0.9477[0m
+[2023-07-26 20:25:41,585] - INFO - [92mTest F2 Score: 0.9524[0m
+[2023-07-26 20:25:42,559] - INFO - [92mDone Training !!![0m
+[2023-07-26 20:25:42,750] - INFO - [92mDone: sentence-transformers/paraphrase-xlm-r-multilingual-v1[0m
+[2023-07-26 20:25:42,750] - INFO - [92mTraining base model: khanhpd2/sbert_phobert_large_cosine_sim[0m
+[2023-07-26 20:25:42,750] - INFO - [92mInput Questions (Train): data/training/all_question_train_f.json[0m
+[2023-07-26 20:25:42,750] - INFO - [92mInput Articles (Train): data/training/all_articles_2023.json[0m
+[2023-07-26 20:25:42,750] - INFO - [92mTop Fake BM25: 20[0m
+[2023-07-26 20:25:42,750] - INFO - [92mBatch Size: 32[0m
+[2023-07-26 20:25:42,751] - INFO - [92mMax Epochs: 20[0m
+[2023-07-26 20:25:42,766] - INFO - [92mNumber question: 1740[0m
+[2023-07-26 20:25:42,766] - INFO - [92mNumber corpus: 2249[0m
+[2023-07-26 20:25:52,249] - INFO - [92mNumber of data in train set: 41524[0m
+[2023-07-26 20:25:52,250] - INFO - [92mNumber of data in val set: 5165[0m
+[2023-07-26 20:25:52,250] - INFO - [92mNumber of data in test set: 5098[0m
+[2023-07-26 20:25:53,195] - INFO - [92mEpoch 1/20[0m
+[2023-07-26 20:45:03,001] - INFO - [92mValidation Loss: 0.1178[0m
+[2023-07-26 20:45:03,001] - INFO - [92mTrain Loss: 0.1850[0m
+[2023-07-26 20:45:03,001] - INFO - [92m================================================[0m
+[2023-07-26 20:45:03,001] - INFO - [92mEpoch 2/20[0m
+[2023-07-26 21:04:13,905] - INFO - [92mValidation Loss: 0.1004[0m
+[2023-07-26 21:04:13,906] - INFO - [92mTrain Loss: 0.1006[0m
+[2023-07-26 21:04:13,906] - INFO - [92m================================================[0m
+[2023-07-26 21:04:13,906] - INFO - [92mEpoch 3/20[0m
+[2023-07-26 21:23:23,326] - INFO - [92mValidation Loss: 0.0931[0m
+[2023-07-26 21:23:23,327] - INFO - [92mTrain Loss: 0.0750[0m
+[2023-07-26 21:23:23,327] - INFO - [92m================================================[0m
+[2023-07-26 21:23:23,327] - INFO - [92mEpoch 4/20[0m
+[2023-07-26 21:42:30,975] - INFO - [92mValidation Loss: 0.0868[0m
+[2023-07-26 21:42:30,976] - INFO - [92mTrain Loss: 0.0624[0m
+[2023-07-26 21:42:30,976] - INFO - [92m================================================[0m
+[2023-07-26 21:42:30,976] - INFO - [92mEpoch 5/20[0m
+[2023-07-26 22:01:43,694] - INFO - [92mValidation Loss: 0.0846[0m
+[2023-07-26 22:01:43,695] - INFO - [92mTrain Loss: 0.0543[0m
+[2023-07-26 22:01:43,695] - INFO - [92m================================================[0m
+[2023-07-26 22:01:43,695] - INFO - [92mEpoch 6/20[0m
+[2023-07-26 22:20:53,187] - INFO - [92mValidation Loss: 0.0808[0m
+[2023-07-26 22:20:53,187] - INFO - [92mTrain Loss: 0.0459[0m
+[2023-07-26 22:20:53,188] - INFO - [92m================================================[0m
+[2023-07-26 22:20:53,188] - INFO - [92mEpoch 7/20[0m
+[2023-07-26 22:40:05,962] - INFO - [92mValidation Loss: 0.0941[0m
+[2023-07-26 22:40:05,963] - INFO - [92mTrain Loss: 0.0417[0m
+[2023-07-26 22:40:05,963] - INFO - [92m================================================[0m
+[2023-07-26 22:40:05,963] - INFO - [92mEpoch 8/20[0m
+[2023-07-26 22:59:12,745] - INFO - [92mValidation Loss: 0.0790[0m
+[2023-07-26 22:59:12,745] - INFO - [92mTrain Loss: 0.0380[0m
+[2023-07-26 22:59:12,746] - INFO - [92m================================================[0m
+[2023-07-26 22:59:12,746] - INFO - [92mEpoch 9/20[0m
+[2023-07-26 23:18:22,808] - INFO - [92mValidation Loss: 0.0920[0m
+[2023-07-26 23:18:22,809] - INFO - [92mTrain Loss: 0.0336[0m
+[2023-07-26 23:18:22,809] - INFO - [92m================================================[0m
+[2023-07-26 23:18:22,809] - INFO - [92mEpoch 10/20[0m
+[2023-07-26 23:37:31,821] - INFO - [92mValidation Loss: 0.0807[0m
+[2023-07-26 23:37:31,821] - INFO - [92mTrain Loss: 0.0322[0m
+[2023-07-26 23:37:31,821] - INFO - [92m================================================[0m
+[2023-07-26 23:37:31,821] - INFO - [92mEpoch 11/20[0m
+[2023-07-26 23:56:39,100] - INFO - [92mValidation Loss: 0.0830[0m
+[2023-07-26 23:56:39,100] - INFO - [92mTrain Loss: 0.0289[0m
+[2023-07-26 23:56:39,101] - INFO - [92mEarly stopping[0m
+[2023-07-26 23:56:39,101] - INFO - [92mTraining finished.[0m
+[2023-07-26 23:58:48,062] - INFO - [92mTest Accuracy: 0.9851[0m
+[2023-07-26 23:58:48,062] - INFO - [92mTest Precision: 0.9845[0m
+[2023-07-26 23:58:48,062] - INFO - [92mTest Recall: 0.9706[0m
+[2023-07-26 23:58:48,062] - INFO - [92mTest F2 Score: 0.9733[0m
+[2023-07-26 23:58:48,517] - INFO - [92mDone Training !!![0m
+[2023-07-26 23:58:48,561] - INFO - [92mDone: khanhpd2/sbert_phobert_large_cosine_sim[0m
+[2023-07-26 23:58:48,562] - INFO - [92mTraining base model: hmthanh/VietnamLegalText-SBERT[0m
+[2023-07-26 23:58:48,562] - INFO - [92mInput Questions (Train): data/training/all_question_train_f.json[0m
+[2023-07-26 23:58:48,562] - INFO - [92mInput Articles (Train): data/training/all_articles_2023.json[0m
+[2023-07-26 23:58:48,562] - INFO - [92mTop Fake BM25: 20[0m
+[2023-07-26 23:58:48,562] - INFO - [92mBatch Size: 32[0m
+[2023-07-26 23:58:48,562] - INFO - [92mMax Epochs: 20[0m
+[2023-07-26 23:58:48,577] - INFO - [92mNumber question: 1740[0m
+[2023-07-26 23:58:48,577] - INFO - [92mNumber corpus: 2249[0m
+[2023-07-26 23:58:58,035] - INFO - [92mNumber of data in train set: 41607[0m
+[2023-07-26 23:58:58,035] - INFO - [92mNumber of data in val set: 5106[0m
+[2023-07-26 23:58:58,035] - INFO - [92mNumber of data in test set: 5074[0m
+[2023-07-26 23:59:26,105] - INFO - [92mEpoch 1/20[0m
+[2023-07-27 00:18:28,942] - INFO - [92mValidation Loss: 0.1389[0m
+[2023-07-27 00:18:28,942] - INFO - [92mTrain Loss: 0.2300[0m
+[2023-07-27 00:18:28,942] - INFO - [92m================================================[0m
+[2023-07-27 00:18:28,942] - INFO - [92mEpoch 2/20[0m
+[2023-07-27 00:37:30,797] - INFO - [92mValidation Loss: 0.1225[0m
+[2023-07-27 00:37:30,797] - INFO - [92mTrain Loss: 0.1245[0m
+[2023-07-27 00:37:30,797] - INFO - [92m================================================[0m
+[2023-07-27 00:37:30,797] - INFO - [92mEpoch 3/20[0m
+[2023-07-27 00:56:38,621] - INFO - [92mValidation Loss: 0.1136[0m
+[2023-07-27 00:56:38,621] - INFO - [92mTrain Loss: 0.0967[0m
+[2023-07-27 00:56:38,621] - INFO - [92m================================================[0m
+[2023-07-27 00:56:38,621] - INFO - [92mEpoch 4/20[0m
+[2023-07-27 01:16:09,093] - INFO - [92mValidation Loss: 0.1122[0m
+[2023-07-27 01:16:09,093] - INFO - [92mTrain Loss: 0.0802[0m
+[2023-07-27 01:16:09,094] - INFO - [92m================================================[0m
+[2023-07-27 01:16:09,094] - INFO - [92mEpoch 5/20[0m
+[2023-07-27 01:36:00,413] - INFO - [92mValidation Loss: 0.1180[0m
+[2023-07-27 01:36:00,413] - INFO - [92mTrain Loss: 0.0696[0m
+[2023-07-27 01:36:00,413] - INFO - [92m================================================[0m
+[2023-07-27 01:36:00,413] - INFO - [92mEpoch 6/20[0m
+[2023-07-27 01:55:58,074] - INFO - [92mValidation Loss: 0.1106[0m
+[2023-07-27 01:55:58,075] - INFO - [92mTrain Loss: 0.0632[0m
+[2023-07-27 01:55:58,075] - INFO - [92m================================================[0m
+[2023-07-27 01:55:58,075] - INFO - [92mEpoch 7/20[0m
+[2023-07-27 02:15:55,129] - INFO - [92mValidation Loss: 0.1049[0m
+[2023-07-27 02:15:55,129] - INFO - [92mTrain Loss: 0.0563[0m
+[2023-07-27 02:15:55,129] - INFO - [92m================================================[0m
+[2023-07-27 02:15:55,129] - INFO - [92mEpoch 8/20[0m
+[2023-07-27 02:35:46,776] - INFO - [92mValidation Loss: 0.1026[0m
+[2023-07-27 02:35:46,777] - INFO - [92mTrain Loss: 0.0518[0m
+[2023-07-27 02:35:46,777] - INFO - [92m================================================[0m
+[2023-07-27 02:35:46,777] - INFO - [92mEpoch 9/20[0m
+[2023-07-27 02:55:39,117] - INFO - [92mValidation Loss: 0.1088[0m
+[2023-07-27 02:55:39,117] - INFO - [92mTrain Loss: 0.0505[0m
+[2023-07-27 02:55:39,117] - INFO - [92m================================================[0m
+[2023-07-27 02:55:39,117] - INFO - [92mEpoch 10/20[0m
+[2023-07-27 03:15:24,852] - INFO - [92mValidation Loss: 0.1007[0m
+[2023-07-27 03:15:24,852] - INFO - [92mTrain Loss: 0.0453[0m
+[2023-07-27 03:15:24,852] - INFO - [92m================================================[0m
+[2023-07-27 03:15:24,852] - INFO - [92mEpoch 11/20[0m
+[2023-07-27 03:35:18,619] - INFO - [92mValidation Loss: 0.1015[0m
+[2023-07-27 03:35:18,619] - INFO - [92mTrain Loss: 0.0430[0m
+[2023-07-27 03:35:18,619] - INFO - [92m================================================[0m
+[2023-07-27 03:35:18,619] - INFO - [92mEpoch 12/20[0m
+[2023-07-27 03:55:07,888] - INFO - [92mValidation Loss: 0.1189[0m
+[2023-07-27 03:55:07,889] - INFO - [92mTrain Loss: 0.0400[0m
+[2023-07-27 03:55:07,889] - INFO - [92m================================================[0m
+[2023-07-27 03:55:07,889] - INFO - [92mEpoch 13/20[0m
+[2023-07-27 04:15:04,424] - INFO - [92mValidation Loss: 0.1073[0m
+[2023-07-27 04:15:04,424] - INFO - [92mTrain Loss: 0.0376[0m
+[2023-07-27 04:15:04,424] - INFO - [92mEarly stopping[0m
+[2023-07-27 04:15:04,424] - INFO - [92mTraining finished.[0m
+[2023-07-27 04:17:20,978] - INFO - [92mTest Accuracy: 0.9756[0m
+[2023-07-27 04:17:20,978] - INFO - [92mTest Precision: 0.9571[0m
+[2023-07-27 04:17:20,978] - INFO - [92mTest Recall: 0.9706[0m
+[2023-07-27 04:17:20,979] - INFO - [92mTest F2 Score: 0.9679[0m
+[2023-07-27 04:17:21,829] - INFO - [92mDone Training !!![0m
+[2023-07-27 04:17:21,919] - INFO - [92mDone: hmthanh/VietnamLegalText-SBERT[0m
+[2023-07-29 15:42:51,779] - ERROR - [91mmeta-llama/Llama-2-7b:meta-llama/Llama-2-7b is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.[0m
+[2023-07-29 15:48:38,988] - ERROR - [91mgoogle/flan-t5-xxl:CUDA out of memory. Tried to allocate 400.00 MiB (GPU 0; 23.70 GiB total capacity; 22.50 GiB already allocated; 80.00 MiB free; 22.62 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF[0m
+[2023-07-29 15:50:11,236] - ERROR - [91mgoogle/flan-t5-xl:Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument index in method wrapper_CUDA__index_select)[0m
+[2023-07-29 15:55:00,676] - ERROR - [91mgoogle/flan-t5-xl:__init__() got an unexpected keyword argument 'connect'[0m
+[2023-07-29 15:55:55,005] - ERROR - [91mgoogle/flan-t5-xl:__init__() got an unexpected keyword argument 'connect'[0m
+[2023-07-29 15:58:27,264] - ERROR - [91mgoogle/flan-t5-xl:__init__() got an unexpected keyword argument 'connect'[0m
+[2023-07-29 16:00:09,781] - ERROR - [91mfacebook/mbart-large-50:Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates[0m
+[2023-07-29 16:02:22,333] - ERROR - [91mfacebook/mbart-large-50:Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates[0m
+[2023-07-29 16:03:45,249] - ERROR - [91mBabelscape/rebel-large:Cannot copy out of meta tensor; no data![0m
+[2023-07-29 16:06:33,285] - ERROR - [91mmicrosoft/biogpt:You need to install sacremoses to use BioGptTokenizer. See https://pypi.org/project/sacremoses/ for installation.[0m
+[2023-07-29 16:06:35,719] - ERROR - [91mmicrosoft/BioGPT-Large:You need to install sacremoses to use BioGptTokenizer. See https://pypi.org/project/sacremoses/ for installation.[0m
+[2023-07-29 16:06:37,590] - ERROR - [91mmicrosoft/BioGPT-Large-PubMedQA:You need to install sacremoses to use BioGptTokenizer. See https://pypi.org/project/sacremoses/ for installation.[0m
+[2023-07-29 16:06:39,880] - ERROR - [91mmicrosoft/git-large-vatex:Unrecognized configuration class <class 'transformers.models.git.configuration_git.GitConfig'> for this kind of AutoModel: AutoModelForSeq2SeqLM.
+Model type should be one of BartConfig, BigBirdPegasusConfig, BlenderbotConfig, BlenderbotSmallConfig, EncoderDecoderConfig, FSMTConfig, GPTSanJapaneseConfig, LEDConfig, LongT5Config, M2M100Config, MarianConfig, MBartConfig, MT5Config, MvpConfig, NllbMoeConfig, PegasusConfig, PegasusXConfig, PLBartConfig, ProphetNetConfig, SwitchTransformersConfig, T5Config, XLMProphetNetConfig.[0m
+[2023-07-29 16:06:41,962] - ERROR - [91mmicrosoft/git-base-msrvtt-qa:Unrecognized configuration class <class 'transformers.models.git.configuration_git.GitConfig'> for this kind of AutoModel: AutoModelForSeq2SeqLM.
+Model type should be one of BartConfig, BigBirdPegasusConfig, BlenderbotConfig, BlenderbotSmallConfig, EncoderDecoderConfig, FSMTConfig, GPTSanJapaneseConfig, LEDConfig, LongT5Config, M2M100Config, MarianConfig, MBartConfig, MT5Config, MvpConfig, NllbMoeConfig, PegasusConfig, PegasusXConfig, PLBartConfig, ProphetNetConfig, SwitchTransformersConfig, T5Config, XLMProphetNetConfig.[0m
+[2023-07-29 16:06:44,499] - ERROR - [91mmicrosoft/Promptist:Unrecognized configuration class <class 'transformers.models.gpt2.configuration_gpt2.GPT2Config'> for this kind of AutoModel: AutoModelForSeq2SeqLM.
+Model type should be one of BartConfig, BigBirdPegasusConfig, BlenderbotConfig, BlenderbotSmallConfig, EncoderDecoderConfig, FSMTConfig, GPTSanJapaneseConfig, LEDConfig, LongT5Config, M2M100Config, MarianConfig, MBartConfig, MT5Config, MvpConfig, NllbMoeConfig, PegasusConfig, PegasusXConfig, PLBartConfig, ProphetNetConfig, SwitchTransformersConfig, T5Config, XLMProphetNetConfig.[0m
+[2023-07-29 16:06:46,592] - ERROR - [91mmicrosoft/git-base-vatex:Unrecognized configuration class <class 'transformers.models.git.configuration_git.GitConfig'> for this kind of AutoModel: AutoModelForSeq2SeqLM.
+Model type should be one of BartConfig, BigBirdPegasusConfig, BlenderbotConfig, BlenderbotSmallConfig, EncoderDecoderConfig, FSMTConfig, GPTSanJapaneseConfig, LEDConfig, LongT5Config, M2M100Config, MarianConfig, MBartConfig, MT5Config, MvpConfig, NllbMoeConfig, PegasusConfig, PegasusXConfig, PLBartConfig, ProphetNetConfig, SwitchTransformersConfig, T5Config, XLMProphetNetConfig.[0m
+[2023-07-29 16:06:46,595] - ERROR - [91mmicrosoft/xprophetnet-large-wiki100-casedmicrosoft/xprophetnet-large-wiki100-cased-xglue-qg:Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'microsoft/xprophetnet-large-wiki100-casedmicrosoft/xprophetnet-large-wiki100-cased-xglue-qg'. Use `repo_type` argument if needed.[0m
+[2023-07-29 16:08:52,660] - ERROR - [91mmicrosoft/xprophetnet-large-wiki100-cased-xglue-ntg:XLMProphetNetForConditionalGeneration does not support `device_map='auto'`. To implement support, the modelclass needs to implement the `_no_split_modules` attribute.[0m
+[2023-07-29 16:10:14,955] - ERROR - [91mmicrosoft/prophetnet-large-uncased-squad-qg:ProphetNetForConditionalGeneration does not support `device_map='auto'`. To implement support, the modelclass needs to implement the `_no_split_modules` attribute.[0m
+[2023-07-29 16:11:48,812] - ERROR - [91mmicrosoft/prophetnet-large-uncased-cnndm:ProphetNetForConditionalGeneration does not support `device_map='auto'`. To implement support, the modelclass needs to implement the `_no_split_modules` attribute.[0m
+[2023-07-30 21:29:21,987] - ERROR - [91mfacebook/mbart-large-50:Descriptors cannot not be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower).
+
+More information: https://developers.google.com/protocol-buffers/docs/news/2022-05-06#python-updates[0m
+[2023-07-30 21:33:48,298] - ERROR - [91mfacebook/mbart-large-50:CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+[0m
+[2023-07-30 21:41:10,062] - ERROR - [91mBabelscape/rebel-large:Cannot copy out of meta tensor; no data![0m
+[2023-07-30 23:58:53,703] - ERROR - [91mBabelscape/rebel-large:Cannot copy out of meta tensor; no data![0m
+[2023-07-31 00:52:45,122] - ERROR - [91mgoogle/flan-t5-xl:The following `model_kwargs` are not used by the model: ['return_probs'] (note: typos in the generate arguments will also show up in this list)[0m
+[2023-07-31 01:02:16,356] - ERROR - [91mgoogle/flan-t5-xl:'Tensor' object has no attribute 'sequences'[0m
+[2023-07-31 01:03:09,049] - ERROR - [91mgoogle/flan-t5-xl:'Tensor' object has no attribute 'sequences'[0m
+[2023-07-31 01:05:43,536] - ERROR - [91mgoogle/flan-t5-xl:'Tensor' object has no attribute 'scores'[0m
+[2023-07-31 01:16:05,866] - ERROR - [91mgoogle/flan-t5-xl:'Tensor' object has no attribute 'input_ids'[0m
+[2023-07-31 01:17:01,168] - ERROR - [91mgoogle/flan-t5-xl:local variable 'res' referenced before assignment[0m
+[2023-07-31 01:17:44,560] - ERROR - [91mgoogle/flan-t5-xl:local variable 'res' referenced before assignment[0m
+[2023-07-31 10:08:49,836] - ERROR - [91mgoogle/flan-t5-xl:[0m
+[2023-07-31 10:19:10,350] - ERROR - [91mgoogle/flan-t5-xl:argument 'ids': 'list' object cannot be interpreted as an integer[0m
+[2023-07-31 11:15:11,866] - ERROR - [91mmicrosoft/BioGPT-Large:You need to install sacremoses to use BioGptTokenizer. See https://pypi.org/project/sacremoses/ for installation.[0m
+[2023-07-31 11:15:45,350] - ERROR - [91mmicrosoft/BioGPT-Large:Unrecognized configuration class <class 'transformers.models.biogpt.configuration_biogpt.BioGptConfig'> for this kind of AutoModel: AutoModelForSeq2SeqLM.
+Model type should be one of BartConfig, BigBirdPegasusConfig, BlenderbotConfig, BlenderbotSmallConfig, EncoderDecoderConfig, FSMTConfig, GPTSanJapaneseConfig, LEDConfig, LongT5Config, M2M100Config, MarianConfig, MBartConfig, MT5Config, MvpConfig, NllbMoeConfig, PegasusConfig, PegasusXConfig, PLBartConfig, ProphetNetConfig, SwitchTransformersConfig, T5Config, XLMProphetNetConfig.[0m
+[2023-07-31 11:23:32,568] - ERROR - [91mmicrosoft/BioGPT-Large:Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0! (when checking argument for argument index in method wrapper_CUDA__index_select)[0m
+[2023-07-31 11:31:18,105] - ERROR - [91mmicrosoft/BioGPT-Large:'茎'[0m
+[2023-07-31 11:33:21,801] - ERROR - [91mmicrosoft/BioGPT-Large:BioGptForCausalLM does not support `device_map='auto'`. To implement support, the modelclass needs to implement the `_no_split_modules` attribute.[0m
+[2023-07-31 11:34:37,633] - ERROR - [91mmicrosoft/BioGPT-Large:'Θ'[0m
+[2023-07-31 12:23:14,213] - ERROR - [91mdeclare-lab/flan-alpaca-xxl:CUDA out of memory. Tried to allocate 400.00 MiB (GPU 0; 23.70 GiB total capacity; 22.13 GiB already allocated; 384.00 MiB free; 22.32 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF[0m
+[2023-07-31 13:44:51,242] - ERROR - [91mdeclare-lab/flan-alpaca-xxl:CUDA out of memory. Tried to allocate 400.00 MiB (GPU 0; 23.70 GiB total capacity; 22.13 GiB already allocated; 386.00 MiB free; 22.32 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF[0m
+[2023-07-31 14:34:03,594] - ERROR - [91mdeclare-lab/flan-alpaca-gpt4-xxl:declare-lab/flan-alpaca-gpt4-xxl is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.[0m
+[2023-07-31 15:30:34,335] - ERROR - [91mbigscience/T0pp:CUDA out of memory. Tried to allocate 400.00 MiB (GPU 0; 23.70 GiB total capacity; 22.13 GiB already allocated; 384.00 MiB free; 22.32 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF[0m
+[2023-07-31 17:25:44,372] - ERROR - [91mbigscience/T0pp:CUDA out of memory. Tried to allocate 400.00 MiB (GPU 0; 23.70 GiB total capacity; 22.13 GiB already allocated; 386.00 MiB free; 22.32 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF[0m
+[2023-07-31 17:39:07,065] - ERROR - [91mbigscience/bloomz-7b1:Unrecognized configuration class <class 'transformers.models.bloom.configuration_bloom.BloomConfig'> for this kind of AutoModel: AutoModelForSeq2SeqLM.
+Model type should be one of BartConfig, BigBirdPegasusConfig, BlenderbotConfig, BlenderbotSmallConfig, EncoderDecoderConfig, FSMTConfig, GPTSanJapaneseConfig, LEDConfig, LongT5Config, M2M100Config, MarianConfig, MBartConfig, MT5Config, MvpConfig, NllbMoeConfig, PegasusConfig, PegasusXConfig, PLBartConfig, ProphetNetConfig, SwitchTransformersConfig, T5Config, XLMProphetNetConfig.[0m
+[2023-07-31 18:36:16,464] - ERROR - [91mbigscience/T0p:CUDA out of memory. Tried to allocate 400.00 MiB (GPU 0; 23.70 GiB total capacity; 22.13 GiB already allocated; 384.00 MiB free; 22.32 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF[0m
+[2023-07-31 19:47:26,415] - ERROR - [91mbigscience/T0:CUDA out of memory. Tried to allocate 400.00 MiB (GPU 0; 23.70 GiB total capacity; 22.13 GiB already allocated; 384.00 MiB free; 22.32 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF[0m
+[2023-07-31 20:58:22,617] - ERROR - [91mgoogle/flan-t5-xl:'set' object has no attribute 'append'[0m
+[2023-07-31 21:06:37,131] - ERROR - [91mgoogle/flan-t5-xl:Object of type set is not JSON serializable[0m
+[2023-07-31 23:38:02,117] - ERROR - [91mgoogle/flan-t5-xl:unmatched '{' in format spec[0m
+[2023-07-31 23:44:58,687] - ERROR - [91mgoogle/flan-t5-xl:unmatched '{' in format spec[0m
