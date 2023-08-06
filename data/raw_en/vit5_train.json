@@ -1,0 +1,1442 @@
+[
+    {
+        "question_id": "DS-1",
+        "question_type": "True/False",
+        "text": "Drug addicts aged full 18 years or older who are administratively handled by sending to compulsory detoxification establishments under the provisions of the Law on Handling of Administrative Violations when they are detected to use narcotics illegally during the period of voluntary drug detoxification, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "32"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-2",
+        "question_type": "True/False",
+        "text": "Marriage and family relations involving foreign elements are marriage and family relations in which at least one party is a foreigner or an overseas Vietnamese, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "3"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-3",
+        "question_type": "True/False",
+        "text": "In case information in an effective household register contains information different from that in the residence database, the information in the residence database shall be used, correct or incorrect?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "38"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-4",
+        "question_type": "True/False",
+        "text": "According to the Tourism Law, travel contracts need not be made in writing. True or false?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Du lịch",
+                "article_id": "39"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-5",
+        "question_type": "True/False",
+        "text": "\"Commercial arbitration\" means a mode of dispute settlement agreed upon by the parties and conducted under the Commercial Arbitration Law.",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "3"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-6",
+        "question_type": "True/False",
+        "text": "An arbitration agreement is invalid when its holder has no civil act capacity under the Penal Code, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "18"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-7",
+        "question_type": "True/False",
+        "text": "Husband can authorize wife to establish, perform and terminate transactions as prescribed by Law on marriage and family, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "24"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-8",
+        "question_type": "True/False",
+        "text": "In case of failure to be arranged according to the working position, is it right or wrong for a public employee to unilaterally terminate his/her working contract with a definite term?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Viên chức",
+                "article_id": "29"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-9",
+        "question_type": "True/False",
+        "text": "The land use right acquired by husband and wife after their marriage shall be the common property of husband and wife, even in cases where either spouse is separately inherited or given to him/her, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "33"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-10",
+        "question_type": "True/False",
+        "text": "Childbirth by assisted reproductive technology is behavior in which humans use artificial methods of insemination or in vitro fertilization to give birth.",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "3"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-11",
+        "question_type": "True/False",
+        "text": "Men and women who are eligible for marriage under the provisions of the Marriage Law and live together as husband and wife without marriage registration shall not have any rights and obligations between husband and wife, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "14"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-12",
+        "question_type": "True/False",
+        "text": "The reasons and time of temporary residence deregistration must be specified in the residence database when temporary residence deregistration is carried out, correct or incorrect?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "29"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-13",
+        "question_type": "True/False",
+        "text": "The Ministry of Education and Training shall have to prescribe the teaching and learning in foreign languages at educational establishments.",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Giáo dục",
+                "article_id": "11"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-14",
+        "question_type": "True/False",
+        "text": "If the husband has more income than the wife, does he have more right to possess and use the common property than the wife, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "29"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-15",
+        "question_type": "True/False",
+        "text": "Drug addicts aged between full 12 and under 18 years who are sent to compulsory detoxification establishments when they fail to register, implement or voluntarily terminate drug detoxification, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "33"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-16",
+        "question_type": "True/False",
+        "text": "Is the residence database a national asset managed by the Ministry of Public Security?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "36"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-17",
+        "question_type": "True/False",
+        "text": "The sentenced person who has been issued with the judgment execution decision but is on bail or is entitled to the postponement of judgment execution may still reside freely, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "4"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-18",
+        "question_type": "True/False",
+        "text": "Article 10.-Citizens who have lawful domiciles under their ownership shall be entitled to register their permanent residence therein, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "20"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-19",
+        "question_type": "True/False",
+        "text": "Is the voluntary drug rehabilitation center established by a government agency, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "36"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-20",
+        "question_type": "True/False",
+        "text": "Is the arbitrator selected by the parties or appointed by the arbitration center or court to settle the dispute in accordance with the Law on Administrative Procedures, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "3"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-21",
+        "question_type": "True/False",
+        "text": "It is not allowed to misuse educational activities to distort and oppose the State of the Socialist Republic of Vietnam, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Giáo dục",
+                "article_id": "21"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-22",
+        "question_type": "True/False",
+        "text": "The maximum duration of temporary residence is 02 years and may be extended at most 02 times, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "27"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-23",
+        "question_type": "True/False",
+        "text": "A minor who wishes to study far from his/her family may reside in a place of residence other than his/her father or mother, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "12"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-24",
+        "question_type": "True/False",
+        "text": "The Ministry of Justice shall take responsibility before the Government for performing the state management of arbitration.",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "15"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-25",
+        "question_type": "True/False",
+        "text": "Education development is not a top priority, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Giáo dục",
+                "article_id": "4"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-26",
+        "question_type": "True/False",
+        "text": "The responsibility of drug users is to comply with the management of state agencies, particularly the People's Committees of communes, wards, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "24"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-27",
+        "question_type": "True/False",
+        "text": "Should the dispute be resolved by arbitration be made publicly available, even if the parties agree otherwise, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "4"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-28",
+        "question_type": "True/False",
+        "text": "Is the arbitrator entitled to refuse to settle the dispute, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "21"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-29",
+        "question_type": "True/False",
+        "text": "The cinematographic establishment distributing the film must take responsibility before law for the correct content of the released film.",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Điện ảnh",
+                "article_id": "15"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-30",
+        "question_type": "True/False",
+        "text": "Household registration book is revoked when it expires from January 01,2023, correct or incorrect?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "38"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-31",
+        "question_type": "True/False",
+        "text": "For disputed properties, if there are no grounds to prove that they are the separate properties of husband or wife, such properties shall be considered common properties, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "33"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-32",
+        "question_type": "True/False",
+        "text": "The Minister of Education and Training shall not be allowed to stipulate the correct or incorrect threshold for entrance to college and university level in the teacher training sector?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Giáo dục",
+                "article_id": "6"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-33",
+        "question_type": "True/False",
+        "text": "According to the Law on Cinematography, is it right or wrong for a film classified as C to be accompanied by a parent or guardian if the viewer is a child under 13?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Điện ảnh",
+                "article_id": "32"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-34",
+        "question_type": "True/False",
+        "text": "Is it right that Vietnamese cultural houses, film projection units, clubs and public film projection associations, and mobile film projection teams are allowed to enter into business cooperation with foreign service providers?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Điện ảnh",
+                "article_id": "8"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-35",
+        "question_type": "True/False",
+        "text": "The educational program should express the educational objectives and require learners to achieve the corresponding qualities and capacities, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Giáo dục",
+                "article_id": "8"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-36",
+        "question_type": "True/False",
+        "text": "Is the film that has been licensed by the Ministry of Culture, Sports and Tourism or provincial People's Committee to be true or false?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Điện ảnh",
+                "article_id": "27"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-37",
+        "question_type": "True/False",
+        "text": "The Law on commercial arbitration has jurisdiction to settle disputes between parties without commercial activities and the law does not prescribe that they shall be settled by arbitration, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "2"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-38",
+        "question_type": "True/False",
+        "text": "Should a spouse contribute his or her own property to meet the family's essential needs, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "30"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-39",
+        "question_type": "True/False",
+        "text": "The Ministry of Education and Training shall have to prescribe the transferability among different educational grades and training levels in the national education system.",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Giáo dục",
+                "article_id": "10"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-40",
+        "question_type": "True/False",
+        "text": "Is the state competent to monitor, inspect, and monitor drug research and production (excluding growing of drug - containing plants), right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "13"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-41",
+        "question_type": "True/False",
+        "text": "The drug detoxification establishments are not responsible for issuing certificates of completion of voluntary drug detoxification to drug detoxicators, correct or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "31"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-42",
+        "question_type": "True/False",
+        "text": "Is international cooperation, scientific research, technology transfer, provision of digital services to develop cinema one of the state policies on development of cinema, film industry right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Điện ảnh",
+                "article_id": "5"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-43",
+        "question_type": "True/False",
+        "text": "Is the choice of residence of husband and wife decided by the customs and practices of the husband's family, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "20"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-44",
+        "question_type": "True/False",
+        "text": "In case citizens who are not in the military age group go abroad for study or work abroad without declaring their temporary absence, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "31"
+            }
+        ],
+        "answer": "True"
+    },
+    {
+        "question_id": "DS-45",
+        "question_type": "True/False",
+        "text": "Public employees of the People's Courts who have university degrees and have actually worked in the branches for 5 years or more, are fully qualified to act as arbitrators, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "20"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-46",
+        "question_type": "True/False",
+        "text": "Divorce is the taking advantage of divorce to evade property obligations, violate policies and laws on population or to achieve other purposes without the purpose of termination of marriage, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "3"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-47",
+        "question_type": "True/False",
+        "text": "Is it right that the state only invests in and supports film production, screenwriting, and film distribution and dissemination?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Điện ảnh",
+                "article_id": "5"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-48",
+        "question_type": "True/False",
+        "text": "In a dispute without foreign elements, can the arbitration council apply international law to resolve it, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "14"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-49",
+        "question_type": "True/False",
+        "text": "Article 10.-Agencies, organizations and individuals may freely supply, exchange, copy and print information and documents from the residence database, right or wrongly.",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "36"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "DS-50",
+        "question_type": "True/False",
+        "text": "Does career orientation in education not necessarily provide students with knowledge of careers and the ability to choose careers on the basis of combining the individual's aspirations and strengths with the society's need to employ workers, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Giáo dục",
+                "article_id": "9"
+            }
+        ],
+        "answer": "Bad"
+    },
+    {
+        "question_id": "TN-1",
+        "question_type": "Question",
+        "text": "Under what circumstances did the public employee have his/her employment unilaterally terminated by the public service provider?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Viên chức",
+                "article_id": "29"
+            }
+        ],
+        "answer": "A",
+        "choices": {
+            "A": "Public employees who have been assessed as failing to complete their tasks for 2 consecutive years",
+            "B": "Article 10.-Public employees who are sick or have accidents, or are being treated for occupational diseases under decisions of medical treatment establishments",
+            "C": "A public employee who is taking annual leave, leaves for personal reasons and other leaves permitted by the head of his/her public non-business unit",
+            "D": "Female official is pregnant, on maternity leave, raising child under 36 months old"
+        }
+    },
+    {
+        "question_id": "TN-2",
+        "question_type": "Question",
+        "text": "What other types of travel services do the Tourism Law include? Choose the correct answer.",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Du lịch",
+                "article_id": "54"
+            }
+        ],
+        "answer": "D",
+        "choices": {
+            "A": "Sports services.",
+            "B": "Food service.",
+            "C": "Health care.",
+            "D": "All three options."
+        }
+    },
+    {
+        "question_id": "TN-3",
+        "question_type": "Question",
+        "text": "Which of the following places is eligible for new permanent residence registration?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "23"
+            }
+        ],
+        "answer": "C",
+        "choices": {
+            "A": "- Houses already dismantled under decisions of competent State bodies.",
+            "B": "- The place of residence is confiscated under a decision of a competent state agency.",
+            "C": "Accommodation is located in unclassified historical - cultural monuments.",
+            "D": "The vehicle used as permanent residence has been deregistered."
+        }
+    },
+    {
+        "question_id": "TN-4",
+        "question_type": "Question",
+        "text": "The notice of retirement of public employees issued by the agency, unit or organization is made within a certain period of time before the time limit for public employee retirement is reached?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Viên chức",
+                "article_id": "46"
+            }
+        ],
+        "answer": "A",
+        "choices": {
+            "A": "06 months",
+            "B": "04 months",
+            "C": "03 months",
+            "D": "02 months"
+        }
+    },
+    {
+        "question_id": "TN-5",
+        "question_type": "Question",
+        "text": "What are the following activities on the set?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Điện ảnh",
+                "article_id": "12"
+            }
+        ],
+        "answer": "C",
+        "choices": {
+            "A": "- Organizing the management and administration of, or joint venture or cooperation in, film production.",
+            "B": "To provide film production services and other services in accordance with law.",
+            "C": "Both A and B are right.",
+            "D": "Both A and B are wrong."
+        }
+    },
+    {
+        "question_id": "TN-6",
+        "question_type": "Question",
+        "text": "In any of the following cases, the language used in the legal proceedings is not Vietnamese?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "10"
+            }
+        ],
+        "answer": "B",
+        "choices": {
+            "A": "For a dispute involving foreign elements in which the parties cannot reach agreement on the language of procedures, the arbitration council shall decide to use Vietnamese.",
+            "B": "Disputes involving foreign elements and one of the parties cannot use Vietnamese and the parties agree to use English as the procedural language.",
+            "C": "a/Disputes involving no foreign elements and one of the involved parties cannot use Vietnamese.",
+            "D": "Disputes where at least one party is a foreign-invested enterprise and the parties agree to use Vietnamese as the procedural language."
+        }
+    },
+    {
+        "question_id": "TN-7",
+        "question_type": "Question",
+        "text": "Which of the following resources is being used for drug prevention and control?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "4"
+            }
+        ],
+        "answer": "D",
+        "choices": {
+            "A": "State budget",
+            "B": "- Financial assistance, aid, investment and donations from domestic and foreign organizations and individuals.",
+            "C": "Family expenses, drug addicts",
+            "D": "Both A, B, C are right."
+        }
+    },
+    {
+        "question_id": "TN-8",
+        "question_type": "Question",
+        "text": "What stages of the detox process are involved?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "29"
+            }
+        ],
+        "answer": "D",
+        "choices": {
+            "A": "Withdrawal therapy, detoxification, treatment of psychosis and other pathologies",
+            "B": "Education, Counseling, Behavior and Personality Rehabilitation",
+            "C": "Occupational therapy, vocational training, and community re-integration",
+            "D": "Both A, B, C are right."
+        }
+    },
+    {
+        "question_id": "TN-9",
+        "question_type": "Question",
+        "text": "How many levels of vocational education are being trained?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Giáo dục",
+                "article_id": "35"
+            }
+        ],
+        "answer": "D",
+        "choices": {
+            "A": "Elementary and intermediate level",
+            "B": "College level",
+            "C": "Other vocational training programs for learners",
+            "D": "Both A, B, C are right."
+        }
+    },
+    {
+        "question_id": "TN-10",
+        "question_type": "Question",
+        "text": "What does the permanent residence registration dossier of a citizen who has a lawful place of residence under his/her ownership consist of?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "21"
+            }
+        ],
+        "answer": "C",
+        "choices": {
+            "A": "Declaration of change to residence information; papers and documents proving the housing area is sufficient for permanent residence registration as prescribed.",
+            "B": "Declaration of change to residence information; contract for lease, lending or permission for stay or document on lending or permission for stay at lawful place of residence notarized or certified as prescribed by law.",
+            "C": "Declaration of change in residence information; papers and documents proving the lawful ownership of place of residence.",
+            "D": "Declaration of change in residence information; papers and documents proving personal relationship with household members."
+        }
+    },
+    {
+        "question_id": "TN-11",
+        "question_type": "Question",
+        "text": "In what cases are the arbitrators entitled to settle the dispute?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "2"
+            }
+        ],
+        "answer": "D",
+        "choices": {
+            "A": "Disputes between parties arising from commercial activities",
+            "B": "Disputes arising between parties, of which at least one party conducts commercial activities.",
+            "C": "Other disputes between parties which are prescribed by law to be settled by arbitration",
+            "D": "All three options A, B, and C are correct."
+        }
+    },
+    {
+        "question_id": "TN-12",
+        "question_type": "Question",
+        "text": "The following acts are not prohibited from residence?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "7"
+            }
+        ],
+        "answer": "B",
+        "choices": {
+            "A": "Forging residence papers, documents and data; using fake residence papers, documents and data; supplying untruthful residence information, papers and documents.",
+            "B": "To exploit information on their residence in the national population database.",
+            "C": "To permit the permanent or temporary residence registration when it is clear that the permanent or temporary residence registrant does not live in the place.",
+            "D": "Making false declarations of conditions, forging dossiers, papers and documents to be registered as permanent or temporary residence; buying, selling, renting, leasing, borrowing, lending, pledging, receiving as pledge or destroying residence papers and documents."
+        }
+    },
+    {
+        "question_id": "TN-13",
+        "question_type": "Question",
+        "text": "What is not the role of the state in protecting marriage and family?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "4"
+            }
+        ],
+        "answer": "C",
+        "choices": {
+            "A": "To establish voluntary, progressive, monogamous, equal husband and wife marriage.",
+            "B": "Build a prosperous, progressive, happy family and fulfill all of your functions.",
+            "C": "Prohibit the education of marriage and family legislation.",
+            "D": "To mobilize people to eliminate backward customs and practices on marriage and family."
+        }
+    },
+    {
+        "question_id": "TN-14",
+        "question_type": "Question",
+        "text": "Article 11.-What rights couple have in the possession, use and disposition of common property",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "35"
+            }
+        ],
+        "answer": "A",
+        "choices": {
+            "A": "Husband and wife reach an agreement",
+            "B": "Wife has a higher right than husband.",
+            "C": "Husband and wife have equal rights.",
+            "D": "Husband has a higher right than wife."
+        }
+    },
+    {
+        "question_id": "TN-15",
+        "question_type": "Question",
+        "text": "What is not the condition for a tour guide's license?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Du lịch",
+                "article_id": "59"
+            }
+        ],
+        "answer": "C",
+        "choices": {
+            "A": "- Having Vietnamese nationality and permanently residing in Vietnam.",
+            "B": "Have full legal capacity.",
+            "C": "Possessing a university or higher degree in accounting.",
+            "D": "No infectious diseases, no drug use."
+        }
+    },
+    {
+        "question_id": "TN-16",
+        "question_type": "Question",
+        "text": "What is not the responsibility of the registration authority?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "33"
+            }
+        ],
+        "answer": "B",
+        "choices": {
+            "A": "Certify information about residence, notify results of procedures for permanent residence registration, temporary residence registration, temporary residence extension, declaration of information, adjustment of information about residence, household separation, temporary absence declaration in writing, electronic messages or other forms as prescribed by the Minister of Public Security.",
+            "B": "Issue, print and manage declarations of change to residence information and residence documents, forms and records.",
+            "C": "Update information on citizens' residence to the national population database and residence database.",
+            "D": "To manage and archive residence registration and administration dossiers, papers and documents and keep confidential citizens' residence registration information."
+        }
+    },
+    {
+        "question_id": "TN-17",
+        "question_type": "Question",
+        "text": "Which unit has the power to license film classification?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Điện ảnh",
+                "article_id": "27"
+            }
+        ],
+        "answer": "D",
+        "choices": {
+            "A": "The Ministry of Culture, Sports and Tourism shall :",
+            "B": "Provincial People's Committees",
+            "C": "Provincial-level People's Committees shall satisfy the conditions prescribed by the Minister of Culture, Sports and Tourism.",
+            "D": "The Ministry of Culture, Sports and Tourism and provincial-level People's Committees shall satisfy the conditions prescribed by the Minister of Culture, Sports and Tourism."
+        }
+    },
+    {
+        "question_id": "TN-18",
+        "question_type": "Question",
+        "text": "It's not the duty, the right of the father or mother to directly raise a child after divorce",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "82"
+            }
+        ],
+        "answer": "C",
+        "choices": {
+            "A": "Respect your rights to live with... The direct nurturer.",
+            "B": "Supporting your child",
+            "C": "Abuse of visiting to obstruct or adversely affect the care, nurturing, and education of children",
+            "D": "Visit me without interference."
+        }
+    },
+    {
+        "question_id": "TN-19",
+        "question_type": "Question",
+        "text": "What are the conditions for arbitration?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "5"
+            }
+        ],
+        "answer": "D",
+        "choices": {
+            "A": "Parties have an arbitration agreement which may be made before or after the dispute arises.",
+            "B": "In case a party to an arbitration agreement being an individual dies or loses his/her act capacity, the arbitration agreement remains valid for his/her heir or at-law representative, unless otherwise agreed by the parties.",
+            "C": "In case a party to an arbitration agreement being an organization has to terminate its operation, go bankrupt, dissolve, consolidate, merge, divide, split up or transform its organization, the arbitration agreement remains valid for the organization that takes over its rights and obligations, unless otherwise agreed by the parties.",
+            "D": "All three of these are true."
+        }
+    },
+    {
+        "question_id": "TN-20",
+        "question_type": "Question",
+        "text": "In an arbitral proceedings, how can the parties negotiate and reconcile with each other?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "9"
+            }
+        ],
+        "answer": "B",
+        "choices": {
+            "A": "The parties may freely negotiate and reach agreement on the settlement of their dispute but may not request the arbitration council to conciliate them for agreement on the settlement of their dispute.",
+            "B": "The parties may freely negotiate and reach agreement on the settlement of their dispute or request the arbitration council to conciliate them for agreement on the settlement of their dispute.",
+            "C": "The parties have no right to negotiate or mediate with each other but must request the arbitration council to mediate so that they can reach agreement on the settlement of their dispute.",
+            "D": "The parties have no right to freely negotiate and conciliate nor to request the arbitration council to conciliate the parties to reach agreement on the settlement of their dispute."
+        }
+    },
+    {
+        "question_id": "TN-21",
+        "question_type": "Question",
+        "text": "How long does the registration authority have to appraise and update information about the household related to the separation into the residence database after receiving the complete and valid application?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "25"
+            }
+        ],
+        "answer": "A",
+        "choices": {
+            "A": "05 working days.",
+            "B": "- 5 days, including weekends and holidays.",
+            "C": "3 working days.",
+            "D": "- 03 days, including weekends and holidays."
+        }
+    },
+    {
+        "question_id": "TN-22",
+        "question_type": "Question",
+        "text": "Parents are NOT obliged to care for and support their children together.",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "71"
+            }
+        ],
+        "answer": "B",
+        "choices": {
+            "A": "Minor children",
+            "B": "You're a grown man and married.",
+            "C": "- The child is an adult but has lost his/her civil act capacity.",
+            "D": "I have no working capacity and no property to support myself."
+        }
+    },
+    {
+        "question_id": "TN-23",
+        "question_type": "Question",
+        "text": "What is a narcotic - containing plant?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "2"
+            }
+        ],
+        "answer": "A",
+        "choices": {
+            "A": "Opium poppy",
+            "B": "Coconut",
+            "C": "Cacao plants",
+            "D": "Both A, B, C are right."
+        }
+    },
+    {
+        "question_id": "TN-24",
+        "question_type": "Question",
+        "text": "Which of the following are covered by the applicable law on dispute resolution in the Law on Commercial Arbitration?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "14"
+            }
+        ],
+        "answer": "D",
+        "choices": {
+            "A": "For disputes involving no foreign elements, arbitration councils shall apply Vietnamese law to settle them.",
+            "B": "For a dispute involving foreign elements, the arbitration council shall apply the law selected by the parties. If the parties fail to reach agreement on the applicable law, the arbitration council shall decide to apply the law it deems most appropriate.",
+            "C": "In case Vietnamese law or a law selected by the parties does not provide specific provisions on the dispute, the arbitration council may apply international practices to settle the dispute if such application or consequences of such application are not contrary to basic principles of Vietnamese law.",
+            "D": "All three of these are true."
+        }
+    },
+    {
+        "question_id": "TN-25",
+        "question_type": "Question",
+        "text": "In what circumstances did the arbitration agreement become void?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "18"
+            }
+        ],
+        "answer": "A",
+        "choices": {
+            "A": "Disputes arise in the domains falling beyond the arbitration's jurisdiction specified in Article 2 of this Law.",
+            "B": "The arbitration agreement does not violate the prohibition of law.",
+            "C": "The form of an arbitration agreement complies with Article 16 of this Law.",
+            "D": "The arbitration agreement maker is a competent person defined by law."
+        }
+    },
+    {
+        "question_id": "TN-26",
+        "question_type": "Question",
+        "text": "Is the arbitration agreement independent of the contract?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "19"
+            }
+        ],
+        "answer": "A",
+        "choices": {
+            "A": "An arbitration agreement is independent of the contract. The modification, extension or cancellation of a contract or the invalid or unrealizable contract does not invalidate the arbitration agreement.",
+            "B": "An arbitration agreement is not independent of the contract. The modification or extension of the contract invalidates the arbitration agreement.",
+            "C": "An arbitration agreement is not independent of the contract. The cancellation of a contract or the invalidation or impossibility of the performance of a contract invalidates the arbitration agreement.",
+            "D": "An arbitration agreement depends on the contract. Any act of changing, extending or canceling the contract or invalidating or being unable to perform the contract will invalidate the arbitration agreement."
+        }
+    },
+    {
+        "question_id": "TN-27",
+        "question_type": "Question",
+        "text": "What is psychotropic substances defined?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "2"
+            }
+        ],
+        "answer": "B",
+        "choices": {
+            "A": "Psychotropic substances are neurotoxic.",
+            "B": "Psychotropic substances are substances that stimulate or inhibit nerves or hallucinations, and repeated use can lead to addiction for the user.",
+            "C": "Psychotropic substances are nerve agents.",
+            "D": "Both A, B, C are wrong."
+        }
+    },
+    {
+        "question_id": "TN-28",
+        "question_type": "Question",
+        "text": "Does not the application for rating of the tourist accommodation establishment include?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Du lịch",
+                "article_id": "50"
+            }
+        ],
+        "answer": "B",
+        "choices": {
+            "A": "An application form for rating of a tourist accommodation establishment, which is made using the form provided by the Minister of Culture, Sports and Tourism.",
+            "B": "- The list of relatives of the tourist accommodation establishment's personnel.",
+            "C": "The written self-assessment of the quality of the tourist accommodation establishment according to the national standards on rating of tourist accommodation establishments.",
+            "D": "- The list of managers and employees of the tourist accommodation establishment."
+        }
+    },
+    {
+        "question_id": "TN-29",
+        "question_type": "Question",
+        "text": "In what cases, the public service provider is allowed to unilaterally terminate the employment contract with the public employee?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Viên chức",
+                "article_id": "29"
+            }
+        ],
+        "answer": "C",
+        "choices": {
+            "A": "Public employee received disciplinary form of reprimand",
+            "B": "Female official is pregnant, on maternity leave, raising child under 36 months old",
+            "C": "Public non-business units terminate their operation under decisions of competent agencies",
+            "D": "A public employee who is taking annual leave, leaves for personal reasons and other leaves permitted by the head of his/her public non-business unit"
+        }
+    },
+    {
+        "question_id": "TN-30",
+        "question_type": "Question",
+        "text": "What is the operating principle of the Tourism Development Assistance Fund not including below?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Du lịch",
+                "article_id": "72"
+            }
+        ],
+        "answer": "D",
+        "choices": {
+            "A": "Not for profit; preserve charter capital and self-cover management costs.",
+            "B": "To conduct revenues, expenditures, final settlement, publicity of finance, assets and accounting work according to law provisions.",
+            "C": "To submit to the examination, inspection and audit by the finance state management agency and the state audit of financial activities of the Tourism Development Assistance Fund.",
+            "D": "The previous year's fund balance of the Tourism Development Assistance Fund may be used for personal purposes at one's own will."
+        }
+    },
+    {
+        "question_id": "TN-31",
+        "question_type": "Question",
+        "text": "- Where is the competent unit to set up the film evaluation and classification council?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Điện ảnh",
+                "article_id": "31"
+            }
+        ],
+        "answer": "D",
+        "choices": {
+            "A": "The Minister of Culture, Sports and Tourism",
+            "B": "Chairpersons of provincial-level People's Committees",
+            "C": "Article 10.-The heads of the press bodies with television operation licenses",
+            "D": "All three of them, A, B, and C, are true."
+        }
+    },
+    {
+        "question_id": "TN-32",
+        "question_type": "Question",
+        "text": "What is the purpose of the Motion Picture Development Assistance Fund?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Điện ảnh",
+                "article_id": "43"
+            }
+        ],
+        "answer": "C",
+        "choices": {
+            "A": "Supporting experimental film production projects, debut films, films of young authors.",
+            "B": "To support film authors, film production projects and outstanding Vietnamese films participating in overseas film festivals, film prizes, film contests, film fairs, film programs and film weeks.",
+            "C": "Both A, B, D are right.",
+            "D": "Support other activities to develop the film."
+        }
+    },
+    {
+        "question_id": "TN-33",
+        "question_type": "Question",
+        "text": "Under the Tourism Law on the responsibility for State management over tourism, the People's Committees of all levels shall have no following tasks and powers :",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Du lịch",
+                "article_id": "75"
+            }
+        ],
+        "answer": "B",
+        "choices": {
+            "A": "- To receive and settle tourist petitions;",
+            "B": "Taking advantage of tourist activities to illegally take people from Vietnam abroad or vice versa.",
+            "C": "- To manage tourist resources, tourist resorts, tourist sites, tourist business activities and tourist guides in their respective localities;",
+            "D": "To propagate and raise people's awareness to ensure a friendly, healthy and civilized tourist environment;"
+        }
+    },
+    {
+        "question_id": "TN-34",
+        "question_type": "Question",
+        "text": "What's an arbitration union?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "22"
+            }
+        ],
+        "answer": "B",
+        "choices": {
+            "A": "An arbitration association is a socio-professional organization of arbitrators and arbitration centers in each province or city.",
+            "B": "An arbitration association is a socio-professional organization of arbitrators and arbitration centers nationwide.",
+            "C": "An arbitration association is a socio - professional organization of procurators and arbitration centers nationwide.",
+            "D": "An arbitration association is a socio-professional organization of arbitrators and people's courts nationwide."
+        }
+    },
+    {
+        "question_id": "TN-35",
+        "question_type": "Question",
+        "text": "What are the following prohibited acts?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "5"
+            }
+        ],
+        "answer": "D",
+        "choices": {
+            "A": "Forced divorce, deception of divorce, obstruction of divorce.",
+            "B": "Claiming to be rich in marriage.",
+            "C": "Have a commercial assisted reproductive technology birth.",
+            "D": "All three of them, A, B, and C, are true."
+        }
+    },
+    {
+        "question_id": "TN-36",
+        "question_type": "Question",
+        "text": "What areas should be allocated in a public drug rehabilitation center?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "35"
+            }
+        ],
+        "answer": "D",
+        "choices": {
+            "A": "Temporary accommodation",
+            "B": "Compulsory drug rehab",
+            "C": "Voluntary drug rehabilitation",
+            "D": "Both A, B, C are right."
+        }
+    },
+    {
+        "question_id": "TN-37",
+        "question_type": "Question",
+        "text": "In any of the following cases, the applicant may not register permanent residence at a folk religious establishment or religious establishment with housing as an auxiliary work :",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "20"
+            }
+        ],
+        "answer": "C",
+        "choices": {
+            "A": "Persons who are permitted by the representative (s) or the management of the folk religious establishment to register their permanent residence to directly manage and organize folk belief activities at the folk religious establishment.",
+            "B": "- The representative of the religious establishment.",
+            "C": "People who work for religious institutions.",
+            "D": "All three choices A, B, C."
+        }
+    },
+    {
+        "question_id": "TN-38",
+        "question_type": "Question",
+        "text": "What is the objective of vocational education?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Giáo dục",
+                "article_id": "36"
+            }
+        ],
+        "answer": "C",
+        "choices": {
+            "A": "- Training of personnel directly engaged in production, business and services.",
+            "B": "Facilitating learners who complete courses to find jobs or take higher education",
+            "C": "Both A and B are right.",
+            "D": "Both A and B are wrong."
+        }
+    },
+    {
+        "question_id": "TN-39",
+        "question_type": "Question",
+        "text": "What is the mission of continuing education?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Giáo dục",
+                "article_id": "42"
+            }
+        ],
+        "answer": "C",
+        "choices": {
+            "A": "To implement illiteracy eradication for persons in the age group as prescribed by law",
+            "B": "Creating opportunities for people with learning needs to improve their educational level",
+            "C": "Both A and B are right.",
+            "D": "Both A and B are wrong."
+        }
+    },
+    {
+        "question_id": "TN-40",
+        "question_type": "Question",
+        "text": "What are the following drug withdrawal measures?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "28"
+            }
+        ],
+        "answer": "C",
+        "choices": {
+            "A": "Voluntary drug rehabilitation",
+            "B": "Compulsory drug rehabilitation",
+            "C": "Both A and B are right.",
+            "D": "Both A and B are wrong."
+        }
+    },
+    {
+        "question_id": "TL-1",
+        "question_type": "Study",
+        "text": "In case the parties do not otherwise agree or the arbitration center's rules of proceedings do not otherwise prescribe, how long shall the arbitration center send to the defendant copies of the plaintiff's lawsuit petition and other prescribed documents after receiving the lawsuit petition?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "32"
+            }
+        ],
+        "answer": "10 days"
+    },
+    {
+        "question_id": "TL-2",
+        "question_type": "Study",
+        "text": "How big is the size of the application for the reissuance of the tour guide card?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Du lịch",
+                "article_id": "63"
+            }
+        ],
+        "answer": "3 cm x 4 cm"
+    },
+    {
+        "question_id": "TL-3",
+        "question_type": "Study",
+        "text": "The time limit for managing the illegal drug users from the date the President of the People's Committee of commune or ward issues the management decision?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Phòng, chống ma túy",
+                "article_id": "23"
+            }
+        ],
+        "answer": "1 year"
+    },
+    {
+        "question_id": "TL-4",
+        "question_type": "Study",
+        "text": "What is the function of the arbitration center?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Trọng tài thương mại",
+                "article_id": "23"
+            }
+        ],
+        "answer": "To organize and coordinate dispute settlement by statute arbitration and provide administrative, office and other supports for arbitrators in the course of arbitral proceedings."
+    },
+    {
+        "question_id": "TL-5",
+        "question_type": "Study",
+        "text": "After the household registration book expires (by December 31,2022 ), how can the permanent residence be proved?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Cư trú",
+                "article_id": "37"
+            }
+        ],
+        "answer": "Citizens only need to present ID cards/Citizen Identification Cards, competent authorities shall search for information about residence in the national database system."
+    },
+    {
+        "question_id": "TL-6",
+        "question_type": "Study",
+        "text": "Divorced husband and wife wishing to re-establish their spousal relationship, what procedures should they carry out?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Hôn nhân và gia đình",
+                "article_id": "9"
+            }
+        ],
+        "answer": "marriage registration"
+    },
+    {
+        "question_id": "TL-7",
+        "question_type": "Study",
+        "text": "Who is the key player in the management, organization, and execution of educational activities?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Giáo dục",
+                "article_id": "18"
+            }
+        ],
+        "answer": "Education managers"
+    },
+    {
+        "question_id": "TL-8",
+        "question_type": "Study",
+        "text": "What financial sources play a major role in the total resources invested in education?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Giáo dục",
+                "article_id": "17"
+            }
+        ],
+        "answer": "State budget"
+    },
+    {
+        "question_id": "TL-9",
+        "question_type": "Study",
+        "text": "Article 10.-Which agency is responsible for assisting the Government in performing the State management over cinematography?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Điện ảnh",
+                "article_id": "45"
+            }
+        ],
+        "answer": "The Ministry of Culture, Sports and Tourism shall :"
+    },
+    {
+        "question_id": "TL-10",
+        "question_type": "Study",
+        "text": "Which agency is responsible for the unified state management of cinematography?",
+        "relevant_articles": [
+            {
+                "law_id": "Luật Điện ảnh",
+                "article_id": "45"
+            }
+        ],
+        "answer": "Government"
+    }
+]

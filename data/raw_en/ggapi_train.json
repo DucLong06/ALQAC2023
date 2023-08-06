@@ -1,0 +1,1442 @@
+[
+    {
+        "question_id": "DS-1",
+        "question_type": "Right-wrong",
+        "text": "Drug addicts are 18 years of age or older, which are applied to administrative handling measures to put into compulsory detoxification establishments in accordance with the Law on Handling of Administrative Violations when detected by drug use in a contrary.During the period of voluntary, right or wrong drug detoxification?",
+        "relevant_articles": [
+            {
+                "law_id": "Law on Drug Prevention and Control",
+                "article_id": "32"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-2",
+        "question_type": "Right-wrong",
+        "text": "The marriage and family relationship with foreign elements is the marriage and family relationship that at least one party is foreigners, Vietnamese residing abroad, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Marital Act",
+                "article_id": "3"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-3",
+        "question_type": "Right-wrong",
+        "text": "In case the information in the household registration book is still valid, there is different information from the information in the database of residence, the information in the database of residence, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "38"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-4",
+        "question_type": "Right-wrong",
+        "text": "According to the Tourism Law, the travel contract does not need to be made in writing.Right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "The tourism laws",
+                "article_id": "39"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-5",
+        "question_type": "Right-wrong",
+        "text": "\"Trong at trade\" is a method of dispute settlement agreed by the parties and is carried out in accordance with the provisions of the Commercial Arbitration Law.",
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "3"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-6",
+        "question_type": "Right-wrong",
+        "text": "The arbitration agreement is invalid when the person who establishes an arbitration agreement without civil act capacity in accordance with the Criminal Code, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "18"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-7",
+        "question_type": "Right-wrong",
+        "text": "Can the husband authorize his wife to establish, implement and terminate the transaction in accordance with the Law on Marriage and Family, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Marital Act",
+                "article_id": "24"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-8",
+        "question_type": "Right-wrong",
+        "text": "In the case of not being arranged in accordance with the job position, whether the officials have the right to terminate the working contract with a definite term whose time limit is right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Law on Officials",
+                "article_id": "29"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-9",
+        "question_type": "Right-wrong",
+        "text": "The land use right that the husband and wife has after marriage is the common property of the couple, even in case the husband or wife is inherited separately, given separately, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Marital Act",
+                "article_id": "33"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-10",
+        "question_type": "Right-wrong",
+        "text": "The birth of children with reproductive support is the behavior in which people use artificial artificial fertilization or in vitro fertilization to give birth.",
+        "relevant_articles": [
+            {
+                "law_id": "Marital Act",
+                "article_id": "3"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-11",
+        "question_type": "Right-wrong",
+        "text": "Men and women are eligible for marriage in accordance with the Law on Marriage and Family living together as husband and wife without registering marriage, the rights and obligations between husband and wife, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Marital Act",
+                "article_id": "14"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-12",
+        "question_type": "Right-wrong",
+        "text": "The reason, the time of elimination of temporary residence registration must be clearly stated in the database of residence when deleting temporary residence registration, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "29"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-13",
+        "question_type": "Right-wrong",
+        "text": "The Ministry of Education and Training is responsible for the regulations on teaching and learning in foreign languages in the educational institution.",
+        "relevant_articles": [
+            {
+                "law_id": "Education Law",
+                "article_id": "11"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-14",
+        "question_type": "Right-wrong",
+        "text": "The husband has more income than his wife, the husband has the right to possess and use more common property than his wife, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Marital Act",
+                "article_id": "29"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-15",
+        "question_type": "Right-wrong",
+        "text": "Drug addicts from 12 years old to under 18 years of age are taken to compulsory detoxification establishments when not registered, not performed or arbitrarily terminated voluntary drug detoxification, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Law on Drug Prevention and Control",
+                "article_id": "33"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-16",
+        "question_type": "Right-wrong",
+        "text": "The database of residence is the national asset managed by the Ministry of Public Security, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "36"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-17",
+        "question_type": "Right-wrong",
+        "text": "The person sentenced to imprisonment has decided to execute the sentence but are on bail or postponed the execution of the sentence can still be free to reside, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "4"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-18",
+        "question_type": "Right-wrong",
+        "text": "Citizens who have a legal accommodation under their ownership are registered for permanent residence, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "20"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-19",
+        "question_type": "Right-wrong",
+        "text": "Voluntary drug detoxification establishment is established by state agencies, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Law on Drug Prevention and Control",
+                "article_id": "36"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-20",
+        "question_type": "Right-wrong",
+        "text": "The arbitrator is the person who is selected by the parties or the arbitration center or the Court to resolve the dispute in accordance with the Law on Administrative Procedure, True or False?",
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "3"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-21",
+        "question_type": "Right-wrong",
+        "text": "Not allowed to take advantage of educational activities to misrepresent and fight against the State of the Socialist Republic of Vietnam, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Education Law",
+                "article_id": "21"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-22",
+        "question_type": "Right-wrong",
+        "text": "The maximum shelter is 02 years and can extend the most 2 times, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "27"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-23",
+        "question_type": "Right-wrong",
+        "text": "The minor who wishes to study away from family can reside in a different residence with parents, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "twelfth"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-24",
+        "question_type": "Right-wrong",
+        "text": "The Ministry of Justice is responsible to the Government to perform the state management of arbitration",
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "15"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-25",
+        "question_type": "Right-wrong",
+        "text": "Education development is not a leading national policy, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Education Law",
+                "article_id": "4"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-26",
+        "question_type": "Right-wrong",
+        "text": "The responsibility of drug users is to abide by the management of state agencies, namely the People's Committee of the commune, ward, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Law on Drug Prevention and Control",
+                "article_id": "24"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-27",
+        "question_type": "Right-wrong",
+        "text": "The dispute resolution by arbitration must always be conducted publicly, even if the parties have other agreements, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "4"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-28",
+        "question_type": "Right-wrong",
+        "text": "The referee has the right to refuse to resolve the dispute, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "21"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-29",
+        "question_type": "Right-wrong",
+        "text": "Films released film facilities are responsible before the law on the content of the film released right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Cinema law",
+                "article_id": "15"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-30",
+        "question_type": "Right-wrong",
+        "text": "It is required to revoke the household registration book when this book is out of value from January 1, 2023, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "38"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-31",
+        "question_type": "Right-wrong",
+        "text": "For property that is in dispute, if there is no basis to prove it is the property of the spouse, then the property is considered a common, right or wrong property?",
+        "relevant_articles": [
+            {
+                "law_id": "Marital Act",
+                "article_id": "33"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-32",
+        "question_type": "Right-wrong",
+        "text": "The Minister of Education and Training must not stipulate the input threshold of college level, university level under teachers' training, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Education Law",
+                "article_id": "6"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-33",
+        "question_type": "Right-wrong",
+        "text": "According to the Cinema Law, for the classified film C, the viewer is a child under 13 years old, must have parents or guardians accompanying is right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Cinema law",
+                "article_id": "32"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-34",
+        "question_type": "Right-wrong",
+        "text": "Cultural houses, cinema units, clubs and public film screening associations, mobile film teams of Vietnam are allowed to participate in business cooperation with foreign service providers right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Cinema law",
+                "article_id": "8"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-35",
+        "question_type": "Right-wrong",
+        "text": "The educational program needs to show the educational goals and ask learners to achieve the corresponding quality and capacity, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Education Law",
+                "article_id": "8"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-36",
+        "question_type": "Right-wrong",
+        "text": "The film has been granted a film license by the Ministry of Culture, Sports and Tourism and the People's Committee of the provincial People's Committee to be valid nationwide right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Cinema law",
+                "article_id": "27"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-37",
+        "question_type": "Right-wrong",
+        "text": "The Commercial Arbitration Law is competent to resolve disputes between the parties without commercial activities and the law does not specify whether it is resolved by arbitration, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "2"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-38",
+        "question_type": "Right-wrong",
+        "text": "Husband and wife must contribute their own property to meet the essential needs of the family, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Marital Act",
+                "article_id": "30"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-39",
+        "question_type": "Right-wrong",
+        "text": "The Ministry of Education and Training is responsible for stipulating the connection between all levels and training levels in the national education system.",
+        "relevant_articles": [
+            {
+                "law_id": "Education Law",
+                "article_id": "ten"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-40",
+        "question_type": "Right-wrong",
+        "text": "The state agency has the authority to monitor, inspect, and supervise drug research and production activities (excluding planting plants containing narcotics), right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Law on Drug Prevention and Control",
+                "article_id": "13"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-41",
+        "question_type": "Right-wrong",
+        "text": "Drug detoxification establishments are not responsible for granting certificates of voluntary drug detoxification for drug addicts, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Law on Drug Prevention and Control",
+                "article_id": "thirty first"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-42",
+        "question_type": "Right-wrong",
+        "text": "International cooperation, scientific research, technology transfer, providing digital services to develop cinema is one of the State's policies on film development, film industry.?",
+        "relevant_articles": [
+            {
+                "law_id": "Cinema law",
+                "article_id": "5"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-43",
+        "question_type": "Right-wrong",
+        "text": "The choice of the couple's residence due to the customs and customs of the husband's family decided, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Marital Act",
+                "article_id": "20"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-44",
+        "question_type": "Right-wrong",
+        "text": "In case citizens are not in the age of enlistment, if going to study abroad, labor export does not need to be declared temporarily absent, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "thirty first"
+            }
+        ],
+        "answer": "Correct"
+    },
+    {
+        "question_id": "DS-45",
+        "question_type": "Right-wrong",
+        "text": "Civil servants of the People's Court have university degrees and have actually worked in the field of studying for 5 years or more qualified as arbitrators, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "20"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-46",
+        "question_type": "Right-wrong",
+        "text": "Divorce is taking advantage of divorce to avoid property obligations, violations of policies and laws on population or to achieve other goals without aiming to end marriage, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Marital Act",
+                "article_id": "3"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-47",
+        "question_type": "Right-wrong",
+        "text": "The State only invests, supports film production activities, composed film scripts and releases, popular films is right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Cinema law",
+                "article_id": "5"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-48",
+        "question_type": "Right-wrong",
+        "text": "In the dispute without foreign elements, can the arbitration council apply international law to resolve, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "14"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-49",
+        "question_type": "Right-wrong",
+        "text": "Can agencies, organizations and individuals freely provide, exchange, copy, print information and documents from the database of residence, right or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "36"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "DS-50",
+        "question_type": "Right-wrong",
+        "text": "Career orientation in education does not necessarily help students gain professional knowledge and the ability to choose a career on the basis of combining individual aspirations and forte of individuals with the needs of social use of society, right.Or wrong?",
+        "relevant_articles": [
+            {
+                "law_id": "Education Law",
+                "article_id": "9"
+            }
+        ],
+        "answer": "Wrong"
+    },
+    {
+        "question_id": "TN-1",
+        "question_type": "Multiple-choice",
+        "text": "What is the unilateral non -business unit to terminate the contract?",
+        "choices": {
+            "A": "Officials with two consecutive years are classified and evaluated at the level of failing to complete the task",
+            "B": "Sick or accidental officers, are treating occupational diseases under the decision of the medical facility",
+            "C": "Officials are taking annual leave, separate leave and other cases allowed by the head of public non -business units",
+            "D": "Female officials are pregnant, maternity leave, raising children under 36 months old"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Law on Officials",
+                "article_id": "29"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-2",
+        "question_type": "Multiple-choice",
+        "text": "According to the tourism law, which other types of travel services include?Choose the best answer.",
+        "choices": {
+            "A": "Sports services.",
+            "B": "Food Service.",
+            "C": "Health care service.",
+            "D": "All 3 plans on."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "The tourism laws",
+                "article_id": "54"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-3",
+        "question_type": "Multiple-choice",
+        "text": "Which of the following is allowed to register for a new permanent residence?",
+        "choices": {
+            "A": "Housing has decided to demolish the competent state agency.",
+            "B": "The accommodation is confiscated according to the decision of the competent state agency.",
+            "C": "The accommodation is in the historical - cultural relics that have not been ranked.",
+            "D": "The vehicle used as a permanent residence registration has been deleted in the vehicle registration."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "23"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-4",
+        "question_type": "Multiple-choice",
+        "text": "How long does the retirement notice for officials are issued by agencies, units and organizations for long before the time of retirement officials?",
+        "choices": {
+            "A": "06 months",
+            "B": "04 months",
+            "C": "03 months",
+            "D": "02 months"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Law on Officials",
+                "article_id": "forty six"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-5",
+        "question_type": "Multiple-choice",
+        "text": "Which of the following activities of the studio include?",
+        "choices": {
+            "A": "Organize management, administration or joint venture cooperation, film production linkage.",
+            "B": "Provide other film production services and services in accordance with the law.",
+            "C": "Both a and b are correct",
+            "D": "A and B are wrong"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Cinema law",
+                "article_id": "twelfth"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-6",
+        "question_type": "Multiple-choice",
+        "text": "Which of the following is the language used in proceedings is not Vietnamese?",
+        "choices": {
+            "A": "The dispute has foreign elements, the parties cannot agree on the proceeding language, the arbitration council decides to use Vietnamese.",
+            "B": "Disputes have foreign elements and one of the parties that cannot be used in Vietnamese and the parties agree to use English as a proceeding language.",
+            "C": "The dispute has no foreign elements, one of the parties cannot use Vietnamese.",
+            "D": "Disputes that at least one side are foreign -invested enterprises and the parties agree to use Vietnamese as the proceeding language."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "ten"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-7",
+        "question_type": "Multiple-choice",
+        "text": "Which of the following financial resources is used for drug prevention?",
+        "choices": {
+            "A": "State budget",
+            "B": "Source of funding, aid, investment and donation of domestic and foreign organizations and individuals",
+            "C": "Payment of family, drug addicts",
+            "D": "Both the a, b, c are correct"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Law on Drug Prevention and Control",
+                "article_id": "4"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-8",
+        "question_type": "Multiple-choice",
+        "text": "What are the following phase detoxification processes?",
+        "choices": {
+            "A": "Treatment of cutting, detoxifying, treating mental disorders and other diseases",
+            "B": "Educate, consult, restore behavior and personality",
+            "C": "Therapy labor, vocational training and preparation for reintegration of the community",
+            "D": "Both the a, b, c are correct"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Law on Drug Prevention and Control",
+                "article_id": "29"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-9",
+        "question_type": "Multiple-choice",
+        "text": "How many vocational education levels are trained?",
+        "choices": {
+            "A": "Primary and intermediate level",
+            "B": "College degree",
+            "C": "Other vocational training programs for learners",
+            "D": "Both the a, b, c are correct"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Education Law",
+                "article_id": "35"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-10",
+        "question_type": "Multiple-choice",
+        "text": "What is the legal resident registration record of the legal accommodation under its ownership?",
+        "choices": {
+            "A": "Declaration of changing residence information;Papers and documents proving enough housing area to register permanent residence as prescribed.",
+            "B": "Declaration of changing residence information;Leasing contracts, lending, accommodation or written written about lending, lying to the legal accommodation have been notarized or certified as prescribed by law.",
+            "C": "Declaration of changing residence information;Papers and documents proving the legal accommodation.",
+            "D": "Declaration of changing residence information;Papers and documents proving personal relations with household members."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "21"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-11",
+        "question_type": "Multiple-choice",
+        "text": "In what cases are the arbitrators in dispute settlement?",
+        "choices": {
+            "A": "Disputes among the parties arising from commercial activities",
+            "B": "The dispute arises between the parties with at least one party with commercial activities",
+            "C": "Other disputes between the parties prescribed by the law are resolved by arbitration",
+            "D": "All 3 options A, B, C are correct"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "2"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-12",
+        "question_type": "Multiple-choice",
+        "text": "Which of the following behaviors is not a prohibited behavior of residence?",
+        "choices": {
+            "A": "Forging papers, documents, data on residence;using fake papers, documents, data on residence;Provide false information, papers, documents about the residence.",
+            "B": "Exploiting information about their residence in the national database about population.",
+            "C": "Settlement for permanent residence registration, temporary registration when knowing the permanent residence, temporary registration does not live there.",
+            "D": "Declare conditions, fake documents, papers and documents for permanent residence registration, temporary registration;Buy, sell, rent, lease, borrow, loan, mortgage, receive pledge, destroy papers and documents on residence."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "7"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-13",
+        "question_type": "Multiple-choice",
+        "text": "Where is not the role of the State in protecting marriage and family?",
+        "choices": {
+            "A": "Establishing voluntary, progressive marriage, one husband and wife, equal husband and wife.",
+            "B": "Building a prosperous, progressive, happy family and fulfilling its functions.",
+            "C": "Prohibit legal education on marriage and family.",
+            "D": "Mobilize people to eliminate backward customs and practices of marriage and family."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Marital Act",
+                "article_id": "4"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-14",
+        "question_type": "Multiple-choice",
+        "text": "How do husband and wife have the right to possess, use and dispose of common property",
+        "choices": {
+            "A": "Husband and wife agree",
+            "B": "Wife has a higher right than her husband",
+            "C": "Husband and wife have equal rights",
+            "D": "Husband has higher rights than his wife"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Marital Act",
+                "article_id": "35"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-15",
+        "question_type": "Multiple-choice",
+        "text": "Where is not the condition of granting tour guide cards?",
+        "choices": {
+            "A": "Having Vietnamese nationality and permanent residence in Vietnam.",
+            "B": "Have adequate civil act capacity.",
+            "C": "Graduated from university or higher in accounting.",
+            "D": "No infectious diseases, no narcotic substances."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "The tourism laws",
+                "article_id": "59"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-16",
+        "question_type": "Multiple-choice",
+        "text": "Which of the following is not the responsibility of the residence registration agency?",
+        "choices": {
+            "A": "Confirm information on residence, notify the results of the implementation of permanent registration procedures, temporary residence registration, temporary residence extension, information declaration, adjustment of information about residence, separation of households, declarationThe temporary absence is in the form of text, electronic messages or other forms as prescribed by the Minister of Public Security.",
+            "B": "Promulgating, printing and managing the declaration of changing residence information and papers, documents, forms and books on residence.",
+            "C": "Update information about citizens' residence in national databases about population, database on residence.",
+            "D": "Manage and store records, papers, documents on registration, residence management and confidentiality information on residence registration of citizens."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "33"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-17",
+        "question_type": "Multiple-choice",
+        "text": "Which unit has the authority to issue a film classification license?",
+        "choices": {
+            "A": "Ministry of Culture, Sports and Tourism",
+            "B": "Provincial People's Committee",
+            "C": "The provincial People's Committee meets the conditions prescribed by the Minister of Culture, Sports and Tourism",
+            "D": "Ministry of Culture, Sports and Tourism;The provincial People's Committee meets the conditions prescribed by the Minister of Culture, Sports and Tourism"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Cinema law",
+                "article_id": "27"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-18",
+        "question_type": "Multiple-choice",
+        "text": "Where is not the obligations, the rights of the father and mother do not directly raise children after the divorce",
+        "choices": {
+            "A": "Respect your child's rights\nLive with\nPeople directly raise.",
+            "B": "Support for children",
+            "C": "Abuse of visits to hinder or adversely affect the look, care, nurturing and educating children",
+            "D": "Visiting me without anyone being hindered."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Marital Act",
+                "article_id": "82"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-19",
+        "question_type": "Multiple-choice",
+        "text": "What is the condition for resolving disputes by arbitration?",
+        "choices": {
+            "A": "The parties have an arbitration agreement, this agreement can be made before or after the dispute occurs",
+            "B": "In case one party participating in the arbitration agreement is an individual who dies or loses the act of behavioral, the arbitration agreement still takes effect on the heir or the legal representative of that person, except for the case.There are other agreements.",
+            "C": "In case one party participating in the arbitration agreement is that the organization must terminate the operation, bankruptcy, dissolution, consolidation, merger, division, separation or conversionForces for the organization receiving the rights and obligations of that organization, except for other agreed parties.",
+            "D": "All 3 options above are correct"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "5"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-20",
+        "question_type": "Multiple-choice",
+        "text": "In arbitration proceedings, how can the parties negotiate and reconcile with each other?",
+        "choices": {
+            "A": "The parties have the freedom to negotiate with each other about the dispute settlement but have no right to request the arbitration council for the parties to agree on the dispute settlement.",
+            "B": "The parties have the freedom to negotiate and negotiate with each other on the settlement of disputes or request the Arbitration Council to agree on the agreement on the dispute settlement.",
+            "C": "The parties do not have the freedom to negotiate and reconcile with each other, but must request the arbitration Council to reconcile so that the parties can agree with each other about the settlement of disputes.",
+            "D": "The parties do not have the freedom to negotiate, reconcile as well as request the arbitration council for the parties to agree on the settlement of disputes."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "9"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-21",
+        "question_type": "Multiple-choice",
+        "text": "The deadline for the registration agency for evaluation and updating information about households related to the separation of households into the database of residence is how long from the date of receiving the complete and valid dossier?",
+        "choices": {
+            "A": "05 working days.",
+            "B": "05 days including holidays and weekends.",
+            "C": "03 working days.",
+            "D": "03 days including holidays and weekends."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "25"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-22",
+        "question_type": "Multiple-choice",
+        "text": "Parents are not obliged to take care of and nurture their children together",
+        "choices": {
+            "A": "Teenage",
+            "B": "You are adult and get married",
+            "C": "You are adult but lose civil act capacity",
+            "D": "I have no working capacity and no property to raise me"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Marital Act",
+                "article_id": "71"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-23",
+        "question_type": "Multiple-choice",
+        "text": "What is a narcotic tree?",
+        "choices": {
+            "A": "Poppy",
+            "B": "Coconut tree",
+            "C": "Cacao tree",
+            "D": "Both the a, b, c are correct"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Law on Drug Prevention and Control",
+                "article_id": "2"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-24",
+        "question_type": "Multiple-choice",
+        "text": "Which of the following is in the Law on Application for Dispute settlement prescribed in the Commercial Arbitration Law?",
+        "choices": {
+            "A": "For disputes without foreign elements, the arbitration council applies Vietnamese law to resolve the dispute.",
+            "B": "For disputes with foreign elements, the arbitration council applies the law selected by the parties;If the parties do not have an agreement on the law, the arbitration council decides to apply the law that the Arbitration Council considers the most appropriate.",
+            "C": "In case of Vietnamese law, the law selected by the parties does not have specific provisions related to the content of the dispute, the arbitration council is applied internationally to resolve the dispute if the application or posteriorThe fruit of that application is not contrary to the basic principles of Vietnamese law.",
+            "D": "All 3 options above are correct"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "14"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-25",
+        "question_type": "Multiple-choice",
+        "text": "In which case the arbitration agreement is invalid?",
+        "choices": {
+            "A": "Disputes arising in areas not under the jurisdiction of the arbitration specified in Article 2 of this Law.",
+            "B": "The referee agreement does not violate the prohibition of law.",
+            "C": "The form of arbitration agreement in accordance with Article 16 of this Law.",
+            "D": "The person who establishes an arbitration agreement is the competent person in accordance with the law."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "18"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-26",
+        "question_type": "Multiple-choice",
+        "text": "Is the arbitration agreement independent of the contract?",
+        "choices": {
+            "A": "The referee agreement is completely independent of the contract.The change, extension, cancellation of the contract, the contract invalid or cannot be implemented without losing the validity of the arbitration agreement.",
+            "B": "The arbitration agreement is not completely independent of the contract.The change or renewal of the contract causes the validity of the arbitration agreement.",
+            "C": "The arbitration agreement is not completely independent of the contract.The cancellation of contracts or contracts is invalid or cannot be performed as an invalider of the arbitration agreement.",
+            "D": "The arbitration agreement depends on the contract.Actions that change, extend, cancel the contract or the contract invalid or cannot be done will cause the validity of the arbitration agreement"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "19"
+            }
+        ],
+        "answer": "A"
+    },
+    {
+        "question_id": "TN-27",
+        "question_type": "Multiple-choice",
+        "text": "What is the mental direction defined?",
+        "choices": {
+            "A": "Psychotropic substance is nervous stimulants",
+            "B": "Psychotropic substances are stimulants or neurological inhibitors or hallucinations, if used many times can lead to addiction to the user.",
+            "C": "Psychotropic substance is a neurological inhibitor",
+            "D": "Both the a, b, c are wrong"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Law on Drug Prevention and Control",
+                "article_id": "2"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-28",
+        "question_type": "Multiple-choice",
+        "text": "Registration records recognition of tourist accommodation establishments are not included?",
+        "choices": {
+            "A": "Application for recognition of tourist accommodation establishments in the form prescribed by the Minister of Culture, Sports and Tourism.",
+            "B": "List of relatives of employees in tourist accommodation facilities.",
+            "C": "The self -assessment of the quality of tourist accommodation establishments as prescribed in the national standards on tourist accommodation establishments.",
+            "D": "The list of managers and employees in the tourist accommodation facility."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "The tourism laws",
+                "article_id": "50"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-29",
+        "question_type": "Multiple-choice",
+        "text": "In which case, the public non -business unit unilaterally terminated the labor contract for officials?",
+        "choices": {
+            "A": "Officials received a form of discipline reprimand",
+            "B": "Female officials are pregnant, maternity leave, raising children under 36 months old",
+            "C": "Public non -business unit terminates operations under the decision of the competent authority",
+            "D": "Officials are taking annual leave, separate leave and other cases allowed by the head of public non -business units"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Law on Officials",
+                "article_id": "29"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-30",
+        "question_type": "Multiple-choice",
+        "text": "The operating principle of the tourism development assistance fund does not include any of the following?",
+        "choices": {
+            "A": "Not for profit purposes;preserve charter capital and self -compensation for management expenses.",
+            "B": "Collection, expenditure, settlement, financial publicity, property and accounting work in accordance with the law.",
+            "C": "Subject to inspection, inspection and audit of state management agencies on finance and state audit on financial activities of tourism development support funds.",
+            "D": "The previous year's funding balance of the tourism development assistance fund was used for personal purposes."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "The tourism laws",
+                "article_id": "72"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-31",
+        "question_type": "Multiple-choice",
+        "text": "Which unit has the authority to set up a film evaluation and classification council?",
+        "choices": {
+            "A": "Minister of Culture, Sports and Tourism",
+            "B": "Chairman of the provincial People's Committee",
+            "C": "The head of the press agency has a television activity license",
+            "D": "All 3 answers A, B, C are correct"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Cinema law",
+                "article_id": "thirty first"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-32",
+        "question_type": "Multiple-choice",
+        "text": "What is the purpose of the film development assistance fund?",
+        "choices": {
+            "A": "Support for the project of production film production, first film, film of young author.",
+            "B": "Support for the author, film production projects, Vietnamese excellent films to participate in the Film Festival, Film Awards, Film Competition, Film Fair, Film Fair, Film Week abroad.",
+            "C": "Both a, b, d are right",
+            "D": "Support other activities to develop cinema."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Cinema law",
+                "article_id": "43"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-33",
+        "question_type": "Multiple-choice",
+        "text": "According to the Tourism Law on State management responsibility for tourism, any of the following People's Committees does not have the following tasks and powers?",
+        "choices": {
+            "A": "Organize the reception and resolution of tourists' petitions;",
+            "B": "Taking advantage of tourism activities to bring people from Vietnam abroad or from abroad to Vietnam illegally.",
+            "C": "Management of tourism resources, tourist areas, tourist destinations, tourism business activities and tourist guidance in the area;",
+            "D": "Propagate and raise people's awareness to ensure a friendly, healthy and civilized tourism environment;"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "The tourism laws",
+                "article_id": "75"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-34",
+        "question_type": "Multiple-choice",
+        "text": "What is the Arbitration Association?",
+        "choices": {
+            "A": "The Arbitration Association is the social and professional organization of the arbitrator and the arbitration center according to the scope of each province/city.",
+            "B": "The Arbitration Association is the social and professional organization of the referee and the arbitration center nationwide.",
+            "C": "The Arbitration Association is the social and professional organization of the Procurator and the Arbitration Center nationwide.",
+            "D": "The Arbitration Association is the social and professional organization of the referee and the People's Court throughout the country."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "22"
+            }
+        ],
+        "answer": "B"
+    },
+    {
+        "question_id": "TN-35",
+        "question_type": "Multiple-choice",
+        "text": "Which of the following is banned?",
+        "choices": {
+            "A": "Forced divorce, deceiving divorce, hindering divorce.",
+            "B": "Property claims in marriage.",
+            "C": "Performing children with reproductive support techniques for commercial purposes.",
+            "D": "All 3 answers A, B, C are correct"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Marital Act",
+                "article_id": "5"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-36",
+        "question_type": "Multiple-choice",
+        "text": "What are the areas where public drug detoxification facilities have to arrange?",
+        "choices": {
+            "A": "Temporary accommodation",
+            "B": "Compulsory drug detoxification area",
+            "C": "Voluntary drug detoxification area",
+            "D": "Both the a, b, c are correct"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Law on Drug Prevention and Control",
+                "article_id": "35"
+            }
+        ],
+        "answer": "D"
+    },
+    {
+        "question_id": "TN-37",
+        "question_type": "Multiple-choice",
+        "text": "Which of the following is not allowed to register permanent residence at beliefs or religious facilities with auxiliary works as housing?",
+        "choices": {
+            "A": "The person who is agreed by the representative or management board of the beliefs to register for permanent residence to directly manage and organize religious activities at the religious establishment.",
+            "B": "Representative of beliefs.",
+            "C": "People working for beliefs.",
+            "D": "All 3 answers A, B, C."
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "20"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-38",
+        "question_type": "Multiple-choice",
+        "text": "What is the goal of vocational education?",
+        "choices": {
+            "A": "Direct human resource training for production, business and service.",
+            "B": "Create conditions for learners after completing the course capable of finding jobs or higher levels",
+            "C": "Both a and b are correct",
+            "D": "Both a, b are wrong"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Education Law",
+                "article_id": "36"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-39",
+        "question_type": "Multiple-choice",
+        "text": "What is the mission of continuing education?",
+        "choices": {
+            "A": "Perform illiteracy elimination for people of age as prescribed by law",
+            "B": "Create opportunities for people wishing to study to improve education level",
+            "C": "Both a and b are correct",
+            "D": "Both a, b are wrong"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Education Law",
+                "article_id": "42"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "question_id": "TN-40",
+        "question_type": "Multiple-choice",
+        "text": "Which of the following measures are the following measures?",
+        "choices": {
+            "A": "Voluntary drug detoxification",
+            "B": "Compulsory drug detoxification",
+            "C": "Both a and b are correct",
+            "D": "Both a, b are wrong"
+        },
+        "relevant_articles": [
+            {
+                "law_id": "Law on Drug Prevention and Control",
+                "article_id": "28"
+            }
+        ],
+        "answer": "C"
+    },
+    {
+        "question_id": "TL-1",
+        "question_type": "Essay",
+        "text": "In case the parties do not have other agreements or the proceeding rules of the arbitration center without other regulations, the arbitration center must send the file a copy of the plaintiff's petition and the prescribed documents and documents as prescribed.How long does it take to receive a lawsuit?",
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "32"
+            }
+        ],
+        "answer": "10 days"
+    },
+    {
+        "question_id": "TL-2",
+        "question_type": "Essay",
+        "text": "The application for re -grant of tour guide cards includes color portrait photos?",
+        "relevant_articles": [
+            {
+                "law_id": "The tourism laws",
+                "article_id": "63"
+            }
+        ],
+        "answer": "3 cm x 4 cm"
+    },
+    {
+        "question_id": "TL-3",
+        "question_type": "Essay",
+        "text": "How long does the illegal narcotic user manage the narcotic user from the date the President of the People's Committee of the commune or ward shall issue a management decision?",
+        "relevant_articles": [
+            {
+                "law_id": "Law on Drug Prevention and Control",
+                "article_id": "23"
+            }
+        ],
+        "answer": "one year"
+    },
+    {
+        "question_id": "TL-4",
+        "question_type": "Essay",
+        "text": "What is the function of the arbitration center?",
+        "relevant_articles": [
+            {
+                "law_id": "Commercial Arbitration Law",
+                "article_id": "23"
+            }
+        ],
+        "answer": "Organize and coordinate the dispute settlement activities by arbitration and support the arbitrators in terms of administrative, offices and other assistance in the arbitration process."
+    },
+    {
+        "question_id": "TL-5",
+        "question_type": "Essay",
+        "text": "After the household registration book expires (the end of December 31, 2022), how does the permanent residence be?",
+        "relevant_articles": [
+            {
+                "law_id": "Immigration laws",
+                "article_id": "37"
+            }
+        ],
+        "answer": "Citizens only need to present ID card/CCCD card, competent authorities will look up information residing in the national database system."
+    },
+    {
+        "question_id": "TL-6",
+        "question_type": "Essay",
+        "text": "Husband and wife who are divorced to re -establish husband and wife relationship should do what procedures?",
+        "relevant_articles": [
+            {
+                "law_id": "Marital Act",
+                "article_id": "9"
+            }
+        ],
+        "answer": "marriage registration"
+    },
+    {
+        "question_id": "TL-7",
+        "question_type": "Essay",
+        "text": "Who plays an important role in managing, organizing, and managing educational activities?",
+        "relevant_articles": [
+            {
+                "law_id": "Education Law",
+                "article_id": "18"
+            }
+        ],
+        "answer": "Educational manager"
+    },
+    {
+        "question_id": "TL-8",
+        "question_type": "Essay",
+        "text": "Which financial source plays a key role in the total investment resources for education?",
+        "relevant_articles": [
+            {
+                "law_id": "Education Law",
+                "article_id": "17"
+            }
+        ],
+        "answer": "State budget"
+    },
+    {
+        "question_id": "TL-9",
+        "question_type": "Essay",
+        "text": "Which agency is responsible for the Government to help the Government to perform state management of cinema?",
+        "relevant_articles": [
+            {
+                "law_id": "Cinema law",
+                "article_id": "45"
+            }
+        ],
+        "answer": "Ministry of Culture, Sports and Tourism"
+    },
+    {
+        "question_id": "TL-10",
+        "question_type": "Essay",
+        "text": "Which agency is responsible for unifying the state management of cinema?",
+        "relevant_articles": [
+            {
+                "law_id": "Cinema law",
+                "article_id": "45"
+            }
+        ],
+        "answer": "Government"
+    }
+]
