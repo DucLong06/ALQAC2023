@@ -1,0 +1,28 @@
+{
+    "essay": [
+        "{premise} Câu hỏi: {hypothesis}?"
+    ],
+    "options": [
+        "Ngữ cảnh: {premise} Câu hỏi: {hypothesis} Hãy chọn một trong các đáp án sau:A) {choices[A]} B) {choices[B]} C) {choices[C]} D) {choices[D]}",
+        "Câu hỏi: {hypothesis} Hãy chọn câu trả lời tốt nhất: A) {choices[A]} B) {choices[B]} C) {choices[C]} D) {choices[D]} base on {premise}",
+        "Dựa vào {premise} Câu hỏi: {hypothesis} Chọn câu trả lời đúng nhất trong các đáp án sau đây: A) {choices[A]} B) {choices[B]} C) {choices[C]} D) {choices[D]}",
+        "Sử dụng các gợi ý sau để trả lời câu hỏi trác nghiệm.\n\ngợi ý:{premise}\n\nCâu hỏi: {hypothesis}\n\nCác lựa chọn:A) {choices[A]} B) {choices[B]} C) {choices[C]} D) {choices[D]}\n\nĐáp án:"
+    ],
+    "truefalse": [
+        "{premise} Dựa theo đoạn văn trước đó, có đúng là \"{hypothesis}\"? Đúng hay Sai?",
+        "Văn bản: {premise}\n\nTrả lời câu hỏi có hoặc không sau đây: {hypothesis}? Đúng hay Sai? ",
+        "Cho {premise} Chúng ta có nên cho rằng \"{hypothesis}\" là đúng? Đúng hay Sai?",
+        "Ngữ cảnh: \"{premise}\"\n\nCâu hỏi: \"{hypothesis}\"\n\nDựa vào ngữ cảnh, câu hỏi là ĐÚNG hay SAI?  ",
+        "{premise} Chỉ sử dụng mô tả ở trên và những gì bạn biết về thế giới, điều này \"{hypothesis}\" chắc chắn đúng? Đúng hay Sai? ",
+        "{premise} Dựa theo đoạn văn trước đó, có đúng là \"{hypothesis}\"? Đúng hay Sai? ",
+        "Giả định {premise} Chúng ta có thể suy luận rằng \"{hypothesis}\"? ",
+        "{premise} Chúng có hợp lý khi nói rằng \"{hypothesis}\"? Đúng hay Sai? ",
+        "{premise}\nCâu hỏi: {hypothesis} Đúng hay Sai?",
+        "Giả định {premise} Chúng ta có thể suy luận rằng \"{hypothesis}\"? Đúng hay Sai?",
+        "{premise}\n\nCâu hỏi: Điều này ngụ ý rằng \"{hypothesis}\"? Đúng hay Sai?",
+        "Cho {premise} nó có đảm bảo đúng không \"{hypothesis}\"? Đúng hay Sai?",
+        "{premise} Chúng có hợp lý khi nói rằng \"{hypothesis}\"? Đúng hay Sai?",
+        "Hãy xem điều sau đây là sự thật: {premise}\nDo đó tuyên bố sau đây: \"{hypothesis}\" là Đúng hay Sai?",
+        "{premise}\nCâu hỏi: {hypothesis} Đúng hay Sai? "
+    ]
+}

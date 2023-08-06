@@ -1,0 +1,11 @@
+{
+    "essay": [
+        "{premise} Câu hỏi: {hypothesis}?"
+    ],
+    "options": [
+        "Sử dụng các gợi ý sau để trả lời câu hỏi trác nghiệm.\n\ngợi ý:{premise}\n\nCâu hỏi: {hypothesis}\n\nCác lựa chọn:A) {choices[A]} B) {choices[B]} C) {choices[C]} D) {choices[D]}\n\nĐáp án:"
+    ],
+    "truefalse": [
+        "Ngữ cảnh: \"{premise}\"\n\nCâu hỏi: \"{hypothesis}\"\n\nDựa vào ngữ cảnh, câu hỏi là ĐÚNG hay SAI?  "
+    ]
+}

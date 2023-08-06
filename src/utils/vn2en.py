@@ -12,6 +12,29 @@ def _translate_using_google(text):
             yield translator.translate(text, src='vi', dest='en').text
 
 
+def translate_json(json_data, translator):
+    if isinstance(json_data, list):
+        translated_data = []
+        for item in json_data:
+            translated_item = translate_json(item, translator)
+            translated_data.append(translated_item)
+        return translated_data
+    elif isinstance(json_data, dict):
+        translated_data = {}
+        for key, value in json_data.items():
+            if isinstance(value, str):
+                translated_value = translator.translate(
+                    value, src='vi', dest='en').text
+                translated_data[key] = translated_value
+            elif isinstance(value, (dict, list)):
+                translated_data[key] = translate_json(value, translator)
+            else:
+                translated_data[key] = value
+        return translated_data
+    else:
+        return json_data
+
+
 def _translate_using_transformers(text, model, tokenizer):
     sentences = text.split("\n")
     for sentence in sentences:

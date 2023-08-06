@@ -15,7 +15,7 @@
         "Can the given question {hypothesis} be answered within this context: {premise}.",
         "Please determine if the {hypothesis} is True or False based on the given {premise}. Therefore, the hypothesis (True or False) is",
         "Please determine if the following {hypothesis} is True or False based on the given {premise}. Therefore, the hypothesis (True or False) is",
-        "Please determine if the following {hypothesis} is True or False based on the Vietnamese civil. Therefore, the hypothesis (True or False) is",
+        "Please determine if the following {hypothesis} is True or False based on the Vietnamese law:{premise}. Therefore, the hypothesis (True or False) is",
         "{premise} Using only the above description and what you know about the world, \"{hypothesis}\" is definitely correct or incorrect?",
         "Suppose it\"s true that {premise} Then, is \"{hypothesis}\" always or never true?",
         "{premise} Based on the previous passage, is it true that \"{hypothesis}\"? Yes or no?",

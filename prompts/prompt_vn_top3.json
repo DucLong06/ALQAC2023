@@ -1,0 +1,15 @@
+{
+    "essay": [
+        "{premise} Câu hỏi: {hypothesis}?"
+    ],
+    "options": [
+        "Ngữ cảnh: {premise} Câu hỏi: {hypothesis} Hãy chọn một trong các đáp án sau:A) {choices[A]} B) {choices[B]} C) {choices[C]} D) {choices[D]}",
+        "Câu hỏi: {hypothesis} Hãy chọn câu trả lời tốt nhất: A) {choices[A]} B) {choices[B]} C) {choices[C]} D) {choices[D]} base on {premise}",
+        "Sử dụng các gợi ý sau để trả lời câu hỏi trác nghiệm.\n\ngợi ý:{premise}\n\nCâu hỏi: {hypothesis}\n\nCác lựa chọn:A) {choices[A]} B) {choices[B]} C) {choices[C]} D) {choices[D]}\n\nĐáp án:"
+    ],
+    "truefalse": [
+        "{premise} Dựa theo đoạn văn trước đó, có đúng là \"{hypothesis}\"? Đúng hay Sai?",
+        "Văn bản: {premise}\n\nTrả lời câu hỏi có hoặc không sau đây: {hypothesis}? Đúng hay Sai? ",
+        "Cho {premise} Chúng ta có nên cho rằng \"{hypothesis}\" là đúng? Đúng hay Sai?"
+    ]
+}
