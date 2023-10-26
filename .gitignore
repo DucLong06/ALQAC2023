@@ -1,6 +1,6 @@
 .DS_Store
 #private file 
-data/
+# data/
 models/
 model-bin/
 cache/
