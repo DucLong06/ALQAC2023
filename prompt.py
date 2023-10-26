@@ -5,14 +5,14 @@ import io
 import json
 import os
 import re
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModel, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 from my_env import env
 from collections import defaultdict
 from tqdm import tqdm
 import src.utils.my_logger as my_logger
 import torch
-from googletrans import Translator
-from torch.nn import DataParallel
+# from googletrans import Translator
+# from torch.nn import DataParallel
 
 logger = my_logger.Logger("training", env.LOG)
 
@@ -35,7 +35,7 @@ def generate_text(input_text, model, tokenizer):
 
     with torch.no_grad():
         outputs = model.generate(inputs, max_new_tokens=100,
-                                        return_dict_in_generate=True, output_scores=True, temperature=1)
+                                 return_dict_in_generate=True, output_scores=True, temperature=1)
     transition_scores = model.compute_transition_scores(
         outputs.sequences, outputs.scores, normalize_logits=True
     )
@@ -98,7 +98,7 @@ def prompt_tuning(model, tokenizer, data_train, articles, essay_prompts, options
     total_questions = get_total_questions(language)
     wrong_ans = []
     submit_file = []
-    translator = Translator()
+    # translator = Translator()
     correct_prompts = defaultdict()
     answer_file = []
     for idx, item in tqdm(enumerate(data_train)):
@@ -204,7 +204,7 @@ def main(model_name, question_data_path, articles_data_path, path_prompts, compa
     # model = AutoModel.from_pretrained(
     #     model_name, cache_dir=env.PATH_TO_CACHE, device_map="auto")
     model = AutoModelForSeq2SeqLM.from_pretrained(
-        model_name, cache_dir=env.PATH_TO_CACHE,device_map="auto")
+        model_name, cache_dir=env.PATH_TO_CACHE, device_map="auto")
     # model = AutoModelForCausalLM.from_pretrained(
     #     model_name, cache_dir=env.PATH_TO_CACHE, device_map="auto")
 
